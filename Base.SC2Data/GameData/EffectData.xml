@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Catalog>
+    <CEffectCreateUnit id="CreateSpawner">
+        <EditorCategories value=""/>
+        <SpawnUnit value="Spawner"/>
+    </CEffectCreateUnit>
+    <CEffectModifyUnit id="IncrementXP100">
+        <XP value="100"/>
+    </CEffectModifyUnit>
+</Catalog>

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Catalog>
+    <CRequirementAnd id="And"/>
+    <CRequirementAnd id="AndCountUnitArmoryCompleteOnlyAnd">
+        <OperandArray value="CountUnitArmoryCompleteOnly"/>
+        <OperandArray value="And"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndCountUnitArmoryCompleteOnlyCountUnitStarportCompleteOnly">
+        <OperandArray value="CountUnitArmoryCompleteOnly"/>
+        <OperandArray value="CountUnitStarportCompleteOnly"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndCountUnitStarportCompleteOnlyCountUnitGhostAcademyCompleteOnly">
+        <OperandArray value="CountUnitStarportCompleteOnly"/>
+        <OperandArray value="CountUnitGhostAcademyCompleteOnly"/>
+    </CRequirementAnd>
+    <CRequirementCountUnit id="CountUnitArmoryCompleteOnly">
+        <Count Link="Armory" State="CompleteOnly"/>
+    </CRequirementCountUnit>
+    <CRequirementCountUnit id="CountUnitGhostAcademyCompleteOnly">
+        <Count Link="GhostAcademy" State="CompleteOnly"/>
+    </CRequirementCountUnit>
+    <CRequirementCountUnit id="CountUnitStarportCompleteOnly">
+        <Count Link="Starport" State="CompleteOnly"/>
+    </CRequirementCountUnit>
+    <CRequirementCountUpgrade id="CountUpgradeBearclawNozzlesQueuedOrBetter">
+        <Count Link="BearclawNozzles" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeCellularReactorsQueuedOrBetter">
+        <Count Link="CellularReactors" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeCommandCenterReactorQueuedOrBetter">
+        <Count Link="CommandCenterReactor" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeDefensiveMatrixQueuedOrBetter">
+        <Count Link="DefensiveMatrix" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeFireSuppressionSystemsQueuedOrBetter">
+        <Count Link="FireSuppressionSystems" State="QueuedOrBetter"/>
+        <Flags index="TechTreeCheat" value="0"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeFirebatJuggernautPlatingQueuedOrBetter">
+        <Count Link="FirebatJuggernautPlating" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeHailstormMissilePodsQueuedOrBetter">
+        <Count Link="HailstormMissilePods" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeHurricaneMissilesQueuedOrBetter">
+        <Count Link="HurricaneMissiles" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeKineticFieldsQueuedOrBetter">
+        <Count Link="KineticFields" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeMechanicalRebirthQueuedOrBetter">
+        <Count Link="MechanicalRebirth" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeMultilockTargetingSystemsQueuedOrBetter">
+        <Count Link="MultilockTargetingSystems" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeNanoConstructorQueuedOrBetter">
+        <Count Link="NanoConstructor" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeNeoteelFrameCompleteOnly">
+        <Count Link="NeoteelFrame" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeOcularImplantsQueuedOrBetter">
+        <Count Link="OcularImplants" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeOrbitalStrikeQueuedOrBetter">
+        <Count Link="OrbitalStrike" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradePermanentCloakGhostQueuedOrBetter">
+        <Count Link="PermanentCloakGhost" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradePermanentCloakSpectreQueuedOrBetter">
+        <Count Link="PermanentCloakSpectre" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradePersonalCloakingCompleteOnly">
+        <Count Link="PersonalCloaking" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeProjectileAcceleratorsQueuedOrBetter">
+        <Count Link="ProjectileAccelerators" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeRegenerativeBioSteelQueuedOrBetter">
+        <Count Link="RegenerativeBioSteel" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeReinforcedSuperstructureQueuedOrBetter">
+        <Count Link="ReinforcedSuperstructure" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeShrikeTurretQueuedOrBetter">
+        <Count Link="ShrikeTurret" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeSiegeTankShapedBlastQueuedOrBetter">
+        <Count Link="SiegeTankShapedBlast" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeSupplyDepotDropQueuedOrBetter">
+        <Count Link="SupplyDepotDrop" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeTerranInfantryArmorsVanadiumPlatingLevel1CompleteOnly3446134918">
+        <Tooltip value="RequirementNode/Tooltip/CountUpgradeTerranInfantryArmorsVanadiumPlatingLevel1CompleteOnly3446134918"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeTerranInfantryArmorsVanadiumPlatingLevel2CompleteOnly3722837715">
+        <Tooltip value="RequirementNode/Tooltip/CountUpgradeTerranInfantryArmorsVanadiumPlatingLevel2CompleteOnly3722837715"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeTerranInfantryWeaponsUltraCapacitorsLevel1CompleteOnly1429793488"/>
+    <CRequirementCountUpgrade id="CountUpgradeTerranInfantryWeaponsUltraCapacitorsLevel2CompleteOnly1429793488"/>
+    <CRequirementCountUpgrade id="CountUpgradeTerranShipArmorsVanadiumPlatingLevel1CompleteOnly3052852033"/>
+    <CRequirementCountUpgrade id="CountUpgradeTerranShipArmorsVanadiumPlatingLevel2CompleteOnly1864353859"/>
+    <CRequirementCountUpgrade id="CountUpgradeTerranShipWeaponsUltraCapacitorsLevel1CompleteOnly285961020"/>
+    <CRequirementCountUpgrade id="CountUpgradeTerranShipWeaponsUltraCapacitorsLevel2CompleteOnly1004646809"/>
+    <CRequirementCountUpgrade id="CountUpgradeTerranVehicleArmorsVanadiumPlatingLevel1CompleteOnly1121594928"/>
+    <CRequirementCountUpgrade id="CountUpgradeTerranVehicleArmorsVanadiumPlatingLevel2CompleteOnly2517918925"/>
+    <CRequirementCountUpgrade id="CountUpgradeTerranVehicleWeaponsUltraCapacitorsLevel1CompleteOnly1834932227"/>
+    <CRequirementCountUpgrade id="CountUpgradeTerranVehicleWeaponsUltraCapacitorsLevel2CompleteOnly894233239"/>
+    <CRequirementCountUpgrade id="CountUpgradeTriLithiumPowerCellsQueuedOrBetter">
+        <Count Link="TriLithiumPowerCells" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeUltrasonicPulseQueuedOrBetter">
+        <Count Link="UltrasonicPulse" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementNot id="NotCountUpgradeBearclawNozzlesQueuedOrBetter">
+        <OperandArray index="0" value="CountUpgradeBearclawNozzlesQueuedOrBetter"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotCountUpgradeCellularReactorsQueuedOrBetter">
+        <OperandArray index="0" value="CountUpgradeCellularReactorsQueuedOrBetter"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotCountUpgradeCommandCenterReactorQueuedOrBetter">
+        <OperandArray index="0" value="CountUpgradeCommandCenterReactorQueuedOrBetter"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotCountUpgradeDefensiveMatrixQueuedOrBetter">
+        <OperandArray index="0" value="CountUpgradeDefensiveMatrixQueuedOrBetter"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotCountUpgradeFireSuppressionSystemsQueuedOrBetter">
+        <OperandArray index="0" value="CountUpgradeFireSuppressionSystemsQueuedOrBetter"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotCountUpgradeFirebatJuggernautPlatingQueuedOrBetter">
+        <OperandArray index="0" value="CountUpgradeFirebatJuggernautPlatingQueuedOrBetter"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotCountUpgradeHailstormMissilePodsQueuedOrBetter">
+        <OperandArray index="0" value="CountUpgradeHailstormMissilePodsQueuedOrBetter"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotCountUpgradeHurricaneMissilesQueuedOrBetter">
+        <OperandArray index="0" value="CountUpgradeHurricaneMissilesQueuedOrBetter"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotCountUpgradeKineticFieldsQueuedOrBetter">
+        <OperandArray index="0" value="CountUpgradeKineticFieldsQueuedOrBetter"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotCountUpgradeMechanicalRebirthQueuedOrBetter">
+        <OperandArray index="0" value="CountUpgradeMechanicalRebirthQueuedOrBetter"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotCountUpgradeMultilockTargetingSystemsQueuedOrBetter">
+        <OperandArray index="0" value="CountUpgradeMultilockTargetingSystemsQueuedOrBetter"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotCountUpgradeNanoConstructorQueuedOrBetter">
+        <OperandArray index="0" value="CountUpgradeNanoConstructorQueuedOrBetter"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotCountUpgradeOcularImplantsQueuedOrBetter">
+        <OperandArray index="0" value="CountUpgradeOcularImplantsQueuedOrBetter"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotCountUpgradeOrbitalStrikeQueuedOrBetter">
+        <OperandArray index="0" value="CountUpgradeOrbitalStrikeQueuedOrBetter"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotCountUpgradePermanentCloakGhostQueuedOrBetter">
+        <OperandArray index="0" value="CountUpgradePermanentCloakGhostQueuedOrBetter"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotCountUpgradePermanentCloakSpectreQueuedOrBetter">
+        <OperandArray index="0" value="CountUpgradePermanentCloakSpectreQueuedOrBetter"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotCountUpgradeProjectileAcceleratorsQueuedOrBetter">
+        <OperandArray index="0" value="CountUpgradeProjectileAcceleratorsQueuedOrBetter"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotCountUpgradeRegenerativeBioSteelQueuedOrBetter">
+        <OperandArray index="0" value="CountUpgradeRegenerativeBioSteelQueuedOrBetter"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotCountUpgradeReinforcedSuperstructureQueuedOrBetter">
+        <OperandArray index="0" value="CountUpgradeReinforcedSuperstructureQueuedOrBetter"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotCountUpgradeShrikeTurretQueuedOrBetter">
+        <OperandArray index="0" value="CountUpgradeShrikeTurretQueuedOrBetter"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotCountUpgradeSiegeTankShapedBlastQueuedOrBetter">
+        <OperandArray index="0" value="CountUpgradeSiegeTankShapedBlastQueuedOrBetter"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotCountUpgradeSupplyDepotDropQueuedOrBetter">
+        <OperandArray index="0" value="CountUpgradeSupplyDepotDropQueuedOrBetter"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotCountUpgradeTriLithiumPowerCellsQueuedOrBetter">
+        <OperandArray index="0" value="CountUpgradeTriLithiumPowerCellsQueuedOrBetter"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotCountUpgradeUltrasonicPulseQueuedOrBetter">
+        <OperandArray index="0" value="CountUpgradeUltrasonicPulseQueuedOrBetter"/>
+    </CRequirementNot>
+</Catalog>

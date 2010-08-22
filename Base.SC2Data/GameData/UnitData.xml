@@ -1,0 +1,970 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Catalog>
+    <CUnit id="Armory">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+        <BehaviorArray Link="FireSuppressionSystem"/>
+        <CardLayouts index="0">
+            <LayoutButtons index="0" Face="TerranVehicleWeaponsUltraCapacitorsLevel1" AbilCmd="ArmoryResearch,Research4"/>
+            <LayoutButtons index="1" Face="TerranVehicleWeaponsUltraCapacitorsLevel2" AbilCmd="ArmoryResearch,Research5"/>
+            <LayoutButtons index="2" Face="TerranVehicleWeaponsUltraCapacitorsLevel3" AbilCmd="ArmoryResearch,Research6"/>
+            <LayoutButtons index="3" AbilCmd="que5,CancelLast"/>
+            <LayoutButtons index="5" Face="CancelBuilding" AbilCmd="BuildInProgress,Cancel" Column="4"/>
+            <LayoutButtons index="6" Face="Halt" AbilCmd="BuildInProgress,Halt" Column="3"/>
+            <LayoutButtons index="7" Face="TerranVehiclePlatingVanadiumPlatingLevel1" AbilCmd="ArmoryResearch,Research1"/>
+            <LayoutButtons index="8" Face="TerranVehiclePlatingVanadiumPlatingLevel2" AbilCmd="ArmoryResearch,Research2"/>
+            <LayoutButtons index="9" Face="TerranVehiclePlatingVanadiumPlatingLevel3" AbilCmd="ArmoryResearch,Research3"/>
+            <LayoutButtons index="10" Face="TerranShipWeaponsUltraCapacitorsLevel1" AbilCmd="ArmoryResearch,Research10"/>
+            <LayoutButtons index="11" Face="TerranShipWeaponsUltraCapacitorsLevel2" AbilCmd="ArmoryResearch,Research11"/>
+            <LayoutButtons index="12" Face="TerranShipWeaponsUltraCapacitorsLevel3" AbilCmd="ArmoryResearch,Research12"/>
+            <LayoutButtons index="13" Face="TerranShipPlatingVanadiumPlatingLevel1" AbilCmd="ArmoryResearch,Research7"/>
+            <LayoutButtons index="14" Face="TerranShipPlatingVanadiumPlatingLevel2" AbilCmd="ArmoryResearch,Research8"/>
+            <LayoutButtons index="15" Face="TerranShipPlatingVanadiumPlatingLevel3" AbilCmd="ArmoryResearch,Research9"/>
+            <LayoutButtons Face="ResearchRegenerativeBioSteel" Type="AbilCmd" AbilCmd="ArmoryResearch,Research13" Row="2" Column="1"/>
+            <LayoutButtons Face="ResearchKineticBarriers" Type="AbilCmd" AbilCmd="ArmoryResearch,Research14" Row="2" Column="2"/>
+        </CardLayouts>
+    </CUnit>
+    <CUnit id="Artanis">
+        <BehaviorArray Link="Levels"/>
+    </CUnit>
+    <CUnit id="AutoTurret">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+    </CUnit>
+    <CUnit id="AutomatedRefinery">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+    </CUnit>
+    <CUnit id="Banshee">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+    </CUnit>
+    <CUnit id="Barracks">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+        <BehaviorArray Link="FireSuppressionSystem"/>
+        <CardLayouts index="0">
+            <LayoutButtons index="4" Face="Rally" Type="AbilCmd" AbilCmd="Rally,Rally1" Row="1" Column="4"/>
+            <LayoutButtons index="5" Face="Lift" AbilCmd="BarracksLiftOff,Execute" Row="2" Column="3"/>
+            <LayoutButtons index="6" Face="Halt" AbilCmd="BuildInProgress,Halt"/>
+            <LayoutButtons index="7" Face="Reactor" AbilCmd="BarracksAddOns,Build2" Column="1"/>
+            <LayoutButtons index="8" Face="TechLabBarracks" AbilCmd="BarracksAddOns,Build1" Column="0"/>
+            <LayoutButtons index="9" Face="Cancel" AbilCmd="que5,CancelLast" Column="4"/>
+            <LayoutButtons index="10" AbilCmd="BarracksAddOns,Halt"/>
+            <LayoutButtons index="11" Face="CancelBuilding" AbilCmd="BuildInProgress,Cancel"/>
+            <LayoutButtons index="12" Face="Medic" AbilCmd="BarracksTrain,Train7" Row="1" Column="0"/>
+            <LayoutButtons Face="Firebat" Type="AbilCmd" AbilCmd="BarracksTrain,Train6" Row="1" Column="1"/>
+            <LayoutButtons Face="Spectre" Type="AbilCmd" AbilCmd="BarracksTrain,Train5" Row="1" Column="2"/>
+            <LayoutButtons Face="TechReactor" Type="AbilCmd" AbilCmd="BarracksAddOns,Build3" Row="2" Column="2"/>
+            <LayoutButtons Face="SelectBuilder" Type="SelectBuilder" AbilCmd="BarracksTrain,Train4" Row="0" Column="4"/>
+        </CardLayouts>
+    </CUnit>
+    <CUnit id="BarracksFlying">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+        <BehaviorArray Link="FireSuppressionSystem"/>
+        <CardLayouts index="0">
+            <LayoutButtons Face="TechReactor" Type="AbilCmd" AbilCmd="BarracksAddOns,Build3" Row="2" Column="2"/>
+        </CardLayouts>
+    </CUnit>
+    <CUnit id="BarracksReactor">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+        <BehaviorArray Link="FireSuppressionSystem"/>
+    </CUnit>
+    <CUnit id="BarracksTechLab">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+        <BehaviorArray Link="FireSuppressionSystem"/>
+        <CardLayouts index="0">
+            <LayoutButtons Face="ResearchBearclawNozzles" Type="AbilCmd" AbilCmd="BarracksTechLabResearch,Research4" Row="1" Column="0"/>
+            <LayoutButtons Face="ResearchJuggernautPlating" Type="AbilCmd" AbilCmd="BarracksTechLabResearch,Research5" Row="1" Column="1"/>
+        </CardLayouts>
+    </CUnit>
+    <CUnit id="BarracksTechReactor">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+        <CardLayouts index="0">
+            <LayoutButtons index="4" Face="ResearchPunisherGrenades" AbilCmd="BarracksTechLabResearch,Research3"/>
+            <LayoutButtons Face="ResearchBearclawNozzles" Type="AbilCmd" AbilCmd="BarracksTechLabResearch,Research4" Row="1" Column="0"/>
+            <LayoutButtons Face="ResearchJuggernautPlating" Type="AbilCmd" AbilCmd="BarracksTechLabResearch,Research5" Row="1" Column="1"/>
+            <LayoutButtons Face="ReaperSpeed" Type="AbilCmd" AbilCmd="MercCompoundResearch,Research4" Row="0" Column="3"/>
+        </CardLayouts>
+    </CUnit>
+    <CUnit id="Battlecruiser">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+        <AbilArray Link="MissilePods"/>
+        <AbilArray Link="DefensiveMatrix"/>
+        <CardLayouts index="0">
+            <LayoutButtons Face="MissilePods" Type="AbilCmd" AbilCmd="MissilePods,Execute" Row="2" Column="1"/>
+            <LayoutButtons Face="DefensiveMatrix" Type="AbilCmd" AbilCmd="DefensiveMatrix,Execute" Row="2" Column="2"/>
+        </CardLayouts>
+    </CUnit>
+    <CUnit id="BioDomeCommand">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+    </CUnit>
+    <CUnit id="BioDomeCommandFlying">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+    </CUnit>
+    <CUnit id="Biodome">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+    </CUnit>
+    <CUnit id="BiodomeHalfBuilt">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+    </CUnit>
+    <CUnit id="Brutalisk">
+        <BehaviorArray Link="Levels"/>
+    </CUnit>
+    <CUnit id="Bunker">
+        <AbilArray index="0" Link="BunkerAttack"/>
+        <AbilArray index="1" Link="BunkerStop"/>
+        <AbilArray index="2" Link="BuildInProgress"/>
+        <AbilArray index="3" Link="BunkerTransport"/>
+        <AbilArray index="4" Link="SalvageBunker"/>
+        <AbilArray index="5" Link="SalvageBunkerRefund"/>
+        <AbilArray index="6" Link="Rally"/>
+        <AbilArray index="7" Link="StimpackRedirect"/>
+        <AbilArray index="8" Link="StimpackMarauderRedirect"/>
+        <AbilArray Link="StopRedirect"/>
+        <AbilArray Link="AttackRedirect"/>
+        <BehaviorArray Link="ShrikeTurret"/>
+        <BehaviorArray Link="FireSuppressionSystem"/>
+        <WeaponArray Link="ShrikeTurret" Turret="ShrikeTurret"/>
+        <WeaponArray/>
+        <CardLayouts index="0">
+            <LayoutButtons index="3" Face="StopBunker" AbilCmd="BunkerStop,Stop" Row="0" Column="1"/>
+            <LayoutButtons index="4" AbilCmd="StimpackRedirect,Execute"/>
+            <LayoutButtons index="5" Face="StimRedirect" AbilCmd="StimpackMarauderRedirect,Execute" Row="2" Column="0"/>
+            <LayoutButtons index="6" Face="SetBunkerRallyPoint" AbilCmd="Rally,Rally1" Row="1" Column="4"/>
+            <LayoutButtons index="7" Face="BunkerLoad" AbilCmd="BunkerTransport,Load" Column="1"/>
+            <LayoutButtons index="8" Face="BunkerUnloadAll" AbilCmd="BunkerTransport,UnloadAll" Column="2"/>
+            <LayoutButtons index="9" Face="Salvage" AbilCmd="SalvageBunker,On"/>
+            <LayoutButtons index="10" Face="Halt" AbilCmd="BuildInProgress,Halt" Column="3"/>
+            <LayoutButtons index="11" Face="CancelBuilding" AbilCmd="BuildInProgress,Cancel"/>
+            <LayoutButtons Face="Cancel" Type="AbilCmd" AbilCmd="SalvageBunker,Off" Row="2" Column="4"/>
+            <LayoutButtons Face="ProjectileAccelerators" Type="Passive" Requirements="UseProjectileAccelerators" Row="1" Column="0"/>
+            <LayoutButtons Face="NeoSteelFrame" Type="Passive" Requirements="UseNeoSteelFrame" Row="1" Column="1"/>
+            <LayoutButtons Face="ShrikeTurret" Type="Passive" Requirements="ShrikeTurretResearched" Row="1" Column="2"/>
+        </CardLayouts>
+    </CUnit>
+    <CUnit id="Civilian">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+    </CUnit>
+    <CUnit id="CivilianFemale">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+    </CUnit>
+    <CUnit id="Colonist">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+    </CUnit>
+    <CUnit id="ColonistBiodome">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+    </CUnit>
+    <CUnit id="ColonistBiodomeHalfBuilt">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+    </CUnit>
+    <CUnit id="ColonistFemale">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+    </CUnit>
+    <CUnit id="ColonistTransport">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+    </CUnit>
+    <CUnit id="CommandCenter">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+        <BehaviorArray Link="FireSuppressionSystem"/>
+        <BehaviorArray Link="CommandCenterQueue"/>
+    </CUnit>
+    <CUnit id="CommandCenterFlying">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+        <BehaviorArray Link="FireSuppressionSystem"/>
+        <BehaviorArray Link="CommandCenterQueue"/>
+    </CUnit>
+    <CUnit id="DevilDog">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+    </CUnit>
+    <CUnit id="Diamondback">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+    </CUnit>
+    <CUnit id="DominionKillTeam">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+    </CUnit>
+    <CUnit id="DrakkenLaserDrill">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+    </CUnit>
+    <CUnit id="DukesRevenge">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+    </CUnit>
+    <CUnit id="DuskWing">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+    </CUnit>
+    <CUnit id="EngineeringBay">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+        <BehaviorArray Link="FireSuppressionSystem"/>
+        <CardLayouts index="0">
+            <LayoutButtons index="0" Face="TerranInfantryWeaponsUltraCapacitorsLevel1"/>
+            <LayoutButtons index="1" Face="TerranInfantryWeaponsUltraCapacitorsLevel2"/>
+            <LayoutButtons index="2" Face="TerranInfantryWeaponsUltraCapacitorsLevel3"/>
+            <LayoutButtons index="3" Face="SelectBuilder" Type="SelectBuilder" Row="0" Column="0"/>
+            <LayoutButtons index="4" Face="Cancel" AbilCmd="que5,CancelLast" Column="4"/>
+            <LayoutButtons index="6" Face="Halt" AbilCmd="BuildInProgress,Halt" Row="2" Column="3"/>
+            <LayoutButtons index="7" Face="ResearchNeosteelFrame" AbilCmd="EngineeringBayResearch,Research6" Column="1"/>
+            <LayoutButtons index="8" Face="ResearchShrikeTurret" AbilCmd="EngineeringBayResearch,Research10" Column="1"/>
+            <LayoutButtons index="9" Face="UpgradeBuildingArmorLevel1" AbilCmd="EngineeringBayResearch,Research2" Row="1" Column="2"/>
+            <LayoutButtons index="10" Face="ResearchHiSecAutoTracking" AbilCmd="EngineeringBayResearch,Research1" Row="1" Column="0"/>
+            <LayoutButtons index="11" Face="TerranInfantryArmorVanadiumPlatingLevel1" AbilCmd="EngineeringBayResearch,Research7"/>
+            <LayoutButtons index="12" Face="TerranInfantryArmorVanadiumPlatingLevel2" Type="AbilCmd" AbilCmd="EngineeringBayResearch,Research8" Column="1"/>
+            <LayoutButtons Face="TerranInfantryArmorVanadiumPlatingLevel3" Type="AbilCmd" AbilCmd="EngineeringBayResearch,Research9" Row="0" Column="1"/>
+            <LayoutButtons Face="ProjectileAccelerators" Type="AbilCmd" AbilCmd="EngineeringBayResearch,Research11" Row="1" Column="3"/>
+            <LayoutButtons Face="ResearchOribitalDropPods" Type="AbilCmd" AbilCmd="EngineeringBayResearch,Research12" Row="2" Column="0"/>
+            <LayoutButtons Face="ResearchFireSuppressionSystem" Type="AbilCmd" AbilCmd="EngineeringBayResearch,Research13" Row="2" Column="1"/>
+            <LayoutButtons Face="ResearchTitaniumHousing" Type="AbilCmd" AbilCmd="EngineeringBayResearch,Research14" Row="1" Column="4"/>
+            <LayoutButtons Face="ResearchHellstormMisslePods" Type="AbilCmd" AbilCmd="EngineeringBayResearch,Research15" Row="1" Column="4"/>
+            <LayoutButtons Face="ResearchSupplyDepotCalldown" Type="AbilCmd" AbilCmd="EngineeringBayResearch,Research16" Row="2" Column="2"/>
+            <LayoutButtons Face="ResearchCommandCenterReactor" Type="AbilCmd" AbilCmd="EngineeringBayResearch,Research17" Row="0" Column="4"/>
+        </CardLayouts>
+    </CUnit>
+    <CUnit id="Factory">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+        <BehaviorArray Link="FireSuppressionSystem"/>
+        <CardLayouts index="0">
+            <LayoutButtons index="0" Face="Vulture" AbilCmd="FactoryTrain,Train1"/>
+            <LayoutButtons index="1" Face="Hellion" AbilCmd="FactoryTrain,Train6"/>
+            <LayoutButtons index="2" Face="SiegeTank" AbilCmd="FactoryTrain,Train2"/>
+            <LayoutButtons index="3" Face="Rally" Type="AbilCmd" AbilCmd="Rally,Rally1" Row="1" Column="4"/>
+            <LayoutButtons index="4" Face="Lift" AbilCmd="FactoryLiftOff,Execute" Row="2" Column="3"/>
+            <LayoutButtons index="5" Face="Halt" AbilCmd="BuildInProgress,Halt"/>
+            <LayoutButtons index="6" Face="Reactor" AbilCmd="FactoryAddOns,Build2" Column="1"/>
+            <LayoutButtons index="7" Face="TechLabFactory" AbilCmd="FactoryAddOns,Build1" Column="0"/>
+            <LayoutButtons index="8" Face="Cancel" AbilCmd="que5,CancelLast" Column="4"/>
+            <LayoutButtons index="9" AbilCmd="FactoryAddOns,Halt"/>
+            <LayoutButtons index="10" Face="CancelBuilding" AbilCmd="BuildInProgress,Cancel"/>
+            <LayoutButtons index="11" Face="Goliath" AbilCmd="FactoryTrain,Train4" Row="0" Column="3"/>
+            <LayoutButtons Face="SelectBuilder" Type="SelectBuilder" AbilCmd="FactoryTrain,Train6" Row="0" Column="4"/>
+            <LayoutButtons Face="Diamondback" Type="AbilCmd" AbilCmd="FactoryTrain,Train3" Row="1" Column="0"/>
+            <LayoutButtons Face="Predator" Type="AbilCmd" AbilCmd="FactoryTrain,Train7" Row="1" Column="1"/>
+            <LayoutButtons Face="TechReactor" Type="AbilCmd" AbilCmd="FactoryAddOns,Build4" Row="2" Column="2"/>
+            <LayoutButtons Face="Thor" Type="AbilCmd" AbilCmd="FactoryTrain,Train5" Row="1" Column="2"/>
+        </CardLayouts>
+    </CUnit>
+    <CUnit id="FactoryFlying">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+        <BehaviorArray Link="FireSuppressionSystem"/>
+        <CardLayouts index="0">
+            <LayoutButtons Face="TechReactor" Type="AbilCmd" AbilCmd="FactoryAddOns,Build4" Row="2" Column="2"/>
+        </CardLayouts>
+    </CUnit>
+    <CUnit id="FactoryReactor">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+        <BehaviorArray Link="FireSuppressionSystem"/>
+    </CUnit>
+    <CUnit id="FactoryTechLab">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+        <BehaviorArray Link="FireSuppressionSystem"/>
+        <CardLayouts index="0">
+            <LayoutButtons Face="ResearchAresClassTargetingSystem" Type="AbilCmd" AbilCmd="FactoryTechLabResearch,Research4" Row="0" Column="2"/>
+            <LayoutButtons Face="ResearchMultiLockWeaponsSystem" Type="AbilCmd" AbilCmd="FactoryTechLabResearch,Research3" Row="0" Column="3"/>
+            <LayoutButtons Face="ResearchShapedBlast" Type="AbilCmd" AbilCmd="FactoryTechLabResearch,Research7" Row="0" Column="4"/>
+            <LayoutButtons Face="ResearchTriLithiumPowerCells" Type="AbilCmd" AbilCmd="FactoryTechLabResearch,Research5" Row="1" Column="2"/>
+            <LayoutButtons Face="ResearchShapedHull" Type="AbilCmd" AbilCmd="FactoryTechLabResearch,Research6" Row="1" Column="3"/>
+            <LayoutButtons Face="ResearchReplenishableMagazine" Type="AbilCmd" AbilCmd="FactoryTechLabResearch,Research9" Row="1" Column="0"/>
+            <LayoutButtons Face="ResearchImmortalityProtocol" Type="AbilCmd" AbilCmd="FactoryTechLabResearch,Research8" Row="1" Column="4"/>
+        </CardLayouts>
+    </CUnit>
+    <CUnit id="FactoryTechReactor">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+        <CardLayouts index="0">
+            <LayoutButtons index="4" Face="ResearchAresClassTargetingSystem"/>
+            <LayoutButtons Face="ResearchMultiLockWeaponsSystem" Type="AbilCmd" AbilCmd="FactoryTechLabResearch,Research3" Row="0" Column="3"/>
+            <LayoutButtons Face="ResearchTriLithiumPowerCells" Type="AbilCmd" AbilCmd="FactoryTechLabResearch,Research5" Row="1" Column="2"/>
+            <LayoutButtons Face="ResearchShapedHull" Type="AbilCmd" AbilCmd="FactoryTechLabResearch,Research6" Row="1" Column="3"/>
+            <LayoutButtons Face="ResearchShapedBlast" Type="AbilCmd" AbilCmd="FactoryTechLabResearch,Research7" Row="0" Column="4"/>
+            <LayoutButtons Face="ResearchReplenishableMagazine" Type="AbilCmd" AbilCmd="FactoryTechLabResearch,Research9" Row="1" Column="0"/>
+            <LayoutButtons Face="ResearchImmortalityProtocol" Type="AbilCmd" AbilCmd="FactoryTechLabResearch,Research8" Row="1" Column="4"/>
+        </CardLayouts>
+    </CUnit>
+    <CUnit id="Firebat">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+    </CUnit>
+    <CUnit id="FlamingBetty">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+    </CUnit>
+    <CUnit id="FleetBeacon">
+        <CardLayouts index="0">
+            <LayoutButtons Face="ResearchGraviticThrusters" Type="AbilCmd" AbilCmd="FleetBeaconResearch,Research3" Row="0" Column="2"/>
+        </CardLayouts>
+    </CUnit>
+    <CUnit id="FusionCore">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+        <BehaviorArray Link="FireSuppressionSystem"/>
+        <CardLayouts index="0">
+            <LayoutButtons index="3" Face="CancelBuilding" AbilCmd="BuildInProgress,Cancel" Column="4"/>
+            <LayoutButtons index="4" Face="Halt" AbilCmd="BuildInProgress,Halt" Column="3"/>
+            <LayoutButtons Face="DefensiveMatrix" Type="AbilCmd" AbilCmd="FusionCoreResearch,Research3" Row="0" Column="2"/>
+            <LayoutButtons Face="MissilePods" Type="AbilCmd" AbilCmd="FusionCoreResearch,Research4" Row="0" Column="3"/>
+        </CardLayouts>
+    </CUnit>
+    <CUnit id="Ghost">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+    </CUnit>
+    <CUnit id="GhostAcademy">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+        <AbilArray Link="SpectreNukeSiloArmMagazine"/>
+        <AbilArray Link="HeroArmNuke"/>
+        <BehaviorArray Link="FireSuppressionSystem"/>
+        <CardLayouts index="0">
+            <LayoutButtons index="1" Face="ResearchCirusSuit" Type="AbilCmd" AbilCmd="GhostAcademyResearch,Research4"/>
+            <LayoutButtons index="2" Face="SelectBuilder" Type="SelectBuilder" Row="0" Column="0"/>
+            <LayoutButtons index="3" Face="Cancel" AbilCmd="que5,CancelLast" Column="4"/>
+            <LayoutButtons index="5" Face="Halt" AbilCmd="BuildInProgress,Halt" Column="3"/>
+            <LayoutButtons index="6" Face="NukeArm" AbilCmd="ArmSiloWithNuke,Ammo1" Row="2" Column="0"/>
+            <LayoutButtons Face="ResearchGhostEnergyUpgrade" Type="AbilCmd" AbilCmd="GhostAcademyResearch,Research2" Row="0" Column="1"/>
+            <LayoutButtons Face="ResearchCellularReactors" Type="AbilCmd" AbilCmd="GhostAcademyResearch,Research3" Row="0" Column="2"/>
+            <LayoutButtons Face="SpectreNukeArm" Type="AbilCmd" AbilCmd="SpectreNukeSiloArmMagazine,Ammo2" Row="2" Column="1"/>
+            <LayoutButtons Face="ArmSilowithNukeHero" Type="AbilCmd" AbilCmd="HeroArmNuke,Ammo1" Row="2" Column="2"/>
+            <LayoutButtons Face="ResearchNyxCloakingModule" Type="AbilCmd" AbilCmd="GhostAcademyResearch,Research5" Row="0" Column="3"/>
+            <LayoutButtons Face="ResearchOccularImplants" Type="AbilCmd" AbilCmd="GhostAcademyResearch,Research7" Row="1" Column="0"/>
+            <LayoutButtons Face="ResearchPsionicLash" Type="AbilCmd" AbilCmd="GhostAcademyResearch,Research8" Row="1" Column="3"/>
+        </CardLayouts>
+    </CUnit>
+    <CUnit id="Goliath">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+    </CUnit>
+    <CUnit id="HammerSecurity">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+    </CUnit>
+    <CUnit id="Hellion">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+    </CUnit>
+    <CUnit id="HelsAngelAssault">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+    </CUnit>
+    <CUnit id="HelsAngelFighter">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+    </CUnit>
+    <CUnit id="Hercules">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+    </CUnit>
+    <CUnit id="HiveMindEmulator">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+    </CUnit>
+    <CUnit id="HomeLarge">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+    </CUnit>
+    <CUnit id="HomeSmall">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+    </CUnit>
+    <CUnit id="HunterKiller">
+        <BehaviorArray Link="Levels"/>
+    </CUnit>
+    <CUnit id="HunterKillerBurrowed">
+        <BehaviorArray index="0" Link="Levels"/>
+    </CUnit>
+    <CUnit id="Hut">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+    </CUnit>
+    <CUnit id="Hydralisk">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+        <AbilArray Link="LurkerAspect"/>
+        <CardLayouts index="0">
+            <LayoutButtons Face="LurkerFromHydraliskBurrowed" Type="AbilCmd" AbilCmd="LurkerAspect,Execute" Row="2" Column="0"/>
+        </CardLayouts>
+    </CUnit>
+    <CUnit id="HydraliskBurrowed">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+        <AbilArray Link="LurkerAspectFromHydraliskBurrowed"/>
+        <CardLayouts index="0">
+            <LayoutButtons Face="LurkerFromHydraliskBurrowed" Type="AbilCmd" AbilCmd="LurkerAspectFromHydraliskBurrowed,Execute" Row="2" Column="0"/>
+        </CardLayouts>
+    </CUnit>
+    <CUnit id="Hyperion">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+    </CUnit>
+    <CUnit id="InfestableBiodome">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+    </CUnit>
+    <CUnit id="InfestableColonistBiodome">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+    </CUnit>
+    <CUnit id="InfestedArmory">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+    </CUnit>
+    <CUnit id="InfestedBarracks">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+    </CUnit>
+    <CUnit id="InfestedBunker">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+    </CUnit>
+    <CUnit id="InfestedCC">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+    </CUnit>
+    <CUnit id="InfestedEngBay">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+    </CUnit>
+    <CUnit id="InfestedFactory">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+    </CUnit>
+    <CUnit id="InfestedMercHaven">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+    </CUnit>
+    <CUnit id="InfestedMissileTurret">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+    </CUnit>
+    <CUnit id="InfestedRefinery">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+    </CUnit>
+    <CUnit id="InfestedStarport">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+    </CUnit>
+    <CUnit id="InfestedSupply">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+    </CUnit>
+    <CUnit id="JoriumStockpile">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+    </CUnit>
+    <CUnit id="Kerrigan">
+        <BehaviorArray Link="ForceShieldSpell"/>
+        <BehaviorArray Link="ForceShield"/>
+        <BehaviorArray Link="TValerian03QueenOfBladesDontDie"/>
+        <BehaviorArray Link="Levels"/>
+    </CUnit>
+    <CUnit id="KerriganChar">
+        <BehaviorArray index="4" Link="Levels"/>
+    </CUnit>
+    <CUnit id="KerriganCharBurrowed">
+        <BehaviorArray Link="Levels"/>
+    </CUnit>
+    <CUnit id="Larva">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+        <CardLayouts index="0">
+            <LayoutButtons index="2" Face="Overlord" AbilCmd="LarvaTrain,Train3" Column="1"/>
+            <LayoutButtons index="3" Face="Roach" AbilCmd="LarvaTrain,Train10" Row="1" Column="0"/>
+            <LayoutButtons index="4" Face="Mutalisk" AbilCmd="LarvaTrain,Train5" Row="2"/>
+            <LayoutButtons index="5" Face="Infestor" AbilCmd="LarvaTrain,Train11" Row="1" Column="2"/>
+            <LayoutButtons index="6" Face="Ultralisk" AbilCmd="LarvaTrain,Train7" Row="2"/>
+            <LayoutButtons index="7" Face="Corruptor" AbilCmd="LarvaTrain,Train12" Column="1"/>
+            <LayoutButtons index="8" Face="Cancel" AbilCmd="que1,CancelLast" Column="4"/>
+            <LayoutButtons index="9" Face="Hydralisk" AbilCmd="LarvaTrain,Train4" Row="1" Column="1"/>
+            <LayoutButtons index="10" Face="Scourge" AbilCmd="LarvaTrain,Train9" Column="3"/>
+            <LayoutButtons Face="MorphtoBrutalisk" Type="AbilCmd" AbilCmd="LarvaTrain,Train6" Row="0" Column="3"/>
+        </CardLayouts>
+    </CUnit>
+    <CUnit id="LogisticsHeadquarters">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+    </CUnit>
+    <CUnit id="Loki">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+    </CUnit>
+    <CUnit id="Lurker">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+        <Speed value="2.25"/>
+    </CUnit>
+    <CUnit id="LurkerBurrowed">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+    </CUnit>
+    <CUnit id="MULE">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+    </CUnit>
+    <CUnit id="Maar">
+        <BehaviorArray Link="Levels"/>
+    </CUnit>
+    <CUnit id="MainCellBlock">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+    </CUnit>
+    <CUnit id="Marauder">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+    </CUnit>
+    <CUnit id="Marine">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+    </CUnit>
+    <CUnit id="Medic">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+    </CUnit>
+    <CUnit id="Medivac">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+    </CUnit>
+    <CUnit id="MercCompound">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+    </CUnit>
+    <CUnit id="MercenaryFortress">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+    </CUnit>
+    <CUnit id="MissileTurret">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+        <BehaviorArray Link="FireSuppressionSystem"/>
+        <BehaviorArray Link="HellstormMissiles"/>
+        <WeaponArray Link="HailstormMissilePods" Turret="MissileTurret"/>
+        <CardLayouts index="0">
+            <LayoutButtons Face="ReinforcedSuperstructure" Type="Passive" Requirements="TitaniumHousingResearched" Row="1" Column="1"/>
+            <LayoutButtons Face="HellstormMissileBatteries" Type="Passive" Requirements="UseHailstormMissilePods" Row="1" Column="2"/>
+        </CardLayouts>
+    </CUnit>
+    <CUnit id="Mohandar">
+        <BehaviorArray Link="Levels"/>
+    </CUnit>
+    <CUnit id="Nexus">
+        <AbilArray Link="ResearchNexus"/>
+        <CardLayouts index="0">
+            <LayoutButtons Face="DarkProtoss" Type="AbilCmd" AbilCmd="ResearchNexus,Research1" Row="0" Column="4"/>
+        </CardLayouts>
+    </CUnit>
+    <CUnit id="Nova">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+        <BehaviorArray Link="Levels"/>
+    </CUnit>
+    <CUnit id="NukePack">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+    </CUnit>
+    <CUnit id="NukeSiloNova">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+    </CUnit>
+    <CUnit id="Odin">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+    </CUnit>
+    <CUnit id="OdinWreckage">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+    </CUnit>
+    <CUnit id="OrbitalCommand">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+        <BehaviorArray Link="FireSuppressionSystem"/>
+        <BehaviorArray Link="CommandCenterQueue"/>
+    </CUnit>
+    <CUnit id="OrbitalCommandFlying">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+        <BehaviorArray Link="FireSuppressionSystem"/>
+        <BehaviorArray Link="CommandCenterQueue"/>
+    </CUnit>
+    <CUnit id="PerditionTurret">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+    </CUnit>
+    <CUnit id="PerditionTurretUnderground">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+    </CUnit>
+    <CUnit id="PlanetaryFortress">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+        <BehaviorArray Link="FireSuppressionSystem"/>
+        <BehaviorArray Link="CommandCenterQueue"/>
+    </CUnit>
+    <CUnit id="PointDefenseDrone">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+    </CUnit>
+    <CUnit id="Predator">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+    </CUnit>
+    <CUnit id="PsiDisruptor">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+    </CUnit>
+    <CUnit id="PsiIndoctrinator">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+    </CUnit>
+    <CUnit id="Raven">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+    </CUnit>
+    <CUnit id="Raynor">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+        <BehaviorArray Link="Levels"/>
+    </CUnit>
+    <CUnit id="Raynor01">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+        <BehaviorArray Link="SwapToRaynorBasicWeapon"/>
+        <BehaviorArray Link="Levels"/>
+    </CUnit>
+    <CUnit id="RaynorCommando">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+        <BehaviorArray index="0" Link="SwapToRaynorBasicWeapon"/>
+        <BehaviorArray index="1" Link="Levels"/>
+    </CUnit>
+    <CUnit id="Reactor">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+        <BehaviorArray Link="FireSuppressionSystem"/>
+    </CUnit>
+    <CUnit id="Reaper">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+    </CUnit>
+    <CUnit id="Refinery">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+        <BehaviorArray Link="FireSuppressionSystem"/>
+    </CUnit>
+    <CUnit id="SCV">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+        <AbilArray Link="TerranBuildDrop"/>
+        <CardLayouts index="1">
+            <LayoutButtons index="2" Face="SupplyDepotDrop" AbilCmd="TerranBuildDrop,Build1" Requirements="UseSupplyDepotDrop"/>
+            <LayoutButtons index="3" Face="SupplyDepot" AbilCmd="TerranBuild,Build2" Row="0" Column="2"/>
+            <LayoutButtons index="4" Face="Barracks" AbilCmd="TerranBuild,Build4" Column="0"/>
+            <LayoutButtons index="5" Face="EngineeringBay" AbilCmd="TerranBuild,Build5" Row="1" Column="1"/>
+            <LayoutButtons index="6" Face="Bunker" AbilCmd="TerranBuild,Build7" Column="0"/>
+            <LayoutButtons index="7" Face="MissileTurret" AbilCmd="TerranBuild,Build6" Column="1"/>
+            <LayoutButtons index="8" Face="SensorTower" Type="AbilCmd" AbilCmd="TerranBuild,Build9" Column="2"/>
+            <LayoutButtons Face="Cancel" Type="CancelSubmenu" AbilCmd="TerranBuild,Build8" Row="2" Column="4"/>
+            <LayoutButtons Face="PsiDisruptor" Type="AbilCmd" AbilCmd="TerranBuild,Build8" Row="1" Column="2"/>
+            <LayoutButtons Face="HiveMindEmulator" Type="AbilCmd" AbilCmd="TerranBuild,Build15" Row="2" Column="3"/>
+            <LayoutButtons Face="PerditionTurret" Type="AbilCmd" AbilCmd="TerranBuild,Build17" Row="1" Column="3"/>
+            <LayoutButtons Face="AutomatedRefinery" Type="AbilCmd" AbilCmd="TerranBuild,Build18" Row="0" Column="3"/>
+        </CardLayouts>
+        <CardLayouts index="2">
+            <LayoutButtons Face="MercCompound" Type="AbilCmd" AbilCmd="TerranBuild,Build13" Row="0" Column="1"/>
+        </CardLayouts>
+    </CUnit>
+    <CUnit id="ScienceVessel">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+    </CUnit>
+    <CUnit id="Scientist">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+    </CUnit>
+    <CUnit id="Selendis">
+        <BehaviorArray Link="Levels"/>
+    </CUnit>
+    <CUnit id="SensorTower">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+        <BehaviorArray Link="FireSuppressionSystem"/>
+    </CUnit>
+    <CUnit id="SentryGun">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+    </CUnit>
+    <CUnit id="SentryGunUnderground">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+    </CUnit>
+    <CUnit id="SiegeBreaker">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+    </CUnit>
+    <CUnit id="SiegeBreakerSieged">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+    </CUnit>
+    <CUnit id="SiegeTank">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+    </CUnit>
+    <CUnit id="SiegeTankSieged">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+    </CUnit>
+    <CUnit id="SpartanCompany">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+    </CUnit>
+    <CUnit id="Spawner">
+        <DeathRevealRadius value="3"/>
+        <ReviveType value="Observer"/>
+        <Race value="Prot"/>
+        <Mob value="Multiplayer"/>
+        <FlagArray index="PreventDestroy" value="1"/>
+        <FlagArray index="Invulnerable" value="1"/>
+        <FlagArray index="Cloaked" value="1"/>
+        <PlaneArray index="Air" value="1"/>
+        <Collide index="Flying" value="1"/>
+        <Attributes index="Light" value="1"/>
+        <Attributes index="Mechanical" value="1"/>
+        <LifeStart value="40"/>
+        <LifeMax value="40"/>
+        <LifeArmorName value="Unit/LifeArmorName/ProtossPlating"/>
+        <ShieldsStart value="20"/>
+        <ShieldsMax value="20"/>
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+        <ShieldArmorName value="Unit/ShieldArmorName/ProtossPlasmaShields"/>
+        <Mover value="Fly"/>
+        <Speed value="160"/>
+        <Acceleration value="1000"/>
+        <Sight value="11"/>
+        <Height value="3.75"/>
+        <VisionHeight value="4"/>
+        <Food value="-1"/>
+        <CostResource index="Minerals" value="25"/>
+        <CostResource index="Vespene" value="75"/>
+        <AttackTargetPriority value="20"/>
+        <DamageDealtXP value="1"/>
+        <DamageTakenXP value="1"/>
+        <KillXP value="20"/>
+        <AbilArray Link="stop"/>
+        <AbilArray Link="move"/>
+        <AbilArray Link="Warpable"/>
+        <AbilArray Link="SpawnerTransport"/>
+        <BehaviorArray Link="Detector11"/>
+        <BehaviorArray Link="RoleplayingNecessity"/>
+        <CardLayouts>
+            <LayoutButtons Face="Move" Type="AbilCmd" AbilCmd="move,Move" Row="0" Column="0"/>
+            <LayoutButtons Face="Stop" Type="AbilCmd" AbilCmd="stop,Stop" Row="0" Column="1"/>
+            <LayoutButtons Face="MoveHoldPosition" Type="AbilCmd" AbilCmd="move,HoldPos" Row="0" Column="2"/>
+            <LayoutButtons Face="MovePatrol" Type="AbilCmd" AbilCmd="move,Patrol" Row="0" Column="3"/>
+            <LayoutButtons Face="Attack" Type="AbilCmd" AbilCmd="attack,Execute" Row="0" Column="4"/>
+            <LayoutButtons Face="AcquireMove" Type="AbilCmd" AbilCmd="move,AcquireMove" Row="0" Column="4"/>
+            <LayoutButtons Face="PermanentlyCloakedObserver" Type="Passive" AbilCmd="Warpable,Cancel" Row="1" Column="1"/>
+            <LayoutButtons Face="Detector" Type="Passive" AbilCmd="SpawnerTransport,Load" Row="1" Column="0"/>
+            <LayoutButtons Face="MedivacLoad" Type="AbilCmd" AbilCmd="SpawnerTransport,Load" Row="2" Column="0"/>
+            <LayoutButtons Face="MedivacUnloadAll" Type="AbilCmd" AbilCmd="SpawnerTransport,UnloadAt" Row="2" Column="1"/>
+        </CardLayouts>
+        <ScoreMake value="200"/>
+        <ScoreKill value="400"/>
+        <ScoreResult value="BuildOrder"/>
+        <SubgroupPriority value="4"/>
+        <EditorCategories value="ObjectType:Unit,ObjectFamily:Melee"/>
+        <TacticalAI value="Observer"/>
+        <AIEvalFactor value="0"/>
+        <LeaderAlias value="Observer"/>
+        <SelectAlias value="Observer"/>
+        <SubgroupAlias value="Observer"/>
+        <GlossaryCategory value="Unit/Category/ProtossUnits"/>
+        <GlossaryPriority value="120"/>
+        <AIEvaluateAlias value="Observer"/>
+    </CUnit>
+    <CUnit id="SpecialOpsDropship">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+    </CUnit>
+    <CUnit id="Spectre">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+    </CUnit>
+    <CUnit id="Stargate">
+        <CardLayouts index="0">
+            <LayoutButtons index="3" Face="VoidRay" AbilCmd="StargateTrain,Train5"/>
+            <LayoutButtons index="5" Face="WarpInScout" AbilCmd="StargateTrain,Train7"/>
+            <LayoutButtons Face="Carrier" Type="AbilCmd" AbilCmd="StargateTrain,Train3" Row="0" Column="3"/>
+        </CardLayouts>
+    </CUnit>
+    <CUnit id="Starport">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+        <BehaviorArray Link="FireSuppressionSystem"/>
+        <CardLayouts index="0">
+            <LayoutButtons index="1" Face="SelectBuilder" Type="SelectBuilder" AbilCmd="StarportTrain,Train5" Column="0"/>
+            <LayoutButtons index="2" Face="Medivac" AbilCmd="StarportTrain,Train1" Column="1"/>
+            <LayoutButtons index="3" Face="Raven" AbilCmd="StarportTrain,Train3" Column="2"/>
+            <LayoutButtons index="4" Face="Banshee" AbilCmd="StarportTrain,Train2" Column="3"/>
+            <LayoutButtons index="5" Face="Battlecruiser" Type="AbilCmd" AbilCmd="StarportTrain,Train4" Column="4"/>
+            <LayoutButtons Face="Wraith" Type="AbilCmd" AbilCmd="StarportTrain,Train7" Row="1" Column="0"/>
+            <LayoutButtons Face="BuildScienceVessel" Type="AbilCmd" AbilCmd="StarportTrain,Train6" Row="1" Column="1"/>
+            <LayoutButtons Face="BuildHercules" Type="AbilCmd" AbilCmd="StarportTrain,Train8" Row="1" Column="2"/>
+            <LayoutButtons Face="TechReactor" Type="AbilCmd" AbilCmd="StarportAddOns,Build4" Row="2" Column="2"/>
+        </CardLayouts>
+    </CUnit>
+    <CUnit id="StarportFlying">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+        <BehaviorArray Link="FireSuppressionSystem"/>
+        <CardLayouts index="0">
+            <LayoutButtons Face="TechReactor" Type="AbilCmd" AbilCmd="StarportAddOns,Build4" Row="2" Column="2"/>
+        </CardLayouts>
+    </CUnit>
+    <CUnit id="StarportReactor">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+        <BehaviorArray Link="FireSuppressionSystem"/>
+    </CUnit>
+    <CUnit id="StarportTechLab">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+        <BehaviorArray Link="FireSuppressionSystem"/>
+        <CardLayouts index="0">
+            <LayoutButtons Face="WraithCloak" Type="AbilCmd" AbilCmd="StarportTechLabResearch,Research2" Row="1" Column="4"/>
+        </CardLayouts>
+    </CUnit>
+    <CUnit id="StarportTechReactor">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+        <CardLayouts index="0">
+            <LayoutButtons index="7" AbilCmd="StarportTechLabResearch,Research2"/>
+        </CardLayouts>
+    </CUnit>
+    <CUnit id="Stetmann">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+        <BehaviorArray index="0" Link="OutOfCombatEnergyRegen"/>
+        <BehaviorArray index="1" Link="Levels"/>
+    </CUnit>
+    <CUnit id="SupplyDepot">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+        <BehaviorArray Link="FireSuppressionSystem"/>
+    </CUnit>
+    <CUnit id="SupplyDepotDrop">
+        <BehaviorArray Link="FireSuppressionSystem"/>
+    </CUnit>
+    <CUnit id="SupplyDepotLowered">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+        <BehaviorArray Link="FireSuppressionSystem"/>
+    </CUnit>
+    <CUnit id="Swann">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+        <BehaviorArray Link="Levels"/>
+    </CUnit>
+    <CUnit id="Tassadar">
+        <BehaviorArray Link="Levels"/>
+    </CUnit>
+    <CUnit id="TaurenSpaceMarine">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+    </CUnit>
+    <CUnit id="TechLab">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+        <BehaviorArray Link="FireSuppressionSystem"/>
+    </CUnit>
+    <CUnit id="TechReactor">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+    </CUnit>
+    <CUnit id="TerrazineTank">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+    </CUnit>
+    <CUnit id="Thor">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+        <AbilArray Link="ThorWreckage"/>
+        <BehaviorArray Link="ThorDontDie"/>
+        <BehaviorArray Link="ScavengingSystemsMechDeath"/>
+        <CardLayouts index="0">
+            <LayoutButtons Face="ImmortalityProtocol" Type="Passive" Requirements="UseImmortailityProtocol" Row="1" Column="0"/>
+        </CardLayouts>
+    </CUnit>
+    <CUnit id="ThorWreckage">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+    </CUnit>
+    <CUnit id="Tosh">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+        <BehaviorArray Link="Levels"/>
+    </CUnit>
+    <CUnit id="TychusChaingun">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+        <BehaviorArray Link="Levels"/>
+    </CUnit>
+    <CUnit id="TychusCommando">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+        <BehaviorArray index="0" Link="Levels"/>
+        <BehaviorArray index="1" removed="1"/>
+    </CUnit>
+    <CUnit id="VikingAssault">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+    </CUnit>
+    <CUnit id="VikingFighter">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+    </CUnit>
+    <CUnit id="Vulture">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+    </CUnit>
+    <CUnit id="WarPig">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+    </CUnit>
+    <CUnit id="Warbot">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+    </CUnit>
+    <CUnit id="Wraith">
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+    </CUnit>
+    <CUnit id="Zeratul">
+        <BehaviorArray Link="Levels"/>
+    </CUnit>
+</Catalog>

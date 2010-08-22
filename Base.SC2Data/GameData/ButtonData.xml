@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Catalog>
+    <CButton id="ArmSilowithNukeHero">
+        <Icon value="Assets\Textures\btn-ability-terran-armnuke.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-terran-armnuke.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="DarkProtoss">
+        <Icon value="Assets\Textures\btn-building-protoss-darkpylon.dds"/>
+        <AlertIcon value="Assets\Textures\btn-building-protoss-darkpylon.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CButton>
+    <CButton id="MissilePods">
+        <AlertIcon value="Assets\Textures\btn-techupgrade-terran-hailstormmissilepods.dds"/>
+    </CButton>
+    <CButton id="MorphtoBrutalisk">
+        <Icon value="Assets\Textures\btn-unit-zerg-brutalisk.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-zerg-brutalisk.dds"/>
+        <EditorCategories value="Race:Zerg"/>
+    </CButton>
+    <CButton id="ResearchAresClassTargetingSystem">
+        <Icon value="Assets\Textures\btn-techupgrade-terran-charonboosters.dds"/>
+        <AlertIcon value="Assets\Textures\btn-techupgrade-terran-charonboosters.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <TintRacially value="1"/>
+    </CButton>
+    <CButton id="ResearchBearclawNozzles">
+        <Icon value="Assets\Textures\btn-techupgrade-terran-bearclawnozzles.dds"/>
+        <AlertIcon value="Assets\Textures\btn-techupgrade-terran-bearclawnozzles.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <TintRacially value="1"/>
+    </CButton>
+    <CButton id="ResearchCellularReactors">
+        <Icon value="Assets\Textures\btn-research-zerg-cellularreactor.dds"/>
+        <AlertIcon value="Assets\Textures\btn-research-zerg-cellularreactor.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="ResearchCirusSuit">
+        <Icon value="Assets\Textures\btn-techupgrade-terran-criussuit.dds"/>
+        <AlertIcon value="Assets\Textures\btn-techupgrade-terran-criussuit.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <TintRacially value="1"/>
+    </CButton>
+    <CButton id="ResearchCommandCenterReactor">
+        <Icon value="Assets\Textures\btn-research-terran-commandcenterreactor.dds"/>
+        <AlertIcon value="Assets\Textures\btn-research-terran-commandcenterreactor.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="ResearchDualFusionWelders">
+        <Icon value="Assets\Textures\btn-techupgrade-terran-dualfusionwelders.dds"/>
+        <AlertIcon value="Assets\Textures\btn-techupgrade-terran-dualfusionwelders.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="ResearchFireSuppressionSystem">
+        <Icon value="Assets\Textures\btn-techupgrade-terran-firesuppressionsystem.dds"/>
+        <AlertIcon value="Assets\Textures\btn-techupgrade-terran-firesuppressionsystem.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <TintRacially value="1"/>
+    </CButton>
+    <CButton id="ResearchGraviticThrusters">
+        <Icon value="Assets\Textures\btn-upgrade-protoss-graviticbooster.dds"/>
+        <AlertName value="Button/Name/Gravatic Thrusters"/>
+        <AlertTooltip value="Button/Tooltip/Gravatic Thrusters"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-protoss-graviticbooster.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CButton>
+    <CButton id="ResearchHellstormMisslePods">
+        <Icon value="Assets\Textures\btn-techupgrade-terran-hellstormbatteries.dds"/>
+        <AlertIcon value="Assets\Textures\btn-techupgrade-terran-hellstormbatteries.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="ResearchImmortalityProtocol">
+        <Icon value="Assets\Textures\btn-techupgrade-terran-immortalityprotocol.dds"/>
+        <AlertIcon value="Assets\Textures\btn-techupgrade-terran-immortalityprotocol.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <TintRacially value="1"/>
+    </CButton>
+    <CButton id="ResearchJuggernautPlating">
+        <Icon value="Assets\Textures\btn-techupgrade-terran-juggernautplating.dds"/>
+        <AlertIcon value="Assets\Textures\btn-techupgrade-terran-juggernautplating.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <TintRacially value="1"/>
+    </CButton>
+    <CButton id="ResearchKineticBarriers">
+        <Icon value="Assets\Textures\btn-techupgrade-terran-cloakdistortionfield.dds"/>
+        <AlertIcon value="Assets\Textures\btn-techupgrade-terran-cloakdistortionfield.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <TintRacially value="1"/>
+    </CButton>
+    <CButton id="ResearchMultiLockWeaponsSystem">
+        <Icon value="Assets\Textures\btn-techupgrade-terran-multilocktargetingsystem.dds"/>
+        <AlertIcon value="Assets\Textures\btn-techupgrade-terran-multilocktargetingsystem.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <TintRacially value="1"/>
+    </CButton>
+    <CButton id="ResearchNyxCloakingModule">
+        <Icon value="Assets\Textures\btn-techupgrade-terran-nyxcloakingclassmodule.dds"/>
+        <AlertIcon value="Assets\Textures\btn-techupgrade-terran-nyxcloakingclassmodule.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <TintRacially value="1"/>
+    </CButton>
+    <CButton id="ResearchOccularImplants">
+        <Icon value="Assets\Textures\btn-techupgrade-terran-ocularimplants.dds"/>
+        <AlertIcon value="Assets\Textures\btn-techupgrade-terran-ocularimplants.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <TintRacially value="1"/>
+    </CButton>
+    <CButton id="ResearchOribitalDropPods">
+        <Icon value="Assets\Textures\btn-research-terran-orbitalstrikerally.dds"/>
+        <AlertIcon value="Assets\Textures\btn-research-terran-orbitalstrikerally.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="ResearchPsionicLash">
+        <Icon value="Assets\Textures\btn-techupgrade-terran-psioniclash.dds"/>
+        <AlertIcon value="Assets\Textures\btn-techupgrade-terran-psioniclash.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <TintRacially value="1"/>
+    </CButton>
+    <CButton id="ResearchRegenerativeBioSteel">
+        <Icon value="Assets\Textures\btn-research-zerg-regenerativebio-steel.dds"/>
+        <AlertIcon value="Assets\Textures\btn-research-zerg-regenerativebio-steel.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="ResearchReplenishableMagazine">
+        <Icon value="Assets\Textures\btn-techupgrade-terran-replenishablemagazine.dds"/>
+        <AlertIcon value="Assets\Textures\btn-techupgrade-terran-replenishablemagazine.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="ResearchShapedBlast">
+        <Icon value="Assets\Textures\btn-techupgrade-terran-shapedblast.dds"/>
+        <AlertIcon value="Assets\Textures\btn-techupgrade-terran-shapedblast.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <TintRacially value="1"/>
+    </CButton>
+    <CButton id="ResearchShapedHull">
+        <Icon value="Assets\Textures\btn-techupgrade-terran-shapedhull.dds"/>
+        <AlertIcon value="Assets\Textures\btn-techupgrade-terran-shapedhull.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <TintRacially value="1"/>
+    </CButton>
+    <CButton id="ResearchShrikeTurret">
+        <Icon value="Assets\Textures\btn-research-zerg-shriketurret.dds"/>
+        <AlertIcon value="Assets\Textures\btn-research-zerg-shriketurret.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="ResearchSupplyDepotCalldown">
+        <Icon value="Assets\Textures\btn-research-terran-orbitaldepots.dds"/>
+        <AlertIcon value="Assets\Textures\btn-research-terran-orbitaldepots.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="ResearchTitaniumHousing">
+        <Icon value="Assets\Textures\btn-techupgrade-terran-titaniumhousing.dds"/>
+        <AlertIcon value="Assets\Textures\btn-techupgrade-terran-titaniumhousing.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <TintRacially value="1"/>
+    </CButton>
+    <CButton id="ResearchTriLithiumPowerCells">
+        <Icon value="Assets\Textures\btn-techupgrade-terran-trilithiumpowercell.dds"/>
+        <AlertIcon value="Assets\Textures\btn-techupgrade-terran-trilithiumpowercell.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <TintRacially value="1"/>
+    </CButton>
+    <CButton id="SupplyDepotDrop">
+        <Icon value="Assets\Textures\btn-research-terran-orbitaldepots.dds"/>
+        <AlertIcon value="Assets\Textures\btn-research-terran-orbitaldepots.dds"/>
+    </CButton>
+</Catalog>

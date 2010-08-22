@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Catalog>
+    <CAbilResearch id="ArmoryResearch">
+        <InfoArray index="Research1" Time="160" Upgrade="TerranVehicleArmorsVanadiumPlatingLevel1">
+            <Resource index="Minerals" value="100"/>
+            <Resource index="Vespene" value="100"/>
+            <Button DefaultButtonFace="TerranVehiclePlatingVanadiumPlatingLevel1" State="Restricted" Requirements="LearnTerranVehicleArmorVanadiumPlating1"/>
+        </InfoArray>
+        <InfoArray index="Research2" Time="190" Upgrade="TerranVehicleArmorsVanadiumPlatingLevel2">
+            <Resource index="Minerals" value="175"/>
+            <Resource index="Vespene" value="175"/>
+            <Button DefaultButtonFace="TerranVehiclePlatingVanadiumPlatingLevel2" State="Restricted" Requirements="LearnTerranVehicleArmorVanadiumPlating2"/>
+        </InfoArray>
+        <InfoArray index="Research3" Time="220" Upgrade="TerranVehicleArmorsVanadiumPlatingLevel3">
+            <Resource index="Minerals" value="250"/>
+            <Resource index="Vespene" value="250"/>
+            <Button DefaultButtonFace="TerranVehiclePlatingVanadiumPlatingLevel3" Requirements="LearnTerranVehicleArmorVanadiumPlating3"/>
+        </InfoArray>
+        <InfoArray index="Research4" Time="160" Upgrade="TerranVehicleWeaponsUltraCapacitorsLevel1">
+            <Resource index="Minerals" value="100"/>
+            <Resource index="Vespene" value="100"/>
+            <Button DefaultButtonFace="TerranVehicleWeaponsUltraCapacitorsLevel1" Requirements="LearnTerranVehicleWeaponUltraCapacitors1"/>
+        </InfoArray>
+        <InfoArray index="Research5" Time="190" Upgrade="TerranVehicleWeaponsUltraCapacitorsLevel2">
+            <Resource index="Minerals" value="175"/>
+            <Resource index="Vespene" value="175"/>
+            <Button DefaultButtonFace="TerranVehicleWeaponsUltraCapacitorsLevel2" Requirements="LearnTerranVehicleWeaponUltraCapacitors2"/>
+        </InfoArray>
+        <InfoArray index="Research6" Time="220" Upgrade="TerranVehicleWeaponsUltraCapacitorsLevel3">
+            <Resource index="Minerals" value="250"/>
+            <Resource index="Vespene" value="250"/>
+            <Button DefaultButtonFace="TerranVehicleWeaponsUltraCapacitorsLevel3" Requirements="LearnTerranVehicleWeaponUltraCapacitors3"/>
+        </InfoArray>
+        <InfoArray index="Research7" Time="160" Upgrade="TerranShipArmorsVanadiumPlatingLevel1">
+            <Resource index="Minerals" value="150"/>
+            <Resource index="Vespene" value="150"/>
+            <Button DefaultButtonFace="TerranShipPlatingVanadiumPlatingLevel1" Requirements="LearnTerranShipArmorVanadiumPlating1"/>
+        </InfoArray>
+        <InfoArray index="Research8" Time="190" Upgrade="TerranShipArmorsVanadiumPlatingLevel2">
+            <Resource index="Minerals" value="225"/>
+            <Resource index="Vespene" value="225"/>
+            <Button DefaultButtonFace="TerranShipPlatingVanadiumPlatingLevel2" Requirements="LearnTerranShipArmorVanadiumPlating2"/>
+        </InfoArray>
+        <InfoArray index="Research9" Time="220" Upgrade="TerranShipArmorsVanadiumPlatingLevel3">
+            <Resource index="Minerals" value="300"/>
+            <Resource index="Vespene" value="300"/>
+            <Button DefaultButtonFace="TerranShipPlatingVanadiumPlatingLevel3" Requirements="LearnTerranShipArmorVanadiumPlating3"/>
+        </InfoArray>
+        <InfoArray index="Research10" Time="160" Upgrade="TerranShipWeaponsUltraCapacitorsLevel1">
+            <Resource index="Minerals" value="100"/>
+            <Resource index="Vespene" value="100"/>
+            <Button DefaultButtonFace="TerranShipWeaponsUltraCapacitorsLevel1" Requirements="LearnTerranShipWeaponUltraCapacitors1"/>
+        </InfoArray>
+        <InfoArray index="Research11" Time="190" Upgrade="TerranShipWeaponsUltraCapacitorsLevel2">
+            <Resource index="Minerals" value="175"/>
+            <Resource index="Vespene" value="175"/>
+            <Button DefaultButtonFace="TerranShipWeaponsUltraCapacitorsLevel2" Requirements="LearnTerranShipWeaponUltraCapacitors2"/>
+        </InfoArray>
+        <InfoArray index="Research12" Time="220" Upgrade="TerranShipWeaponsUltraCapacitorsLevel3">
+            <Resource index="Minerals" value="250"/>
+            <Resource index="Vespene" value="250"/>
+            <Button DefaultButtonFace="TerranShipWeaponsUltraCapacitorsLevel3" Requirements="LearnTerranShipWeaponUltraCapacitors3"/>
+        </InfoArray>
+        <InfoArray index="Research13" Time="120" Upgrade="RegenerativeBioSteel">
+            <Resource index="Minerals" value="150"/>
+            <Resource index="Vespene" value="250"/>
+            <Button DefaultButtonFace="ResearchRegenerativeBioSteel" State="Available" Requirements="LearnRegenerativeBioSteel"/>
+        </InfoArray>
+        <InfoArray index="Research14" Time="100" Upgrade="KineticFields">
+            <Resource index="Minerals" value="160"/>
+            <Resource index="Vespene" value="150"/>
+            <Button DefaultButtonFace="ResearchKineticBarriers" State="Available" Requirements="LearnKineticBarriers"/>
+        </InfoArray>
+    </CAbilResearch>
+    <CAbilBuild id="BarracksAddOns">
+        <InfoArray index="Build3" Unit="BarracksTechReactor" Time="50">
+            <Button DefaultButtonFace="TechReactor"/>
+        </InfoArray>
+    </CAbilBuild>
+    <CAbilResearch id="BarracksTechLabResearch">
+        <InfoArray index="Research4" Time="120" Upgrade="BearclawNozzles">
+            <Button DefaultButtonFace="ResearchBearclawNozzles" Requirements="LearnBearclawNozzles"/>
+        </InfoArray>
+        <InfoArray index="Research5" Time="80" Upgrade="FirebatJuggernautPlating">
+            <Resource index="Minerals" value="100"/>
+            <Resource index="Vespene" value="100"/>
+            <Button DefaultButtonFace="ResearchJuggernautPlating" Requirements="LearnJuggernautPlating"/>
+        </InfoArray>
+    </CAbilResearch>
+    <CAbilTrain id="BarracksTrain">
+        <InfoArray index="Train3">
+            <Button Requirements="HaveAttachedBarrTechLabOrAttachedTechReactorAndShadowOps"/>
+        </InfoArray>
+        <InfoArray index="Train5" Time="45">
+            <Button DefaultButtonFace="Spectre" Requirements="HaveAttachedBarrTechLabOrAttachedTechReactorAndShadowOps"/>
+            <Unit value="Spectre"/>
+        </InfoArray>
+        <InfoArray index="Train6" Time="30">
+            <Button DefaultButtonFace="Firebat" Requirements="HaveAttachedTechLab"/>
+            <Unit value="Firebat"/>
+        </InfoArray>
+        <InfoArray index="Train7" Time="30">
+            <Button DefaultButtonFace="Medic" Requirements="HaveAttachedTechLabOrMedicTraining"/>
+            <Unit value="Medic"/>
+        </InfoArray>
+    </CAbilTrain>
+    <CAbilResearch id="EngineeringBayResearch">
+        <InfoArray index="Research3" Upgrade="TerranInfantryWeaponsUltraCapacitorsLevel1">
+            <Button DefaultButtonFace="TerranInfantryWeaponsUltraCapacitorsLevel1" Requirements="LearnTerranInfantryWeaponUltraCapacitors1"/>
+        </InfoArray>
+        <InfoArray index="Research4" Upgrade="TerranInfantryWeaponsUltraCapacitorsLevel2">
+            <Button DefaultButtonFace="TerranInfantryWeaponsUltraCapacitorsLevel2" Requirements="LearnTerranInfantryWeaponUltraCapacitors2"/>
+        </InfoArray>
+        <InfoArray index="Research5" Upgrade="TerranInfantryWeaponsUltraCapacitorsLevel3">
+            <Button DefaultButtonFace="TerranInfantryWeaponsUltraCapacitorsLevel3" Requirements="LearnTerranInfantryWeaponUltraCapacitors3"/>
+        </InfoArray>
+        <InfoArray index="Research7" Upgrade="TerranInfantryArmorsVanadiumPlatingLevel1">
+            <Button DefaultButtonFace="TerranInfantryArmorVanadiumPlatingLevel1" Requirements="LearnTerranInfantryArmorVanadiumPlating1"/>
+        </InfoArray>
+        <InfoArray index="Research8" Upgrade="TerranInfantryArmorsVanadiumPlatingLevel2">
+            <Button DefaultButtonFace="TerranInfantryArmorVanadiumPlatingLevel2" Requirements="LearnTerranInfantryArmorVanadiumPlating2"/>
+        </InfoArray>
+        <InfoArray index="Research9" Upgrade="TerranInfantryArmorsVanadiumPlatingLevel3">
+            <Button DefaultButtonFace="TerranInfantryArmorVanadiumPlatingLevel3" Requirements="LearnTerranInfantryArmorVanadiumPlating3"/>
+        </InfoArray>
+        <InfoArray index="Research10" Time="180" Upgrade="ShrikeTurret">
+            <Resource index="Minerals" value="250"/>
+            <Resource index="Vespene" value="150"/>
+            <Button DefaultButtonFace="ResearchShrikeTurret" Requirements="LearnShrikeTurret"/>
+        </InfoArray>
+        <InfoArray index="Research11" Time="110" Upgrade="ProjectileAccelerators">
+            <Resource index="Minerals" value="150"/>
+            <Resource index="Vespene" value="150"/>
+            <Button DefaultButtonFace="ProjectileAccelerators" Requirements="LearnProjectileAccelerators"/>
+        </InfoArray>
+        <InfoArray index="Research12" Time="180" Upgrade="OrbitalStrike">
+            <Resource index="Minerals" value="300"/>
+            <Resource index="Vespene" value="250"/>
+            <Button DefaultButtonFace="ResearchOribitalDropPods" Requirements="LearnOrbitalStrike"/>
+        </InfoArray>
+        <InfoArray index="Research13" Time="80" Upgrade="FireSuppressionSystems">
+            <Resource index="Minerals" value="150"/>
+            <Resource index="Vespene" value="150"/>
+            <Button DefaultButtonFace="ResearchFireSuppressionSystem" Requirements="LearnFireSuppressionSystem"/>
+        </InfoArray>
+        <InfoArray index="Research14" Time="80" Upgrade="ReinforcedSuperstructure">
+            <Resource index="Minerals" value="100"/>
+            <Resource index="Vespene" value="100"/>
+            <Button DefaultButtonFace="ResearchTitaniumHousing" Requirements="LearnTitaniumHousing"/>
+        </InfoArray>
+        <InfoArray index="Research15" Time="100" Upgrade="HailstormMissilePods">
+            <Resource index="Minerals" value="180"/>
+            <Resource index="Vespene" value="180"/>
+            <Button DefaultButtonFace="ResearchHellstormMisslePods" Requirements="LearnHellstormMisslePods"/>
+        </InfoArray>
+        <InfoArray index="Research16" Time="180" Upgrade="SupplyDepotDrop">
+            <Resource index="Minerals" value="300"/>
+            <Resource index="Vespene" value="300"/>
+            <Button DefaultButtonFace="ResearchSupplyDepotCalldown" Requirements="LearnSupplyDepotCalldown"/>
+        </InfoArray>
+        <InfoArray index="Research17" Time="120" Upgrade="CommandCenterReactor">
+            <Button DefaultButtonFace="ResearchCommandCenterReactor" Requirements="LearnCommandCenterReactor"/>
+        </InfoArray>
+    </CAbilResearch>
+    <CAbilBuild id="FactoryAddOns">
+        <InfoArray index="Build4" Unit="FactoryTechReactor" Time="50">
+            <Button DefaultButtonFace="TechReactor"/>
+        </InfoArray>
+    </CAbilBuild>
+    <CAbilResearch id="FactoryTechLabResearch">
+        <InfoArray index="Research3" Time="90" Upgrade="MultilockTargetingSystems">
+            <Resource index="Minerals" value="150"/>
+            <Resource index="Vespene" value="150"/>
+            <Button DefaultButtonFace="ResearchMultiLockWeaponsSystem" Requirements="LearnMultiSystem"/>
+        </InfoArray>
+        <InfoArray index="Research4" Time="80" Upgrade="AresClassWeaponsSystem">
+            <Resource index="Minerals" value="125"/>
+            <Resource index="Vespene" value="125"/>
+            <Button DefaultButtonFace="ResearchAresClassTargetingSystem" Requirements="LearnAresSystem"/>
+        </InfoArray>
+        <InfoArray index="Research5" Time="90" Upgrade="TriLithiumPowerCells">
+            <Resource index="Minerals" value="120"/>
+            <Resource index="Vespene" value="120"/>
+            <Button DefaultButtonFace="ResearchTriLithiumPowerCells" Requirements="LearnTriLithiumPowerCells"/>
+        </InfoArray>
+        <InfoArray index="Research6" Time="60" Upgrade="ShapedHull">
+            <Resource index="Minerals" value="100"/>
+            <Resource index="Vespene" value="100"/>
+            <Button DefaultButtonFace="ResearchShapedHull" Requirements="LearnShapedHull"/>
+        </InfoArray>
+        <InfoArray index="Research7" Time="90" Upgrade="SiegeTankShapedBlast">
+            <Resource index="Minerals" value="150"/>
+            <Resource index="Vespene" value="150"/>
+            <Button DefaultButtonFace="ResearchShapedBlast" Requirements="LearnShapedBlast"/>
+        </InfoArray>
+        <InfoArray index="Research8" Time="140" Upgrade="MechanicalRebirth">
+            <Resource index="Minerals" value="250"/>
+            <Resource index="Vespene" value="250"/>
+            <Button DefaultButtonFace="ResearchImmortalityProtocol" Requirements="LearnThorImmortality"/>
+        </InfoArray>
+        <InfoArray index="Research9" Time="90" Upgrade="NanoConstructor">
+            <Button DefaultButtonFace="ResearchReplenishableMagazine" Requirements="LearnReplenishableMines"/>
+        </InfoArray>
+    </CAbilResearch>
+    <CAbilTrain id="FactoryTrain">
+        <InfoArray index="Train1" Time="40">
+            <Button DefaultButtonFace="Vulture"/>
+            <Unit value="Vulture"/>
+        </InfoArray>
+        <InfoArray index="Train3" Time="50">
+            <Button DefaultButtonFace="Diamondback" Requirements="HaveAttachedTechLab"/>
+            <Unit value="Diamondback"/>
+        </InfoArray>
+        <InfoArray index="Train4" Time="50">
+            <Button DefaultButtonFace="Goliath" Requirements="HaveAttachedTechLab"/>
+            <Unit value="Goliath"/>
+        </InfoArray>
+        <InfoArray index="Train5">
+            <Button Requirements="HaveArmoryAndAttachedTechLabOrAttachedTechReactor"/>
+        </InfoArray>
+        <InfoArray index="Train7" Time="45">
+            <Button DefaultButtonFace="Predator"/>
+            <Unit value="Predator"/>
+        </InfoArray>
+    </CAbilTrain>
+    <CAbilResearch id="FleetBeaconResearch">
+        <InfoArray index="Research3" Time="80" Upgrade="GraviticThrusters">
+            <Resource index="Minerals" value="150"/>
+            <Resource index="Vespene" value="150"/>
+            <Button DefaultButtonFace="ResearchGraviticThrusters" Requirements="LearnGraviticBooster2"/>
+        </InfoArray>
+    </CAbilResearch>
+    <CAbilResearch id="FusionCoreResearch">
+        <InfoArray index="Research3" Time="60" Upgrade="DefensiveMatrix">
+            <Resource index="Minerals" value="150"/>
+            <Resource index="Vespene" value="150"/>
+            <Button DefaultButtonFace="DefensiveMatrix" Requirements="LearnDefensiveMatrix"/>
+        </InfoArray>
+        <InfoArray index="Research4" Time="60" Upgrade="HurricaneMissiles">
+            <Resource index="Minerals" value="150"/>
+            <Resource index="Vespene" value="150"/>
+            <Button DefaultButtonFace="MissilePods" Requirements="LearnMisslePod"/>
+        </InfoArray>
+    </CAbilResearch>
+    <CAbilResearch id="GhostAcademyResearch">
+        <InfoArray index="Research3" Time="180" Upgrade="CellularReactors">
+            <Resource index="Minerals" value="250"/>
+            <Charge CountStart="250"/>
+            <Button DefaultButtonFace="ResearchCellularReactors" Requirements="LearnCellularReactors"/>
+        </InfoArray>
+        <InfoArray index="Research4" Time="120" Upgrade="PermanentCloakGhost">
+            <Resource index="Minerals" value="150"/>
+            <Resource index="Vespene" value="150"/>
+            <Button DefaultButtonFace="ResearchCirusSuit" Requirements="LearnGhostPermCloak"/>
+        </InfoArray>
+        <InfoArray index="Research5" Time="120" Upgrade="PermanentCloakSpectre">
+            <Resource index="Minerals" value="150"/>
+            <Resource index="Vespene" value="150"/>
+            <Button DefaultButtonFace="ResearchNyxCloakingModule" Requirements="LearnSpectrePermCloak"/>
+        </InfoArray>
+        <InfoArray index="Research7" Time="90" Upgrade="OcularImplants">
+            <Resource index="Minerals" value="100"/>
+            <Resource index="Vespene" value="100"/>
+            <Button DefaultButtonFace="ResearchOccularImplants" Requirements="LearnOccularImplants"/>
+        </InfoArray>
+        <InfoArray index="Research8" Time="100" Upgrade="UltrasonicPulse">
+            <Resource index="Minerals" value="175"/>
+            <Resource index="Vespene" value="175"/>
+            <Button DefaultButtonFace="ResearchPsionicLash" Requirements="LearnPsionicLash"/>
+        </InfoArray>
+    </CAbilResearch>
+    <CAbilTrain id="LarvaTrain">
+        <InfoArray index="Train6" Time="100">
+            <Resource index="Minerals" value="350"/>
+            <Resource index="Vespene" value="400"/>
+            <Button DefaultButtonFace="MorphtoBrutalisk" Requirements="HaveUltraliskCavern"/>
+            <Unit value="Brutalisk"/>
+        </InfoArray>
+        <InfoArray index="Train9" Time="23">
+            <Resource index="Minerals" value="75"/>
+            <Resource index="Vespene" value="100"/>
+            <Button DefaultButtonFace="Scourge" Requirements="HaveSpire"/>
+            <Unit value="Scourge"/>
+            <Unit value="Scourge"/>
+        </InfoArray>
+    </CAbilTrain>
+    <CAbilResearch id="ResearchNexus">
+        <EditorCategories value="AbilityorEffectType:Units,Race:Protoss"/>
+        <InfoArray index="Research1" Time="10" Upgrade="DarkProtoss">
+            <Button DefaultButtonFace="DarkProtoss" Requirements="LearnDarkProtoss"/>
+        </InfoArray>
+    </CAbilResearch>
+    <CAbilTransport id="SpawnerTransport">
+        <AbilSetId value="ULdM"/>
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <CmdButtonArray index="Load" DefaultButtonFace="MedivacLoad"/>
+        <CmdButtonArray index="UnloadAll" DefaultButtonFace="BunkerUnloadAll">
+            <Flags index="ToSelection" value="1"/>
+        </CmdButtonArray>
+        <CmdButtonArray index="UnloadAt" DefaultButtonFace="MedivacUnloadAll"/>
+        <CmdButtonArray index="UnloadUnit">
+            <Flags index="Hidden" value="1"/>
+        </CmdButtonArray>
+        <CmdButtonArray index="LoadAll">
+            <Flags index="Hidden" value="1"/>
+        </CmdButtonArray>
+        <Flags index="CargoDeath" value="1"/>
+        <MaxCargoCount value="120"/>
+        <MaxCargoSize value="8"/>
+        <TotalCargoSpace value="120"/>
+        <Range value="5"/>
+        <MaxUnloadRange value="5"/>
+    </CAbilTransport>
+    <CAbilTrain id="StargateTrain">
+        <InfoArray index="Train7" Time="60" Effect="WarpInEffect">
+            <Button DefaultButtonFace="WarpInScout"/>
+            <Unit value="Scout"/>
+        </InfoArray>
+    </CAbilTrain>
+    <CAbilBuild id="StarportAddOns"/>
+    <CAbilResearch id="StarportTechLabResearch">
+        <InfoArray index="Research2" Time="110" Upgrade="WraithCloak">
+            <Resource index="Minerals" value="200"/>
+            <Resource index="Vespene" value="200"/>
+            <Button DefaultButtonFace="WraithCloak" Requirements="LearnWraithCloak"/>
+        </InfoArray>
+    </CAbilResearch>
+    <CAbilTrain id="StarportTrain">
+        <InfoArray index="Train6" Time="60">
+            <Button DefaultButtonFace="BuildScienceVessel" Requirements="HaveAttachedTechLab"/>
+            <Unit value="ScienceVessel"/>
+        </InfoArray>
+        <InfoArray index="Train7" Time="45">
+            <Button DefaultButtonFace="Wraith" Requirements="HaveAttachedTechLab"/>
+            <Unit value="Wraith"/>
+        </InfoArray>
+        <InfoArray index="Train8" Time="70">
+            <Button DefaultButtonFace="BuildHercules" Requirements="HaveAttachedStarportTechLabAndFusionCore"/>
+            <Unit value="Hercules"/>
+        </InfoArray>
+    </CAbilTrain>
+    <CAbilBuild id="TerranBuild">
+        <InfoArray index="Build2">
+            <Display index="Minerals" value="1"/>
+            <Display index="Vespene" value="1"/>
+        </InfoArray>
+        <InfoArray index="Build8" Unit="PsiDisruptor" Time="50">
+            <Button DefaultButtonFace="PsiDisruptor" Requirements="HaveEngineeringBay"/>
+        </InfoArray>
+        <InfoArray index="Build15" Unit="HiveMindEmulator" Time="50">
+            <Button DefaultButtonFace="HiveMindEmulator" Requirements="HaveEngineeringBay"/>
+        </InfoArray>
+        <InfoArray index="Build17" Unit="PerditionTurret" Time="40">
+            <Button DefaultButtonFace="PerditionTurret" Requirements="HaveEngineeringBay"/>
+        </InfoArray>
+        <InfoArray index="Build18" Unit="AutomatedRefinery" Time="30">
+            <Button DefaultButtonFace="AutomatedRefinery"/>
+        </InfoArray>
+    </CAbilBuild>
+</Catalog>

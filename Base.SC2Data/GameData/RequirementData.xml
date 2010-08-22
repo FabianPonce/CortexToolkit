@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Catalog>
+    <CRequirement id="LearnAresSystem">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="NotCountUpgradeAresClassWeaponsSystemQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="LearnBearclawNozzles">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="NotCountUpgradeBearclawNozzlesQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="LearnCellularReactors">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="NotCountUpgradeCellularReactorsQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="LearnCommandCenterReactor">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="NotCountUpgradeCommandCenterReactorQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="LearnDarkProtoss">
+        <EditorCategories value="Race:Protoss,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="NotCountUpgradeDarkProtossQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="LearnDefensiveMatrix">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="NotCountUpgradeDefensiveMatrixQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="LearnFireSuppressionSystem">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="NotCountUpgradeFireSuppressionSystemsQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="LearnFireSuppressionSystem2">
+        <EditorCategories value="Race:Terran,TechType:Unit"/>
+        <NodeArray index="Show" Link="NotCountUpgradeFireSuppressionSystemsQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="LearnGhostPermCloak">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Use" Link="CountUpgradePersonalCloakingCompleteOnly"/>
+        <NodeArray index="Show" Link="NotCountUpgradePermanentCloakGhostQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="LearnGraviticBooster2">
+        <EditorCategories value="Race:Protoss,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="NotCountUpgradeGraviticThrustersQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="LearnHellstormMisslePods">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Use" Link="CountUpgradeReinforcedSuperstructureCompleteOnly"/>
+        <NodeArray index="Show" Link="NotCountUpgradeHailstormMissilePodsQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="LearnJuggernautPlating">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="NotCountUpgradeFirebatJuggernautPlatingQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="LearnKineticBarriers">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="NotCountUpgradeKineticFieldsQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="LearnMisslePod">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="NotCountUpgradeHurricaneMissilesQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="LearnMultiSystem">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="NotCountUpgradeMultilockTargetingSystemsQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="LearnOccularImplants">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="NotCountUpgradeOcularImplantsQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="LearnOrbitalStrike">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Use" Link="AndCountUnitStarportCompleteOnlyCountUnitGhostAcademyCompleteOnly"/>
+        <NodeArray index="Show" Link="NotCountUpgradeOrbitalStrikeQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="LearnProjectileAccelerators">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="NotCountUpgradeProjectileAcceleratorsQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="LearnPsionicLash">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="NotCountUpgradeUltrasonicPulseQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="LearnRegenerativeBioSteel">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="NotCountUpgradeRegenerativeBioSteelQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="LearnReplenishableMines">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="NotCountUpgradeNanoConstructorQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="LearnShapedBlast">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="NotCountUpgradeSiegeTankShapedBlastQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="LearnShapedHull">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="NotCountUpgradeTriLithiumPowerCellsQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="LearnShrikeTurret">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Use" Link="CountUpgradeNeosteelFrameCompleteOnly"/>
+        <NodeArray index="Show" Link="NotCountUpgradeShrikeTurretQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="LearnSpectrePermCloak">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="NotCountUpgradePermanentCloakSpectreQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="LearnSupplyDepotCalldown">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Use" Link="AndCountUnitArmoryCompleteOnlyCountUnitStarportCompleteOnly"/>
+        <NodeArray index="Show" Link="NotCountUpgradeSupplyDepotDropQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="LearnTerranInfantryArmorVanadiumPlating1">
+        <NodeArray index="Show" Link="NotCountUpgradeTerranInfantryArmorsVanadiumPlatingLevel1QueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="LearnTerranInfantryArmorVanadiumPlating2">
+        <NodeArray index="Show" Link="NotCountUpgradeTerranInfantryArmorsVanadiumPlatingLevel2QueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="LearnTerranInfantryArmorVanadiumPlating3">
+        <NodeArray index="Show" Link="NotCountUpgradeTerranInfantryArmorsVanadiumPlatingLevel3QueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="LearnTerranInfantryWeaponUltraCapacitors1">
+        <NodeArray index="Show" Link="NotCountUpgradeTerranInfantryWeaponsUltraCapacitorsLevel1QueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="LearnTerranInfantryWeaponUltraCapacitors2">
+        <NodeArray index="Show" Link="NotCountUpgradeTerranInfantryWeaponsUltraCapacitorsLevel2QueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="LearnTerranInfantryWeaponUltraCapacitors3">
+        <NodeArray index="Show" Link="NotCountUpgradeTerranInfantryWeaponsUltraCapacitorsLevel3QueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="LearnTerranShipArmorVanadiumPlating1">
+        <NodeArray index="Show" Link="NotCountUpgradeTerranShipArmorsVanadiumPlatingLevel1QueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="LearnTerranShipArmorVanadiumPlating2">
+        <NodeArray index="Show" Link="NotCountUpgradeTerranShipArmorsVanadiumPlatingLevel2QueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="LearnTerranShipArmorVanadiumPlating3">
+        <NodeArray index="Show" Link="NotCountUpgradeTerranShipArmorsVanadiumPlatingLevel3QueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="LearnTerranShipWeaponUltraCapacitors1">
+        <NodeArray index="Show" Link="NotCountUpgradeTerranShipWeaponsUltraCapacitorsLevel1QueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="LearnTerranShipWeaponUltraCapacitors2">
+        <NodeArray index="Show" Link="NotCountUpgradeTerranShipWeaponsUltraCapacitorsLevel2QueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="LearnTerranShipWeaponUltraCapacitors3">
+        <NodeArray index="Show" Link="NotCountUpgradeTerranShipWeaponsUltraCapacitorsLevel3QueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="LearnTerranVehicleArmorVanadiumPlating1">
+        <NodeArray index="Show" Link="NotCountUpgradeTerranVehicleArmorsVanadiumPlatingLevel1QueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="LearnTerranVehicleArmorVanadiumPlating2">
+        <NodeArray index="Show" Link="NotCountUpgradeTerranVehicleArmorsVanadiumPlatingLevel2QueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="LearnTerranVehicleArmorVanadiumPlating3">
+        <NodeArray index="Show" Link="NotCountUpgradeTerranVehicleArmorsVanadiumPlatingLevel3QueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="LearnTerranVehicleWeaponUltraCapacitors1">
+        <NodeArray index="Show" Link="NotCountUpgradeTerranVehicleWeaponsUltraCapacitorsLevel1QueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="LearnTerranVehicleWeaponUltraCapacitors2">
+        <NodeArray index="Show" Link="NotCountUpgradeTerranVehicleWeaponsUltraCapacitorsLevel2QueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="LearnTerranVehicleWeaponUltraCapacitors3">
+        <NodeArray index="Show" Link="NotCountUpgradeTerranVehicleWeaponsUltraCapacitorsLevel3QueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="LearnThorImmortality">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="NotCountUpgradeMechanicalRebirthQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="LearnTitaniumHousing">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="NotCountUpgradeReinforcedSuperstructureQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="LearnTriLithiumPowerCells">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="NotCountUpgradeTriLithiumPowerCellsQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="LearnWraithCloak2">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="NotCountUpgradeWraithCloakQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="TitaniumHousingResearched">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="CountUpgradeReinforcedSuperstructureCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="UseNeoSteelFrame">
+        <NodeArray index="Use" Link="CountUpgradeNeosteelFrameCompleteOnly"/>
+        <NodeArray index="Show" Link="CountUpgradeNeosteelFrameCompleteOnly"/>
+    </CRequirement>
+</Catalog>

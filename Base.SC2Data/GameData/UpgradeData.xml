@@ -1,0 +1,1034 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Catalog>
+    <CUpgrade default="1" id="ProtossAirArmors">
+        <EffectArray Operation="Set" Reference="Actor,VoidRay,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-airarmorlevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Observer,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-airarmorlevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Phoenix,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-airarmorlevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,WarpPrism,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-airarmorlevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,WarpPrismPhasing,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-airarmorlevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Carrier,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-airarmorlevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Interceptor,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-airarmorlevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Mothership,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-airarmorlevel1.dds"/>
+        <EffectArray Reference="Unit,TalDarimMothership,LifeArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,TalDarimMothership,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Purifier,LifeArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,Purifier,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Scout,LifeArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,Scout,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Urun,LifeArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,Urun,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Mohandar,LifeArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,Mohandar,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Selendis,LifeArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,Selendis,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Artanis,LifeArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,Artanis,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,SelendisInterceptor,LifeArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,SelendisInterceptor,LifeArmorLevel" Value="1"/>
+        <EffectArray Operation="Set" Reference="Actor,Tychus05HeroMothership,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-airarmorlevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Purifier,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-airarmorlevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Scout,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-airarmorlevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Urun,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-airarmorlevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Mohandar,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-airarmorlevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Selendis,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-airarmorlevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Artanis,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-airarmorlevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,SelendisInterceptor,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-airarmorlevel1.dds"/>
+    </CUpgrade>
+    <CUpgrade default="1" id="ProtossAirWeapons">
+        <EffectArray Operation="Set" Reference="Weapon,IonCannons,Icon" Value="Assets\Textures\btn-upgrade-protoss-airweaponslevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,PrismaticBeam,Icon" Value="Assets\Textures\btn-upgrade-protoss-airweaponslevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,InterceptorBeam,Icon" Value="Assets\Textures\btn-upgrade-protoss-airweaponslevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,MothershipBeam,Icon" Value="Assets\Textures\btn-upgrade-protoss-airweaponslevel1.dds"/>
+        <EffectArray Reference="Effect,Tychus05HeroMothershipBeamDamage,Amount" Value="2.000000"/>
+        <EffectArray Reference="Weapon,Tychus05HeroMothershipBeam,Level" Value="1"/>
+        <EffectArray Reference="Effect,PurifierBeamDamage,Amount" Value="2.000000"/>
+        <EffectArray Reference="Weapon,PurifierWeapon,Level" Value="1"/>
+        <EffectArray Reference="Weapon,ScoutGround,Level" Value="1"/>
+        <EffectArray Reference="Effect,ScoutGround,Amount" Value="1"/>
+        <EffectArray Reference="Weapon,ScoutAir,Level" Value="1"/>
+        <EffectArray Reference="Effect,ScoutAirU,Amount" Value="1"/>
+        <EffectArray Reference="Weapon,UrunEnergyBeam,Level" Value="1"/>
+        <EffectArray Reference="Effect,UrunEnergyBeamDamage,Amount" Value="2"/>
+        <EffectArray Reference="Weapon,MohandarPrismaticBeam,Level" Value="1"/>
+        <EffectArray Reference="Effect,MohandarMUx1,Amount" Value="1"/>
+        <EffectArray Reference="Effect,MohandarMUx2,Amount" Value="2"/>
+        <EffectArray Reference="Effect,MohandarMUx3,Amount" Value="4"/>
+        <EffectArray Reference="Weapon,ArtanisBeam,Level" Value="1"/>
+        <EffectArray Reference="Effect,ArtanisBeamDamage,Amount" Value="1"/>
+        <EffectArray Reference="Weapon,SelendisInterceptorBeam,Level" Value="1"/>
+        <EffectArray Reference="Effect,SelendisInterceptorU,Amount" Value="1"/>
+        <EffectArray Reference="Weapon,SelendisInterceptor,Level" Value="1"/>
+        <EffectArray Operation="Set" Reference="Weapon,Tychus05HeroMothershipBeam,Icon" Value="Assets\Textures\btn-upgrade-protoss-airweaponslevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,PurifierWeapon,Icon" Value="Assets\Textures\btn-upgrade-protoss-airweaponslevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,ScoutGround,Icon" Value="Assets\Textures\btn-upgrade-protoss-airweaponslevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,ScoutAir,Icon" Value="Assets\Textures\btn-upgrade-protoss-airweaponslevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,UrunEnergyBeam,Icon" Value="Assets\Textures\btn-upgrade-protoss-airweaponslevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,MohandarPrismaticBeam,Icon" Value="Assets\Textures\btn-upgrade-protoss-airweaponslevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,ArtanisBeam,Icon" Value="Assets\Textures\btn-upgrade-protoss-airweaponslevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,SelendisInterceptorBeam,Icon" Value="Assets\Textures\btn-upgrade-protoss-airweaponslevel1.dds"/>
+    </CUpgrade>
+    <CUpgrade default="1" id="ProtossGroundArmors">
+        <EffectArray Operation="Set" Reference="Actor,Probe,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-groundarmorlevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Zealot,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-groundarmorlevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Sentry,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-groundarmorlevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Stalker,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-groundarmorlevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Immortal,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-groundarmorlevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,HighTemplar,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-groundarmorlevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,DarkTemplar,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-groundarmorlevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Archon,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-groundarmorlevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Colossus,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-groundarmorlevel1.dds"/>
+        <EffectArray Reference="Unit,Zeratul,LifeArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,Zeratul,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Karass,LifeArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,Karass,LifeArmorLevel" Value="1"/>
+        <EffectArray Operation="Set" Reference="Actor,Zeratul,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-groundarmorlevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Karass,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-groundarmorlevel1.dds"/>
+    </CUpgrade>
+    <CUpgrade default="1" id="ProtossGroundWeapons">
+        <EffectArray Operation="Set" Reference="Weapon,PsiBlades,Icon" Value="Assets\Textures\btn-upgrade-protoss-groundweaponslevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,DisruptionBeam,Icon" Value="Assets\Textures\btn-upgrade-protoss-groundweaponslevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,ParticleDisruptors,Icon" Value="Assets\Textures\btn-upgrade-protoss-groundweaponslevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,PhaseDisruptors,Icon" Value="Assets\Textures\btn-upgrade-protoss-groundweaponslevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,WarpBlades,Icon" Value="Assets\Textures\btn-upgrade-protoss-groundweaponslevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,PsionicShockwave,Icon" Value="Assets\Textures\btn-upgrade-protoss-groundweaponslevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,ThermalLances,Icon" Value="Assets\Textures\btn-upgrade-protoss-groundweaponslevel1.dds"/>
+        <EffectArray Reference="Weapon,Zeratul,Level" Value="1"/>
+        <EffectArray Reference="Effect,Zeratul,Amount" Value="5"/>
+        <EffectArray Reference="Weapon,PsiDischarge,Level" Value="1"/>
+        <EffectArray Reference="Effect,PsiDischargeDamage,Amount" Value="2"/>
+        <EffectArray Operation="Set" Reference="Weapon,Zeratul,Icon" Value="Assets\Textures\btn-upgrade-protoss-groundweaponslevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,PsiDischarge,Icon" Value="Assets\Textures\btn-upgrade-protoss-groundweaponslevel1.dds"/>
+    </CUpgrade>
+    <CUpgrade default="1" id="ProtossShields">
+        <Icon value="Assets\Textures\btn-upgrade-protoss-shieldslevel1.dds"/>
+        <ScoreAmount value="400"/>
+        <EffectArray Operation="Set" Reference="Actor,Probe,ShieldArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-shieldslevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Zealot,ShieldArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-shieldslevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Sentry,ShieldArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-shieldslevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Stalker,ShieldArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-shieldslevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Immortal,ShieldArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-shieldslevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,HighTemplar,ShieldArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-shieldslevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,DarkTemplar,ShieldArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-shieldslevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Archon,ShieldArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-shieldslevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Observer,ShieldArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-shieldslevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,WarpPrism,ShieldArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-shieldslevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,WarpPrismPhasing,ShieldArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-shieldslevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Colossus,ShieldArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-shieldslevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Phoenix,ShieldArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-shieldslevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,VoidRay,ShieldArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-shieldslevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Carrier,ShieldArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-shieldslevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Interceptor,ShieldArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-shieldslevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Mothership,ShieldArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-shieldslevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Nexus,ShieldArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-shieldslevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Assimilator,ShieldArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-shieldslevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Pylon,ShieldArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-shieldslevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Gateway,ShieldArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-shieldslevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,WarpGate,ShieldArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-shieldslevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Forge,ShieldArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-shieldslevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,PhotonCannon,ShieldArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-shieldslevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,CyberneticsCore,ShieldArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-shieldslevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,TwilightCouncil,ShieldArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-shieldslevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,TemplarArchive,ShieldArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-shieldslevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,DarkShrine,ShieldArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-shieldslevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,RoboticsBay,ShieldArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-shieldslevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,RoboticsFacility,ShieldArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-shieldslevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Stargate,ShieldArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-shieldslevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,FleetBeacon,ShieldArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-shieldslevel1.dds"/>
+        <EffectArray Reference="Unit,TalDarimMothership,ShieldArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,TalDarimMothership,ShieldArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Purifier,ShieldArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,Purifier,ShieldArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Scout,ShieldArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,Scout,ShieldArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Zeratul,ShieldArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,Zeratul,ShieldArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Urun,ShieldArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,Urun,ShieldArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Mohandar,ShieldArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,Mohandar,ShieldArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Selendis,ShieldArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,Selendis,ShieldArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Artanis,ShieldArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,Artanis,ShieldArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,SelendisInterceptor,ShieldArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,SelendisInterceptor,ShieldArmor" Value="1"/>
+        <EffectArray Reference="Unit,Karass,ShieldArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,Karass,ShieldArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Obelisk,ShieldArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Obelisk,ShieldArmor" Value="1"/>
+        <EffectArray Reference="Unit,HybridReaver,ShieldArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,HybridReaver,ShieldArmor" Value="1"/>
+        <EffectArray Reference="Unit,HybridDestroyer,ShieldArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,HybridDestroyer,ShieldArmor" Value="1"/>
+        <EffectArray Operation="Set" Reference="Actor,Tychus05HeroMothership,ShieldArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-shieldslevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Purifier,ShieldArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-shieldslevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Scout,ShieldArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-shieldslevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Zeratul,ShieldArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-shieldslevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Urun,ShieldArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-shieldslevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Mohandar,ShieldArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-shieldslevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Artanis,ShieldArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-shieldslevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Selendis,ShieldArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-shieldslevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,SelendisInterceptor,ShieldArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-shieldslevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Karass,ShieldArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-shieldslevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Obelisk,ShieldArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-shieldslevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,HybridD,ShieldArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-shieldslevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,HybridE,ShieldArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-shieldslevel1.dds"/>
+    </CUpgrade>
+    <CUpgrade default="1" id="ZergFlyerArmors">
+        <EffectArray Operation="Set" Reference="Actor,Mutalisk,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-flyercarapace-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Overlord,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-flyercarapace-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Overseer,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-flyercarapace-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Corruptor,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-flyercarapace-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,BroodLord,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-flyercarapace-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,BroodLordCocoon,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-flyercarapace-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,OverlordCocoon,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-flyercarapace-level1.dds"/>
+        <EffectArray Reference="Unit,Leviathan,LifeArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,Leviathan,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Scourge,LifeArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,Scourge,LifeArmorLevel" Value="1"/>
+        <EffectArray Operation="Set" Reference="Actor,Leviathan,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-flyercarapace-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Scourge,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-flyercarapace-level1.dds"/>
+    </CUpgrade>
+    <CUpgrade default="1" id="ZergFlyerWeapons">
+        <EffectArray Operation="Set" Reference="Weapon,GlaiveWurm,Icon" Value="Assets\Textures\btn-upgrade-zerg-airattacks-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,BroodlingStrike,Icon" Value="Assets\Textures\btn-upgrade-zerg-airattacks-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,ParasiteSpore,Icon" Value="Assets\Textures\btn-upgrade-zerg-airattacks-level1.dds"/>
+        <EffectArray Reference="Effect,LeviathanAirAttackDamage,Amount" Value="1.000000"/>
+        <EffectArray Reference="Weapon,ScourgeSwarm,Level" Value="1"/>
+        <EffectArray Reference="Effect,LeviathanGroundAttackDamage,Amount" Value="2.000000"/>
+        <EffectArray Reference="Weapon,Tentacles,Level" Value="1"/>
+        <EffectArray Operation="Set" Reference="Weapon,ScourgeSwarm,Icon" Value="Assets\Textures\btn-upgrade-zerg-airattacks-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,Tentacles,Icon" Value="Assets\Textures\btn-upgrade-zerg-airattacks-level1.dds"/>
+    </CUpgrade>
+    <CUpgrade default="1" id="ZergGroundArmors">
+        <EffectArray Operation="Set" Reference="Actor,Drone,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Zergling,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Hydralisk,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Roach,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Baneling,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Ultralisk,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Queen,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Infestor,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Broodling,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,InfestorTerran,LifeArmorIcon"/>
+        <EffectArray Operation="Set" Reference="Actor,BanelingCocoon,LifeArmorIcon"/>
+        <EffectArray Reference="Unit,InfestedCivilian,LifeArmor"/>
+        <EffectArray Reference="Unit,InfestedCivilian,LifeArmorLevel"/>
+        <EffectArray Reference="Unit,InfestedCivilianBurrowed,LifeArmor"/>
+        <EffectArray Reference="Unit,InfestedCivilianBurrowed,LifeArmorLevel"/>
+        <EffectArray Reference="Unit,InfestedTerranCampaign,LifeArmor"/>
+        <EffectArray Reference="Unit,InfestedTerranCampaign,LifeArmorLevel"/>
+        <EffectArray Reference="Unit,InfestedTerranCampaignBurrowed,LifeArmor"/>
+        <EffectArray Reference="Unit,InfestedTerranCampaignBurrowed,LifeArmorLevel"/>
+        <EffectArray Reference="Unit,InfestedAbomination,LifeArmor"/>
+        <EffectArray Reference="Unit,InfestedAbomination,LifeArmorLevel"/>
+        <EffectArray Reference="Unit,InfestedAbominationBurrowed,LifeArmor"/>
+        <EffectArray Reference="Unit,InfestedAbominationBurrowed,LifeArmorLevel"/>
+        <EffectArray Reference="Unit,Lurker,LifeArmor"/>
+        <EffectArray Reference="Unit,Lurker,LifeArmorLevel"/>
+        <EffectArray Reference="Unit,LurkerBurrowed,LifeArmor"/>
+        <EffectArray Reference="Unit,LurkerBurrowed,LifeArmorLevel"/>
+        <EffectArray Reference="Unit,Omegalisk,LifeArmor"/>
+        <EffectArray Reference="Unit,Omegalisk,LifeArmorLevel"/>
+        <EffectArray Reference="Unit,OmegaliskBurrowed,LifeArmor"/>
+        <EffectArray Reference="Unit,OmegaliskBurrowed,LifeArmorLevel"/>
+        <EffectArray Reference="Unit,Swarmling,LifeArmor"/>
+        <EffectArray Reference="Unit,Swarmling,LifeArmorLevel"/>
+        <EffectArray Reference="Unit,HunterKiller,LifeArmor"/>
+        <EffectArray Reference="Unit,HunterKiller,LifeArmorLevel"/>
+        <EffectArray Reference="Unit,HunterKillerBurrowed,LifeArmor"/>
+        <EffectArray Reference="Unit,HunterKillerBurrowed,LifeArmorLevel"/>
+        <EffectArray Reference="Unit,KerriganChar,LifeArmor"/>
+        <EffectArray Reference="Unit,KerriganChar,LifeArmorLevel"/>
+        <EffectArray Reference="Unit,HybridDestroyer,LifeArmor"/>
+        <EffectArray Reference="Unit,HybridDestroyer,LifeArmorLevel"/>
+        <EffectArray Reference="Unit,HybridReaver,LifeArmor"/>
+        <EffectArray Reference="Unit,HybridReaver,LifeArmorLevel"/>
+        <EffectArray Operation="Set" Reference="Actor,InfestedCivilian,LifeArmorIcon"/>
+        <EffectArray Operation="Set" Reference="Actor,InfestedTerranCampaign,LifeArmorIcon"/>
+        <EffectArray Operation="Set" Reference="Actor,InfestedAbomination,LifeArmorIcon"/>
+        <EffectArray Operation="Set" Reference="Actor,Lurker,LifeArmorIcon"/>
+        <EffectArray Operation="Set" Reference="Actor,Omegalisk,LifeArmorIcon"/>
+        <EffectArray Operation="Set" Reference="Actor,SwarmGuardianSpawn,LifeArmorIcon"/>
+        <EffectArray Operation="Set" Reference="Actor,HunterKiller,LifeArmorIcon"/>
+        <EffectArray Operation="Set" Reference="Actor,Val03QueenOfBlades,LifeArmorIcon"/>
+        <EffectArray Operation="Set" Reference="Actor,HybridD,LifeArmorIcon"/>
+        <EffectArray Operation="Set" Reference="Actor,HybridE,LifeArmorIcon"/>
+        <EffectArray Reference="Unit,Brutalisk,LifeArmor"/>
+        <EffectArray Reference="Unit,Brutalisk,LifeArmorLevel"/>
+        <EffectArray Operation="Set" Reference="Actor,Brutalisk,LifeArmorIcon"/>
+    </CUpgrade>
+    <CUpgrade default="1" id="ZergMeleeWeapons">
+        <EffectArray Operation="Set" Reference="Weapon,Claws,Icon" Value="Assets\Textures\btn-upgrade-zerg-meleeattacks-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,NeedleClaws,Icon" Value="Assets\Textures\btn-upgrade-zerg-meleeattacks-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,KaiserBlades,Icon" Value="Assets\Textures\btn-upgrade-zerg-meleeattacks-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,Ram,Icon" Value="Assets\Textures\btn-upgrade-zerg-meleeattacks-level1.dds"/>
+        <EffectArray Reference="Effect,InfestedAbomination,Amount" Value="2.000000"/>
+        <EffectArray Reference="Weapon,InfestedAbomination,Level" Value="1"/>
+        <EffectArray Reference="Effect,InfestedClawsDamage,Amount" Value="1.000000"/>
+        <EffectArray Reference="Weapon,InfestedClaws,Level" Value="1"/>
+        <EffectArray Reference="Effect,OmegaliskHeadAttackDamage,Amount" Value="5.000000"/>
+        <EffectArray Reference="Weapon,OmegaliskHeadAttack,Level" Value="1"/>
+        <EffectArray Reference="Effect,OmegaliskCleaveMU,Amount" Value="1.000000"/>
+        <EffectArray Reference="Effect,OmegaliskU,Amount" Value="2.000000"/>
+        <EffectArray Reference="Weapon,Omegalisk,Level" Value="1"/>
+        <EffectArray Reference="Effect,Swarmling,Amount" Value="1.000000"/>
+        <EffectArray Reference="Weapon,Swarmling,Level" Value="1"/>
+        <EffectArray Reference="Effect,Val03RazorTalonsDamage,Amount" Value="5.000000"/>
+        <EffectArray Reference="Weapon,Val03RazorTalons,Level" Value="1"/>
+        <EffectArray Reference="Effect,ShockDDamage,Amount" Value="2.000000"/>
+        <EffectArray Reference="Weapon,HybridD,Level" Value="1"/>
+        <EffectArray Reference="Effect,ShockEDamage,Amount" Value="5.000000"/>
+        <EffectArray Reference="Weapon,HybridE,Level" Value="1"/>
+        <EffectArray Operation="Set" Reference="Weapon,InfestedAbomination,Icon" Value="Assets\Textures\btn-upgrade-zerg-meleeattacks-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,InfestedClaws,Icon" Value="Assets\Textures\btn-upgrade-zerg-meleeattacks-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,OmegaliskHeadAttack,Icon" Value="Assets\Textures\btn-upgrade-zerg-meleeattacks-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,Omegalisk,Icon" Value="Assets\Textures\btn-upgrade-zerg-meleeattacks-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,Swarmling,Icon" Value="Assets\Textures\btn-upgrade-zerg-meleeattacks-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,Val03RazorTalons,Icon" Value="Assets\Textures\btn-upgrade-zerg-meleeattacks-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,HybridD,Icon" Value="Assets\Textures\btn-upgrade-protoss-groundweaponslevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,HybridE,Icon" Value="Assets\Textures\btn-upgrade-zerg-meleeattacks-level1.dds"/>
+        <EffectArray Reference="Effect,BrutalizeDamage,Amount" Value="4"/>
+        <EffectArray Reference="Weapon,Brutalize,Level" Value="1"/>
+        <EffectArray Operation="Set" Reference="Weapon,Brutalize,Icon" Value="Assets\Textures\btn-upgrade-zerg-meleeattacks-level1.dds"/>
+    </CUpgrade>
+    <CUpgrade default="1" id="ZergMissileWeapons">
+        <EffectArray Operation="Set" Reference="Weapon,NeedleSpines,Icon" Value="Assets\Textures\btn-upgrade-zerg-missileattacks-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,Talons,Icon" Value="Assets\Textures\btn-upgrade-zerg-missileattacks-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,AcidSaliva,Icon" Value="Assets\Textures\btn-upgrade-zerg-missileattacks-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,AcidSpines,Icon" Value="Assets\Textures\btn-upgrade-zerg-missileattacks-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,InfestedGuassRifle,Icon" Value="Assets\Textures\btn-upgrade-zerg-missileattacks-level1.dds"/>
+        <EffectArray Reference="Effect,InfestedTerranCampaign,Amount" Value="1.000000"/>
+        <EffectArray Reference="Weapon,InfestedTerranCampaign,Level" Value="1"/>
+        <EffectArray Reference="Effect,HunterKillerU,Amount" Value="2.000000"/>
+        <EffectArray Reference="Effect,HunterKillerMelee,Amount" Value="2.000000"/>
+        <EffectArray Reference="Weapon,HunterKiller,Level" Value="1"/>
+        <EffectArray Reference="Weapon,Lurker,Level" Value="1"/>
+        <EffectArray Reference="Effect,LurkerU,Amount" Value="2"/>
+        <EffectArray Reference="Effect,LurkerU,AttributeBonus[e_unitAttributeArmored]" Value="2.000000"/>
+        <EffectArray Reference="Effect,Val03PsiBlastDamage,Amount" Value="5.000000"/>
+        <EffectArray Reference="Weapon,Val03QueenOfBladesPsiBlast,Level" Value="1"/>
+        <EffectArray Operation="Set" Reference="Weapon,InfestedTerranCampaign,Icon" Value="Assets\Textures\btn-upgrade-zerg-missileattacks-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,HunterKiller,Icon" Value="Assets\Textures\btn-upgrade-zerg-missileattacks-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,Lurker,Icon" Value="Assets\Textures\btn-upgrade-zerg-missileattacks-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,Val03QueenOfBladesPsiBlast,Icon" Value="Assets\Textures\btn-upgrade-zerg-missileattacks-level1.dds"/>
+        <EffectArray Reference="Effect,FerociousSpewDamage,Amount" Value="4"/>
+        <EffectArray Reference="Weapon,FerociousSpew,Level" Value="1"/>
+        <EffectArray Operation="Set" Reference="Weapon,FerociousSpew,Icon" Value="Assets\Textures\btn-upgrade-zerg-missileattacks-level1.dds"/>
+    </CUpgrade>
+    <CUpgrade id="GraviticThrusters">
+        <Icon value="Assets\Textures\btn-upgrade-protoss-graviticbooster.dds"/>
+        <Race value="Prot"/>
+        <EditorCategories value="Race:Protoss,UpgradeType:Talents"/>
+    </CUpgrade>
+    <CUpgrade id="HiSecAutoTracking">
+        <EffectArray Reference="Weapon,ShrikeTurret,Range" Value="1"/>
+        <EffectArray Reference="Weapon,HailstormMissilePods,Range" Value="1"/>
+    </CUpgrade>
+    <CUpgrade id="NeosteelFrame">
+        <EffectArray Reference="Unit,Bunker,LifeMax" Value="150"/>
+        <EffectArray Reference="Unit,Bunker,LifeStart" Value="150"/>
+    </CUpgrade>
+    <CUpgrade id="ProtossAirArmorsLevel1">
+        <EffectArray Reference="Unit,TalDarimMothership,LifeArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,TalDarimMothership,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Purifier,LifeArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,Purifier,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Scout,LifeArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,Scout,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Urun,LifeArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,Urun,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Mohandar,LifeArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,Mohandar,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Selendis,LifeArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,Selendis,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Artanis,LifeArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,Artanis,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,SelendisInterceptor,LifeArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,SelendisInterceptor,LifeArmorLevel" Value="1"/>
+        <EffectArray Operation="Set" Reference="Actor,Tychus05HeroMothership,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-airarmorlevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Purifier,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-airarmorlevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Scout,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-airarmorlevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Urun,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-airarmorlevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Mohandar,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-airarmorlevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Selendis,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-airarmorlevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Artanis,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-airarmorlevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,SelendisInterceptor,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-airarmorlevel1.dds"/>
+    </CUpgrade>
+    <CUpgrade id="ProtossAirArmorsLevel2">
+        <EffectArray Reference="Unit,TalDarimMothership,LifeArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,TalDarimMothership,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Purifier,LifeArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,Purifier,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Scout,LifeArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,Scout,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Urun,LifeArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,Urun,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Mohandar,LifeArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,Mohandar,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Selendis,LifeArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,Selendis,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Artanis,LifeArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,Artanis,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,SelendisInterceptor,LifeArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,SelendisInterceptor,LifeArmorLevel" Value="1"/>
+        <EffectArray Operation="Set" Reference="Actor,Tychus05HeroMothership,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-airarmorlevel2.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Purifier,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-airarmorlevel2.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Scout,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-airarmorlevel2.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Urun,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-airarmorlevel2.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Mohandar,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-airarmorlevel2.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Selendis,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-airarmorlevel2.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Artanis,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-airarmorlevel2.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,SelendisInterceptor,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-airarmorlevel2.dds"/>
+    </CUpgrade>
+    <CUpgrade id="ProtossAirArmorsLevel3">
+        <EffectArray Reference="Unit,TalDarimMothership,LifeArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,TalDarimMothership,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Purifier,LifeArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,Purifier,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Scout,LifeArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,Scout,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Urun,LifeArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,Urun,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Mohandar,LifeArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,Mohandar,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Selendis,LifeArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,Selendis,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Artanis,LifeArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,Artanis,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,SelendisInterceptor,LifeArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,SelendisInterceptor,LifeArmorLevel" Value="1"/>
+        <EffectArray Operation="Set" Reference="Actor,Tychus05HeroMothership,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-airarmorlevel3.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Purifier,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-airarmorlevel3.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Scout,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-airarmorlevel3.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Urun,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-airarmorlevel3.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Mohandar,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-airarmorlevel3.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Selendis,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-airarmorlevel3.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Artanis,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-airarmorlevel3.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,SelendisInterceptor,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-airarmorlevel3.dds"/>
+    </CUpgrade>
+    <CUpgrade id="ProtossAirWeaponsLevel1">
+        <EffectArray Reference="Effect,Tychus05HeroMothershipBeamDamage,Amount" Value="2.000000"/>
+        <EffectArray Reference="Weapon,Tychus05HeroMothershipBeam,Level" Value="1"/>
+        <EffectArray Reference="Effect,PurifierBeamDamage,Amount" Value="2.000000"/>
+        <EffectArray Reference="Weapon,PurifierWeapon,Level" Value="1"/>
+        <EffectArray Reference="Weapon,ScoutGround,Level" Value="1"/>
+        <EffectArray Reference="Effect,ScoutGround,Amount" Value="1"/>
+        <EffectArray Reference="Weapon,ScoutAir,Level" Value="1"/>
+        <EffectArray Reference="Effect,ScoutAirU,Amount" Value="1"/>
+        <EffectArray Reference="Weapon,UrunEnergyBeam,Level" Value="1"/>
+        <EffectArray Reference="Effect,UrunEnergyBeamDamage,Amount" Value="2"/>
+        <EffectArray Reference="Weapon,MohandarPrismaticBeam,Level" Value="1"/>
+        <EffectArray Reference="Effect,MohandarMUx1,Amount" Value="1"/>
+        <EffectArray Reference="Effect,MohandarMUx2,Amount" Value="2"/>
+        <EffectArray Reference="Effect,MohandarMUx3,Amount" Value="4"/>
+        <EffectArray Reference="Weapon,ArtanisBeam,Level" Value="1"/>
+        <EffectArray Reference="Effect,ArtanisBeamDamage,Amount" Value="1"/>
+        <EffectArray Reference="Weapon,SelendisInterceptorBeam,Level" Value="1"/>
+        <EffectArray Reference="Effect,SelendisInterceptorU,Amount" Value="1"/>
+        <EffectArray Reference="Weapon,SelendisInterceptor,Level" Value="1"/>
+        <EffectArray Operation="Set" Reference="Weapon,Tychus05HeroMothershipBeam,Icon" Value="Assets\Textures\btn-upgrade-protoss-airweaponslevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,PurifierWeapon,Icon" Value="Assets\Textures\btn-upgrade-protoss-airweaponslevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,ScoutGround,Icon" Value="Assets\Textures\btn-upgrade-protoss-airweaponslevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,ScoutAir,Icon" Value="Assets\Textures\btn-upgrade-protoss-airweaponslevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,UrunEnergyBeam,Icon" Value="Assets\Textures\btn-upgrade-protoss-airweaponslevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,MohandarPrismaticBeam,Icon" Value="Assets\Textures\btn-upgrade-protoss-airweaponslevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,ArtanisBeam,Icon" Value="Assets\Textures\btn-upgrade-protoss-airweaponslevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,SelendisInterceptorBeam,Icon" Value="Assets\Textures\btn-upgrade-protoss-airweaponslevel1.dds"/>
+    </CUpgrade>
+    <CUpgrade id="ProtossAirWeaponsLevel2">
+        <EffectArray Reference="Effect,Tychus05HeroMothershipBeamDamage,Amount" Value="2.000000"/>
+        <EffectArray Reference="Weapon,Tychus05HeroMothershipBeam,Level" Value="1"/>
+        <EffectArray Reference="Effect,PurifierBeamDamage,Amount" Value="2.000000"/>
+        <EffectArray Reference="Weapon,PurifierWeapon,Level" Value="1"/>
+        <EffectArray Reference="Weapon,ScoutGround,Level" Value="1"/>
+        <EffectArray Reference="Effect,ScoutGround,Amount" Value="1"/>
+        <EffectArray Reference="Weapon,ScoutAir,Level" Value="1"/>
+        <EffectArray Reference="Effect,ScoutAirU,Amount" Value="1"/>
+        <EffectArray Reference="Weapon,UrunEnergyBeam,Level" Value="1"/>
+        <EffectArray Reference="Effect,UrunEnergyBeamDamage,Amount" Value="2"/>
+        <EffectArray Reference="Weapon,MohandarPrismaticBeam,Level" Value="1"/>
+        <EffectArray Reference="Effect,MohandarMUx1,Amount" Value="1"/>
+        <EffectArray Reference="Effect,MohandarMUx2,Amount" Value="2"/>
+        <EffectArray Reference="Effect,MohandarMUx3,Amount" Value="4"/>
+        <EffectArray Reference="Weapon,ArtanisBeam,Level" Value="1"/>
+        <EffectArray Reference="Effect,ArtanisBeamDamage,Amount" Value="1"/>
+        <EffectArray Reference="Weapon,SelendisInterceptorBeam,Level" Value="1"/>
+        <EffectArray Reference="Effect,SelendisInterceptorU,Amount" Value="1"/>
+        <EffectArray Reference="Weapon,SelendisInterceptor,Level" Value="1"/>
+        <EffectArray Operation="Set" Reference="Weapon,Tychus05HeroMothershipBeam,Icon" Value="Assets\Textures\btn-upgrade-protoss-airweaponslevel2.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,PurifierWeapon,Icon" Value="Assets\Textures\btn-upgrade-protoss-airweaponslevel2.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,ScoutGround,Icon" Value="Assets\Textures\btn-upgrade-protoss-airweaponslevel2.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,ScoutAir,Icon" Value="Assets\Textures\btn-upgrade-protoss-airweaponslevel2.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,UrunEnergyBeam,Icon" Value="Assets\Textures\btn-upgrade-protoss-airweaponslevel2.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,MohandarPrismaticBeam,Icon" Value="Assets\Textures\btn-upgrade-protoss-airweaponslevel2.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,ArtanisBeam,Icon" Value="Assets\Textures\btn-upgrade-protoss-airweaponslevel2.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,SelendisInterceptorBeam,Icon" Value="Assets\Textures\btn-upgrade-protoss-airweaponslevel2.dds"/>
+    </CUpgrade>
+    <CUpgrade id="ProtossAirWeaponsLevel3">
+        <EffectArray Reference="Effect,Tychus05HeroMothershipBeamDamage,Amount" Value="2.000000"/>
+        <EffectArray Reference="Weapon,Tychus05HeroMothershipBeam,Level" Value="1"/>
+        <EffectArray Reference="Effect,PurifierBeamDamage,Amount" Value="2.000000"/>
+        <EffectArray Reference="Weapon,PurifierWeapon,Level" Value="1"/>
+        <EffectArray Reference="Weapon,ScoutGround,Level" Value="1"/>
+        <EffectArray Reference="Effect,ScoutGround,Amount" Value="1"/>
+        <EffectArray Reference="Weapon,ScoutAir,Level" Value="1"/>
+        <EffectArray Reference="Effect,ScoutAirU,Amount" Value="1"/>
+        <EffectArray Reference="Weapon,UrunEnergyBeam,Level" Value="1"/>
+        <EffectArray Reference="Effect,UrunEnergyBeamDamage,Amount" Value="2"/>
+        <EffectArray Reference="Weapon,MohandarPrismaticBeam,Level" Value="1"/>
+        <EffectArray Reference="Effect,MohandarMUx1,Amount" Value="1"/>
+        <EffectArray Reference="Effect,MohandarMUx2,Amount" Value="2"/>
+        <EffectArray Reference="Effect,MohandarMUx3,Amount" Value="4"/>
+        <EffectArray Reference="Weapon,ArtanisBeam,Level" Value="1"/>
+        <EffectArray Reference="Effect,ArtanisBeamDamage,Amount" Value="1"/>
+        <EffectArray Reference="Weapon,SelendisInterceptorBeam,Level" Value="1"/>
+        <EffectArray Reference="Effect,SelendisInterceptorU,Amount" Value="1"/>
+        <EffectArray Reference="Weapon,SelendisInterceptor,Level" Value="1"/>
+        <EffectArray Operation="Set" Reference="Weapon,Tychus05HeroMothershipBeam,Icon" Value="Assets\Textures\btn-upgrade-protoss-airweaponslevel3.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,PurifierWeapon,Icon" Value="Assets\Textures\btn-upgrade-protoss-airweaponslevel3.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,ScoutGround,Icon" Value="Assets\Textures\btn-upgrade-protoss-airweaponslevel3.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,ScoutAir,Icon" Value="Assets\Textures\btn-upgrade-protoss-airweaponslevel3.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,UrunEnergyBeam,Icon" Value="Assets\Textures\btn-upgrade-protoss-airweaponslevel3.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,MohandarPrismaticBeam,Icon" Value="Assets\Textures\btn-upgrade-protoss-airweaponslevel3.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,ArtanisBeam,Icon" Value="Assets\Textures\btn-upgrade-protoss-airweaponslevel3.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,SelendisInterceptorBeam,Icon" Value="Assets\Textures\btn-upgrade-protoss-airweaponslevel3.dds"/>
+    </CUpgrade>
+    <CUpgrade id="ProtossGroundArmorsLevel1">
+        <EffectArray Reference="Unit,Zeratul,LifeArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,Zeratul,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Karass,LifeArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,Karass,LifeArmorLevel" Value="1"/>
+        <EffectArray Operation="Set" Reference="Actor,Zeratul,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-groundarmorlevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Karass,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-groundarmorlevel1.dds"/>
+    </CUpgrade>
+    <CUpgrade id="ProtossGroundArmorsLevel2">
+        <EffectArray Reference="Unit,Zeratul,LifeArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,Zeratul,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Karass,LifeArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,Karass,LifeArmorLevel" Value="1"/>
+        <EffectArray Operation="Set" Reference="Actor,Zeratul,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-groundarmorlevel2.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Karass,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-groundarmorlevel2.dds"/>
+    </CUpgrade>
+    <CUpgrade id="ProtossGroundArmorsLevel3">
+        <EffectArray Reference="Unit,Zeratul,LifeArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,Zeratul,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Karass,LifeArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,Karass,LifeArmorLevel" Value="1"/>
+        <EffectArray Operation="Set" Reference="Actor,Zeratul,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-groundarmorlevel3.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Karass,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-groundarmorlevel3.dds"/>
+    </CUpgrade>
+    <CUpgrade id="ProtossGroundWeaponsLevel1">
+        <EffectArray Reference="Weapon,Zeratul,Level" Value="1"/>
+        <EffectArray Reference="Effect,Zeratul,Amount" Value="5"/>
+        <EffectArray Reference="Weapon,PsiDischarge,Level" Value="1"/>
+        <EffectArray Reference="Effect,PsiDischargeDamage,Amount" Value="2"/>
+        <EffectArray Operation="Set" Reference="Weapon,Zeratul,Icon" Value="Assets\Textures\btn-upgrade-protoss-groundweaponslevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,PsiDischarge,Icon" Value="Assets\Textures\btn-upgrade-protoss-groundweaponslevel1.dds"/>
+    </CUpgrade>
+    <CUpgrade id="ProtossGroundWeaponsLevel2">
+        <EffectArray Reference="Weapon,Zeratul,Level" Value="1"/>
+        <EffectArray Reference="Effect,Zeratul,Amount" Value="5"/>
+        <EffectArray Reference="Weapon,PsiDischarge,Level" Value="1"/>
+        <EffectArray Reference="Effect,PsiDischargeDamage,Amount" Value="2"/>
+        <EffectArray Operation="Set" Reference="Weapon,Zeratul,Icon" Value="Assets\Textures\btn-upgrade-protoss-groundweaponslevel2.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,PsiDischarge,Icon" Value="Assets\Textures\btn-upgrade-protoss-groundweaponslevel2.dds"/>
+    </CUpgrade>
+    <CUpgrade id="ProtossGroundWeaponsLevel3">
+        <EffectArray Reference="Weapon,Zeratul,Level" Value="1"/>
+        <EffectArray Reference="Effect,Zeratul,Amount" Value="5"/>
+        <EffectArray Reference="Weapon,PsiDischarge,Level" Value="1"/>
+        <EffectArray Reference="Effect,PsiDischargeDamage,Amount" Value="2"/>
+        <EffectArray Operation="Set" Reference="Weapon,Zeratul,Icon" Value="Assets\Textures\btn-upgrade-protoss-groundweaponslevel3.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,PsiDischarge,Icon" Value="Assets\Textures\btn-upgrade-protoss-groundweaponslevel3.dds"/>
+    </CUpgrade>
+    <CUpgrade id="ProtossShieldsLevel1">
+        <EffectArray Reference="Unit,TalDarimMothership,ShieldArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,TalDarimMothership,ShieldArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Purifier,ShieldArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,Purifier,ShieldArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Scout,ShieldArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,Scout,ShieldArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Zeratul,ShieldArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,Zeratul,ShieldArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Urun,ShieldArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,Urun,ShieldArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Mohandar,ShieldArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,Mohandar,ShieldArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Selendis,ShieldArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,Selendis,ShieldArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Artanis,ShieldArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,Artanis,ShieldArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,SelendisInterceptor,ShieldArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,SelendisInterceptor,ShieldArmor" Value="1"/>
+        <EffectArray Reference="Unit,Karass,ShieldArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,Karass,ShieldArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Obelisk,ShieldArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Obelisk,ShieldArmor" Value="1"/>
+        <EffectArray Reference="Unit,HybridReaver,ShieldArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,HybridReaver,ShieldArmor" Value="1"/>
+        <EffectArray Reference="Unit,HybridDestroyer,ShieldArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,HybridDestroyer,ShieldArmor" Value="1"/>
+        <EffectArray Operation="Set" Reference="Actor,Tychus05HeroMothership,ShieldArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-shieldslevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Purifier,ShieldArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-shieldslevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Scout,ShieldArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-shieldslevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Zeratul,ShieldArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-shieldslevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Urun,ShieldArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-shieldslevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Mohandar,ShieldArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-shieldslevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Artanis,ShieldArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-shieldslevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Selendis,ShieldArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-shieldslevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,SelendisInterceptor,ShieldArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-shieldslevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Karass,ShieldArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-shieldslevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Obelisk,ShieldArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-shieldslevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,HybridD,ShieldArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-shieldslevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,HybridE,ShieldArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-shieldslevel1.dds"/>
+    </CUpgrade>
+    <CUpgrade id="ProtossShieldsLevel2">
+        <EffectArray Reference="Unit,TalDarimMothership,ShieldArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,TalDarimMothership,ShieldArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Purifier,ShieldArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,Purifier,ShieldArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Scout,ShieldArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,Scout,ShieldArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Zeratul,ShieldArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,Zeratul,ShieldArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Urun,ShieldArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,Urun,ShieldArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Mohandar,ShieldArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,Mohandar,ShieldArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Selendis,ShieldArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,Selendis,ShieldArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Artanis,ShieldArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,Artanis,ShieldArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,SelendisInterceptor,ShieldArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,SelendisInterceptor,ShieldArmor" Value="1"/>
+        <EffectArray Reference="Unit,Karass,ShieldArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,Karass,ShieldArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Obelisk,ShieldArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Obelisk,ShieldArmor" Value="1"/>
+        <EffectArray Reference="Unit,HybridReaver,ShieldArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,HybridReaver,ShieldArmor" Value="1"/>
+        <EffectArray Reference="Unit,HybridDestroyer,ShieldArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,HybridDestroyer,ShieldArmor" Value="1"/>
+        <EffectArray Operation="Set" Reference="Actor,Tychus05HeroMothership,ShieldArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-shieldslevel2.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Purifier,ShieldArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-shieldslevel2.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Scout,ShieldArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-shieldslevel2.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Zeratul,ShieldArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-shieldslevel2.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Urun,ShieldArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-shieldslevel2.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Mohandar,ShieldArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-shieldslevel2.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Artanis,ShieldArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-shieldslevel2.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Selendis,ShieldArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-shieldslevel2.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,SelendisInterceptor,ShieldArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-shieldslevel2.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Karass,ShieldArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-shieldslevel2.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Obelisk,ShieldArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-shieldslevel2.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,HybridD,ShieldArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-shieldslevel2.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,HybridE,ShieldArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-shieldslevel2.dds"/>
+    </CUpgrade>
+    <CUpgrade id="ProtossShieldsLevel3">
+        <EffectArray Reference="Unit,TalDarimMothership,ShieldArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,TalDarimMothership,ShieldArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Purifier,ShieldArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,Purifier,ShieldArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Scout,ShieldArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,Scout,ShieldArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Zeratul,ShieldArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,Zeratul,ShieldArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Urun,ShieldArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,Urun,ShieldArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Mohandar,ShieldArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,Mohandar,ShieldArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Selendis,ShieldArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,Selendis,ShieldArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Artanis,ShieldArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,Artanis,ShieldArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,SelendisInterceptor,ShieldArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,SelendisInterceptor,ShieldArmor" Value="1"/>
+        <EffectArray Reference="Unit,Karass,ShieldArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,Karass,ShieldArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Obelisk,ShieldArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Obelisk,ShieldArmor" Value="1"/>
+        <EffectArray Reference="Unit,HybridReaver,ShieldArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,HybridReaver,ShieldArmor" Value="1"/>
+        <EffectArray Reference="Unit,HybridDestroyer,ShieldArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,HybridDestroyer,ShieldArmor" Value="1"/>
+        <EffectArray Operation="Set" Reference="Actor,Tychus05HeroMothership,ShieldArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-shieldslevel3.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Purifier,ShieldArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-shieldslevel3.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Scout,ShieldArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-shieldslevel3.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Zeratul,ShieldArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-shieldslevel3.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Urun,ShieldArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-shieldslevel3.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Mohandar,ShieldArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-shieldslevel3.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Artanis,ShieldArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-shieldslevel3.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Selendis,ShieldArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-shieldslevel3.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,SelendisInterceptor,ShieldArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-shieldslevel3.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Karass,ShieldArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-shieldslevel3.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Obelisk,ShieldArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-shieldslevel3.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,HybridD,ShieldArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-shieldslevel3.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,HybridE,ShieldArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-shieldslevel3.dds"/>
+    </CUpgrade>
+    <CUpgrade id="ShrikeTurret">
+        <EffectArray index="2" Reference="Actor,Bunker,Wireframe.Image[0]" Value="Assets\Textures\wireframe-terran-bunker-shriketurret.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Bunker,GroupIcon.Image[0]" Value="Assets\Textures\wireframe-terran-bunker-shriketurret.dds"/>
+    </CUpgrade>
+    <CUpgrade id="TerranBuildingArmor">
+        <EffectArray Reference="Unit,TechReactor,LifeArmor" Value="2"/>
+        <EffectArray Reference="Unit,TechReactor,LifeArmorLevel" Value="2"/>
+        <EffectArray Reference="Unit,BarracksTechReactor,LifeArmor" Value="2"/>
+        <EffectArray Reference="Unit,BarracksTechReactor,LifeArmorLevel" Value="2"/>
+        <EffectArray Reference="Unit,FactoryTechReactor,LifeArmor" Value="2"/>
+        <EffectArray Reference="Unit,FactoryTechReactor,LifeArmorLevel" Value="2"/>
+        <EffectArray Reference="Unit,StarportTechLab,LifeArmor" Value="2"/>
+        <EffectArray Reference="Unit,StarportTechReactor,LifeArmorLevel" Value="2"/>
+        <EffectArray Reference="Unit,HiveMindEmulator,LifeArmorLevel" Value="2"/>
+        <EffectArray Reference="Unit,HiveMindEmulator,LifeArmor" Value="2"/>
+        <EffectArray Reference="Unit,PsiDisruptor,LifeArmor" Value="2"/>
+        <EffectArray Reference="Unit,PsiDisruptor,LifeArmorLevel" Value="2"/>
+        <EffectArray Reference="Unit,PerditionTurret,LifeArmor" Value="2"/>
+        <EffectArray Reference="Unit,PerditionTurret,LifeArmorLevel" Value="2"/>
+        <EffectArray Reference="Unit,PerditionTurretUnderground,LifeArmor" Value="2"/>
+        <EffectArray Reference="Unit,PerditionTurretUnderground,LifeArmorLevel" Value="2"/>
+    </CUpgrade>
+    <CUpgrade id="ZergFlyerArmorsLevel1">
+        <EffectArray Reference="Unit,Leviathan,LifeArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,Leviathan,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Scourge,LifeArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,Scourge,LifeArmorLevel" Value="1"/>
+        <EffectArray Operation="Set" Reference="Actor,Leviathan,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-flyercarapace-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Scourge,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-flyercarapace-level1.dds"/>
+    </CUpgrade>
+    <CUpgrade id="ZergFlyerArmorsLevel2">
+        <EffectArray Reference="Unit,Leviathan,LifeArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,Leviathan,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Scourge,LifeArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,Scourge,LifeArmorLevel" Value="1"/>
+        <EffectArray Operation="Set" Reference="Actor,Leviathan,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-flyercarapace-level2.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Scourge,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-flyercarapace-level2.dds"/>
+    </CUpgrade>
+    <CUpgrade id="ZergFlyerArmorsLevel3">
+        <EffectArray Reference="Unit,Leviathan,LifeArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,Leviathan,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Scourge,LifeArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,Scourge,LifeArmorLevel" Value="1"/>
+        <EffectArray Operation="Set" Reference="Actor,Leviathan,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-flyercarapace-level3.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Scourge,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-flyercarapace-level3.dds"/>
+    </CUpgrade>
+    <CUpgrade id="ZergFlyerWeaponsLevel1">
+        <EffectArray Reference="Effect,LeviathanAirAttackDamage,Amount" Value="1.000000"/>
+        <EffectArray Reference="Weapon,ScourgeSwarm,Level" Value="1"/>
+        <EffectArray Reference="Effect,LeviathanGroundAttackDamage,Amount" Value="2.000000"/>
+        <EffectArray Reference="Weapon,Tentacles,Level" Value="1"/>
+        <EffectArray Operation="Set" Reference="Weapon,ScourgeSwarm,Icon" Value="Assets\Textures\btn-upgrade-zerg-airattacks-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,Tentacles,Icon" Value="Assets\Textures\btn-upgrade-zerg-airattacks-level1.dds"/>
+    </CUpgrade>
+    <CUpgrade id="ZergFlyerWeaponsLevel2">
+        <EffectArray Reference="Effect,LeviathanAirAttackDamage,Amount" Value="1.000000"/>
+        <EffectArray Reference="Weapon,ScourgeSwarm,Level" Value="1"/>
+        <EffectArray Reference="Effect,LeviathanGroundAttackDamage,Amount" Value="2.000000"/>
+        <EffectArray Reference="Weapon,Tentacles,Level" Value="1"/>
+        <EffectArray Operation="Set" Reference="Weapon,ScourgeSwarm,Icon" Value="Assets\Textures\btn-upgrade-zerg-airattacks-level2.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,Tentacles,Icon" Value="Assets\Textures\btn-upgrade-zerg-airattacks-level2.dds"/>
+    </CUpgrade>
+    <CUpgrade id="ZergFlyerWeaponsLevel3">
+        <EffectArray Reference="Effect,LeviathanAirAttackDamage,Amount" Value="1.000000"/>
+        <EffectArray Reference="Weapon,ScourgeSwarm,Level" Value="1"/>
+        <EffectArray Reference="Effect,LeviathanGroundAttackDamage,Amount" Value="2.000000"/>
+        <EffectArray Reference="Weapon,Tentacles,Level" Value="1"/>
+        <EffectArray Operation="Set" Reference="Weapon,ScourgeSwarm,Icon" Value="Assets\Textures\btn-upgrade-zerg-airattacks-level3.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,Tentacles,Icon" Value="Assets\Textures\btn-upgrade-zerg-airattacks-level3.dds"/>
+    </CUpgrade>
+    <CUpgrade id="ZergGroundArmorsLevel1">
+        <EffectArray Reference="Unit,InfestedCivilian,LifeArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,InfestedCivilian,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,InfestedCivilianBurrowed,LifeArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,InfestedCivilianBurrowed,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,InfestedTerranCampaign,LifeArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,InfestedTerranCampaign,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,InfestedTerranCampaignBurrowed,LifeArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,InfestedTerranCampaignBurrowed,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,InfestedAbomination,LifeArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,InfestedAbomination,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,InfestedAbominationBurrowed,LifeArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,InfestedAbominationBurrowed,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Lurker,LifeArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,Lurker,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,LurkerBurrowed,LifeArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,LurkerBurrowed,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Omegalisk,LifeArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,Omegalisk,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,OmegaliskBurrowed,LifeArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,OmegaliskBurrowed,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Swarmling,LifeArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,Swarmling,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,HunterKiller,LifeArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,HunterKiller,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,HunterKillerBurrowed,LifeArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,HunterKillerBurrowed,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,KerriganChar,LifeArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,KerriganChar,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,HybridDestroyer,LifeArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,HybridDestroyer,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,HybridReaver,LifeArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,HybridReaver,LifeArmorLevel" Value="1"/>
+        <EffectArray Operation="Set" Reference="Actor,InfestedCivilian,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,InfestedTerranCampaign,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,InfestedAbomination,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Lurker,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Omegalisk,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,SwarmGuardianSpawn,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,HunterKiller,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Val03QueenOfBlades,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,HybridD,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-groundarmorlevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,HybridE,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level1.dds"/>
+        <EffectArray Reference="Unit,Brutalisk,LifeArmor" Value="3"/>
+        <EffectArray Reference="Unit,Brutalisk,LifeArmorLevel" Value="1"/>
+        <EffectArray Operation="Set" Reference="Actor,Brutalisk,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level1.dds"/>
+    </CUpgrade>
+    <CUpgrade id="ZergGroundArmorsLevel2">
+        <EffectArray Reference="Unit,InfestedCivilian,LifeArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,InfestedCivilian,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,InfestedCivilianBurrowed,LifeArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,InfestedCivilianBurrowed,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,InfestedTerranCampaign,LifeArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,InfestedTerranCampaign,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,InfestedTerranCampaignBurrowed,LifeArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,InfestedTerranCampaignBurrowed,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,InfestedAbomination,LifeArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,InfestedAbomination,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,InfestedAbominationBurrowed,LifeArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,InfestedAbominationBurrowed,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Lurker,LifeArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,Lurker,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,LurkerBurrowed,LifeArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,LurkerBurrowed,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Omegalisk,LifeArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,Omegalisk,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,OmegaliskBurrowed,LifeArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,OmegaliskBurrowed,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Swarmling,LifeArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,Swarmling,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,HunterKiller,LifeArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,HunterKiller,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,HunterKillerBurrowed,LifeArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,HunterKillerBurrowed,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,KerriganChar,LifeArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,KerriganChar,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,HybridDestroyer,LifeArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,HybridDestroyer,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,HybridReaver,LifeArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,HybridReaver,LifeArmorLevel" Value="1"/>
+        <EffectArray Operation="Set" Reference="Actor,InfestedCivilian,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level2.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,InfestedTerranCampaign,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level2.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,InfestedAbomination,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level2.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Lurker,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level2.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Omegalisk,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level2.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,SwarmGuardianSpawn,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level2.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,HunterKiller,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level2.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Val03QueenOfBlades,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level2.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,HybridD,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-groundarmorlevel2.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,HybridE,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level2.dds"/>
+        <EffectArray Reference="Unit,Brutalisk,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,Brutalisk,LifeArmorLevel" Value="1"/>
+        <EffectArray Operation="Set" Reference="Actor,Brutalisk,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level2.dds"/>
+    </CUpgrade>
+    <CUpgrade id="ZergGroundArmorsLevel3">
+        <EffectArray Reference="Unit,InfestedCivilian,LifeArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,InfestedCivilian,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,InfestedCivilianBurrowed,LifeArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,InfestedCivilianBurrowed,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,InfestedTerranCampaign,LifeArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,InfestedTerranCampaign,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,InfestedTerranCampaignBurrowed,LifeArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,InfestedTerranCampaignBurrowed,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,InfestedAbomination,LifeArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,InfestedAbomination,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,InfestedAbominationBurrowed,LifeArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,InfestedAbominationBurrowed,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Lurker,LifeArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,Lurker,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,LurkerBurrowed,LifeArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,LurkerBurrowed,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Omegalisk,LifeArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,Omegalisk,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,OmegaliskBurrowed,LifeArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,OmegaliskBurrowed,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Swarmling,LifeArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,Swarmling,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,HunterKiller,LifeArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,HunterKiller,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,HunterKillerBurrowed,LifeArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,HunterKillerBurrowed,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,KerriganChar,LifeArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,KerriganChar,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,HybridDestroyer,LifeArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,HybridDestroyer,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,HybridReaver,LifeArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,HybridReaver,LifeArmorLevel" Value="1"/>
+        <EffectArray Operation="Set" Reference="Actor,InfestedCivilian,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level3.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,InfestedTerranCampaign,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level3.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,InfestedAbomination,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level3.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Lurker,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level3.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Omegalisk,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level3.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,SwarmGuardianSpawn,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level3.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,HunterKiller,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level3.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Val03QueenOfBlades,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level3.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,HybridD,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-protoss-groundarmorlevel3.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,HybridE,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level3.dds"/>
+        <EffectArray Reference="Unit,Brutalisk,LifeArmorLevel" Value="1"/>
+        <EffectArray Operation="Set" Reference="Actor,Brutalisk,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level3.dds"/>
+        <EffectArray Reference="Unit,Brutalisk,LifeArmor" Value="1"/>
+    </CUpgrade>
+    <CUpgrade id="ZergMeleeWeaponsLevel1">
+        <EffectArray Reference="Effect,InfestedAbomination,Amount" Value="2.000000"/>
+        <EffectArray Reference="Weapon,InfestedAbomination,Level" Value="1"/>
+        <EffectArray Reference="Effect,InfestedClawsDamage,Amount" Value="1.000000"/>
+        <EffectArray Reference="Weapon,InfestedClaws,Level" Value="1"/>
+        <EffectArray Reference="Effect,OmegaliskHeadAttackDamage,Amount" Value="5.000000"/>
+        <EffectArray Reference="Weapon,OmegaliskHeadAttack,Level" Value="1"/>
+        <EffectArray Reference="Effect,OmegaliskCleaveMU,Amount" Value="1.000000"/>
+        <EffectArray Reference="Effect,OmegaliskU,Amount" Value="2.000000"/>
+        <EffectArray Reference="Weapon,Omegalisk,Level" Value="1"/>
+        <EffectArray Reference="Effect,Swarmling,Amount" Value="1.000000"/>
+        <EffectArray Reference="Weapon,Swarmling,Level" Value="1"/>
+        <EffectArray Reference="Effect,Val03RazorTalonsDamage,Amount" Value="5.000000"/>
+        <EffectArray Reference="Weapon,Val03RazorTalons,Level" Value="1"/>
+        <EffectArray Reference="Effect,ShockDDamage,Amount" Value="2.000000"/>
+        <EffectArray Reference="Weapon,HybridD,Level" Value="1"/>
+        <EffectArray Reference="Effect,ShockEDamage,Amount" Value="5.000000"/>
+        <EffectArray Reference="Weapon,HybridE,Level" Value="1"/>
+        <EffectArray Operation="Set" Reference="Weapon,InfestedAbomination,Icon" Value="Assets\Textures\btn-upgrade-zerg-meleeattacks-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,InfestedClaws,Icon" Value="Assets\Textures\btn-upgrade-zerg-meleeattacks-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,OmegaliskHeadAttack,Icon" Value="Assets\Textures\btn-upgrade-zerg-meleeattacks-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,Omegalisk,Icon" Value="Assets\Textures\btn-upgrade-zerg-meleeattacks-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,Swarmling,Icon" Value="Assets\Textures\btn-upgrade-zerg-meleeattacks-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,Val03RazorTalons,Icon" Value="Assets\Textures\btn-upgrade-zerg-meleeattacks-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,HybridD,Icon" Value="Assets\Textures\btn-upgrade-protoss-groundweaponslevel1.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,HybridE,Icon" Value="Assets\Textures\btn-upgrade-zerg-meleeattacks-level1.dds"/>
+        <EffectArray Reference="Effect,BrutalizeDamage,Amount" Value="4"/>
+        <EffectArray Reference="Weapon,Brutalize,Level" Value="1"/>
+        <EffectArray Operation="Set" Reference="Weapon,Brutalize,Icon" Value="Assets\Textures\btn-upgrade-zerg-meleeattacks-level1.dds"/>
+    </CUpgrade>
+    <CUpgrade id="ZergMeleeWeaponsLevel2">
+        <EffectArray Reference="Effect,InfestedAbomination,Amount" Value="2.000000"/>
+        <EffectArray Reference="Weapon,InfestedAbomination,Level" Value="1"/>
+        <EffectArray Reference="Effect,InfestedClawsDamage,Amount" Value="1.000000"/>
+        <EffectArray Reference="Weapon,InfestedClaws,Level" Value="1"/>
+        <EffectArray Reference="Effect,OmegaliskHeadAttackDamage,Amount" Value="5.000000"/>
+        <EffectArray Reference="Weapon,OmegaliskHeadAttack,Level" Value="1"/>
+        <EffectArray Reference="Effect,OmegaliskCleaveMU,Amount" Value="1.000000"/>
+        <EffectArray Reference="Effect,OmegaliskU,Amount" Value="2.000000"/>
+        <EffectArray Reference="Weapon,Omegalisk,Level" Value="1"/>
+        <EffectArray Reference="Effect,Swarmling,Amount" Value="1.000000"/>
+        <EffectArray Reference="Weapon,Swarmling,Level" Value="1"/>
+        <EffectArray Reference="Effect,Val03RazorTalonsDamage,Amount" Value="5.000000"/>
+        <EffectArray Reference="Weapon,Val03RazorTalons,Level" Value="1"/>
+        <EffectArray Reference="Effect,ShockDDamage,Amount" Value="2.000000"/>
+        <EffectArray Reference="Weapon,HybridD,Level" Value="1"/>
+        <EffectArray Reference="Effect,ShockEDamage,Amount" Value="5.000000"/>
+        <EffectArray Reference="Weapon,HybridE,Level" Value="1"/>
+        <EffectArray Operation="Set" Reference="Weapon,InfestedAbomination,Icon" Value="Assets\Textures\btn-upgrade-zerg-meleeattacks-level2.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,InfestedClaws,Icon" Value="Assets\Textures\btn-upgrade-zerg-meleeattacks-level2.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,OmegaliskHeadAttack,Icon" Value="Assets\Textures\btn-upgrade-zerg-meleeattacks-level2.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,Omegalisk,Icon" Value="Assets\Textures\btn-upgrade-zerg-meleeattacks-level2.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,Swarmling,Icon" Value="Assets\Textures\btn-upgrade-zerg-meleeattacks-level2.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,Val03RazorTalons,Icon" Value="Assets\Textures\btn-upgrade-zerg-meleeattacks-level2.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,HybridD,Icon" Value="Assets\Textures\btn-upgrade-protoss-groundweaponslevel2.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,HybridE,Icon" Value="Assets\Textures\btn-upgrade-zerg-meleeattacks-level2.dds"/>
+        <EffectArray Reference="Effect,BrutalizeDamage,Amount" Value="4"/>
+        <EffectArray Reference="Weapon,Brutalize,Level" Value="1"/>
+        <EffectArray Operation="Set" Reference="Weapon,Brutalize,Icon" Value="Assets\Textures\btn-upgrade-zerg-meleeattacks-level2.dds"/>
+    </CUpgrade>
+    <CUpgrade id="ZergMeleeWeaponsLevel3">
+        <EffectArray Reference="Effect,InfestedAbomination,Amount" Value="2.000000"/>
+        <EffectArray Reference="Weapon,InfestedAbomination,Level" Value="1"/>
+        <EffectArray Reference="Effect,InfestedClawsDamage,Amount" Value="1.000000"/>
+        <EffectArray Reference="Weapon,InfestedClaws,Level" Value="1"/>
+        <EffectArray Reference="Effect,OmegaliskHeadAttackDamage,Amount" Value="5.000000"/>
+        <EffectArray Reference="Weapon,OmegaliskHeadAttack,Level" Value="1"/>
+        <EffectArray Reference="Effect,OmegaliskCleaveMU,Amount" Value="1.000000"/>
+        <EffectArray Reference="Effect,OmegaliskU,Amount" Value="2.000000"/>
+        <EffectArray Reference="Weapon,Omegalisk,Level" Value="1"/>
+        <EffectArray Reference="Effect,Swarmling,Amount" Value="1.000000"/>
+        <EffectArray Reference="Weapon,Swarmling,Level" Value="1"/>
+        <EffectArray Reference="Effect,Val03RazorTalonsDamage,Amount" Value="5.000000"/>
+        <EffectArray Reference="Weapon,Val03RazorTalons,Level" Value="1"/>
+        <EffectArray Reference="Effect,ShockDDamage,Amount" Value="2.000000"/>
+        <EffectArray Reference="Weapon,HybridD,Level" Value="1"/>
+        <EffectArray Reference="Effect,ShockEDamage,Amount" Value="5.000000"/>
+        <EffectArray Reference="Weapon,HybridE,Level" Value="1"/>
+        <EffectArray Operation="Set" Reference="Weapon,InfestedAbomination,Icon" Value="Assets\Textures\btn-upgrade-zerg-meleeattacks-level3.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,InfestedClaws,Icon" Value="Assets\Textures\btn-upgrade-zerg-meleeattacks-level3.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,OmegaliskHeadAttack,Icon" Value="Assets\Textures\btn-upgrade-zerg-meleeattacks-level3.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,Omegalisk,Icon" Value="Assets\Textures\btn-upgrade-zerg-meleeattacks-level3.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,Swarmling,Icon" Value="Assets\Textures\btn-upgrade-zerg-meleeattacks-level3.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,Val03RazorTalons,Icon" Value="Assets\Textures\btn-upgrade-zerg-meleeattacks-level3.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,HybridD,Icon" Value="Assets\Textures\btn-upgrade-protoss-groundweaponslevel3.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,HybridE,Icon" Value="Assets\Textures\btn-upgrade-zerg-meleeattacks-level3.dds"/>
+        <EffectArray Reference="Weapon,Brutalize,Level" Value="1"/>
+        <EffectArray Reference="Effect,BrutalizeDamage,Amount" Value="4"/>
+        <EffectArray Operation="Set" Reference="Weapon,Brutalize,Icon" Value="Assets\Textures\btn-upgrade-zerg-meleeattacks-level3.dds"/>
+    </CUpgrade>
+    <CUpgrade id="ZergMissileWeaponsLevel1">
+        <EffectArray Reference="Effect,InfestedTerranCampaign,Amount" Value="1.000000"/>
+        <EffectArray Reference="Weapon,InfestedTerranCampaign,Level" Value="1"/>
+        <EffectArray Reference="Effect,HunterKillerU,Amount" Value="2.000000"/>
+        <EffectArray Reference="Effect,HunterKillerMelee,Amount" Value="2.000000"/>
+        <EffectArray Reference="Weapon,HunterKiller,Level" Value="1"/>
+        <EffectArray Reference="Weapon,Lurker,Level" Value="1"/>
+        <EffectArray Reference="Effect,LurkerU,Amount" Value="2"/>
+        <EffectArray Reference="Effect,LurkerU,AttributeBonus[e_unitAttributeArmored]" Value="2.000000"/>
+        <EffectArray Reference="Effect,Val03PsiBlastDamage,Amount" Value="5.000000"/>
+        <EffectArray Reference="Weapon,Val03QueenOfBladesPsiBlast,Level" Value="1"/>
+        <EffectArray Operation="Set" Reference="Weapon,InfestedTerranCampaign,Icon" Value="Assets\Textures\btn-upgrade-zerg-missileattacks-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,HunterKiller,Icon" Value="Assets\Textures\btn-upgrade-zerg-missileattacks-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,Lurker,Icon" Value="Assets\Textures\btn-upgrade-zerg-missileattacks-level1.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,Val03QueenOfBladesPsiBlast,Icon" Value="Assets\Textures\btn-upgrade-zerg-missileattacks-level1.dds"/>
+        <EffectArray Reference="Effect,FerociousSpewDamage,Amount" Value="4"/>
+        <EffectArray Reference="Weapon,FerociousSpew,Level" Value="1"/>
+        <EffectArray Operation="Set" Reference="Weapon,FerociousSpew,Icon" Value="Assets\Textures\btn-upgrade-zerg-missileattacks-level1.dds"/>
+    </CUpgrade>
+    <CUpgrade id="ZergMissileWeaponsLevel2">
+        <EffectArray Reference="Effect,InfestedTerranCampaign,Amount" Value="1.000000"/>
+        <EffectArray Reference="Weapon,InfestedTerranCampaign,Level" Value="1"/>
+        <EffectArray Reference="Effect,HunterKillerU,Amount" Value="2.000000"/>
+        <EffectArray Reference="Effect,HunterKillerMelee,Amount" Value="2.000000"/>
+        <EffectArray Reference="Weapon,HunterKiller,Level" Value="1"/>
+        <EffectArray Reference="Weapon,Lurker,Level" Value="1"/>
+        <EffectArray Reference="Effect,LurkerU,Amount" Value="2"/>
+        <EffectArray Reference="Effect,LurkerU,AttributeBonus[e_unitAttributeArmored]" Value="2.000000"/>
+        <EffectArray Reference="Effect,Val03PsiBlastDamage,Amount" Value="5.000000"/>
+        <EffectArray Reference="Weapon,Val03QueenOfBladesPsiBlast,Level" Value="1"/>
+        <EffectArray Operation="Set" Reference="Weapon,InfestedTerranCampaign,Icon" Value="Assets\Textures\btn-upgrade-zerg-missileattacks-level2.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,HunterKiller,Icon" Value="Assets\Textures\btn-upgrade-zerg-missileattacks-level2.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,Lurker,Icon" Value="Assets\Textures\btn-upgrade-zerg-missileattacks-level2.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,Val03QueenOfBladesPsiBlast,Icon" Value="Assets\Textures\btn-upgrade-zerg-missileattacks-level2.dds"/>
+        <EffectArray Reference="Effect,FerociousSpewDamage,Amount" Value="4"/>
+        <EffectArray Reference="Weapon,FerociousSpew,Level" Value="1"/>
+        <EffectArray Operation="Set" Reference="Weapon,FerociousSpew,Icon" Value="Assets\Textures\btn-upgrade-zerg-missileattacks-level2.dds"/>
+    </CUpgrade>
+    <CUpgrade id="ZergMissileWeaponsLevel3">
+        <EffectArray index="12" Value="Assets\Textures\btn-upgrade-zerg-missileattacks-level2.dds"/>
+        <EffectArray index="13" Value="Assets\Textures\btn-upgrade-zerg-missileattacks-level2.dds"/>
+        <EffectArray index="14" Value="Assets\Textures\btn-upgrade-zerg-missileattacks-level2.dds"/>
+        <EffectArray index="15" Value="Assets\Textures\btn-upgrade-zerg-missileattacks-level2.dds"/>
+        <EffectArray index="16" Value="Assets\Textures\btn-upgrade-zerg-missileattacks-level2.dds"/>
+        <EffectArray Reference="Effect,InfestedTerranCampaign,Amount" Value="1.000000"/>
+        <EffectArray Reference="Weapon,InfestedTerranCampaign,Level" Value="1"/>
+        <EffectArray Reference="Effect,HunterKillerU,Amount" Value="2.000000"/>
+        <EffectArray Reference="Effect,HunterKillerMelee,Amount" Value="2.000000"/>
+        <EffectArray Reference="Weapon,HunterKiller,Level" Value="1"/>
+        <EffectArray Reference="Weapon,Lurker,Level" Value="1"/>
+        <EffectArray Reference="Effect,LurkerU,Amount" Value="2"/>
+        <EffectArray Reference="Effect,LurkerU,AttributeBonus[e_unitAttributeArmored]" Value="2.000000"/>
+        <EffectArray Reference="Effect,Val03PsiBlastDamage,Amount" Value="5.000000"/>
+        <EffectArray Reference="Weapon,Val03QueenOfBladesPsiBlast,Level" Value="1"/>
+        <EffectArray Operation="Set" Reference="Weapon,InfestedTerranCampaign,Icon" Value="Assets\Textures\btn-upgrade-zerg-missileattacks-level2.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,HunterKiller,Icon" Value="Assets\Textures\btn-upgrade-zerg-missileattacks-level2.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,Lurker,Icon" Value="Assets\Textures\btn-upgrade-zerg-missileattacks-level2.dds"/>
+        <EffectArray Operation="Set" Reference="Weapon,Val03QueenOfBladesPsiBlast,Icon" Value="Assets\Textures\btn-upgrade-zerg-missileattacks-level2.dds"/>
+        <EffectArray Reference="Effect,FerociousSpewDamage,Amount" Value="4"/>
+        <EffectArray Reference="Weapon,FerociousSpew,Level" Value="1"/>
+        <EffectArray Operation="Set" Reference="Weapon,FerociousSpew,Icon" Value="Assets\Textures\btn-upgrade-zerg-missileattacks-level2.dds"/>
+    </CUpgrade>
+    <CUpgrade id="hydraliskspeed">
+        <EffectArray Reference="Weapon,Lurker,Range" Value="1"/>
+    </CUpgrade>
+</Catalog>

@@ -1,0 +1,231 @@
+Abil/Name/ArmoryResearch=Research (Armory)
+Abil/Name/BarracksAddOns=AddOns
+Abil/Name/BarracksTechLabResearch=Tech Lab Research (Barracks)
+Abil/Name/BarracksTrain=Train
+Abil/Name/EngineeringBayResearch=Research (Engineering Bay)
+Abil/Name/FactoryAddOns=AddOns
+Abil/Name/FactoryTechLabResearch=Tech Lab Research (Factory)
+Abil/Name/FactoryTrain=Train (Factory)
+Abil/Name/FleetBeaconResearch=Research
+Abil/Name/FusionCoreResearch=Research
+Abil/Name/GhostAcademyResearch=Research
+Abil/Name/LarvaTrain=Morph Unit (Larva -> Basic)
+Abil/Name/ResearchNexus=Research -  Nexus
+Abil/Name/SpawnerTransport=Spawner Transport
+Abil/Name/StargateTrain=Train (Stargate)
+Abil/Name/StarportTechLabResearch=Tech Lab Research (Starport)
+Abil/Name/StarportTrain=Train (Starport)
+Abil/Name/TerranBuild=Build (SCV)
+Behavior/Name/DecreaseDamage1=Decrease Damage -1
+Behavior/Name/DecreaseDamage10=Decrease Damage -10
+Behavior/Name/DecreaseDamage100=Decrease Damage -100
+Behavior/Name/DecreaseDamage1000=Decrease Damage -1000
+Behavior/Name/GiveExperience=Give Experience
+Behavior/Name/IncreaseDamage1=Increase Damage +1
+Behavior/Name/IncreaseDamage10=Increase Damage +10
+Behavior/Name/IncreaseDamage100=Increase Damage +100
+Behavior/Name/IncreaseDamage1000=Increase Damage +1000
+Behavior/Name/Levels=Levels
+Behavior/Name/RoleplayingNecessity=Roleplaying Necessity
+Button/Name/ArmSilowithNukeHero=Arm Silo with Nuke (Hero)
+Button/Name/DarkProtoss=Dark Protoss
+Button/Name/MorphtoBrutalisk=Morph to Brutalisk
+Button/Name/ResearchAresClassTargetingSystem=Research Ares Class Targeting System
+Button/Name/ResearchBearclawNozzles=Research Bearclaw Nozzles
+Button/Name/ResearchCellularReactors=Research Cellular Reactors
+Button/Name/ResearchCirusSuit=Research Cirus Suit
+Button/Name/ResearchCommandCenterReactor=Research Command Center Reactor
+Button/Name/ResearchDualFusionWelders=Research Dual Fusion Welders
+Button/Name/ResearchFireSuppressionSystem=Research Fire Suppression System
+Button/Name/ResearchGraviticThrusters=Research Gravitic Thrusters
+Button/Name/ResearchHellstormMisslePods=Research Hellstorm Missle Pods
+Button/Name/ResearchImmortalityProtocol=Research Immortality Protocol
+Button/Name/ResearchJuggernautPlating=Research Juggernaut Plating
+Button/Name/ResearchKineticBarriers=Research Kinetic Barriers
+Button/Name/ResearchMultiLockWeaponsSystem=Research Multi-Lock Weapons System
+Button/Name/ResearchNyxCloakingModule=Research Nyx Cloaking Module
+Button/Name/ResearchOccularImplants=Research Occular Implants
+Button/Name/ResearchOribitalDropPods=Research Oribital Drop Pods
+Button/Name/ResearchPsionicLash=Research Psionic Lash
+Button/Name/ResearchRegenerativeBioSteel=Research Regenerative Bio-Steel
+Button/Name/ResearchReplenishableMagazine=Research Replenishable Magazine
+Button/Name/ResearchShapedBlast=Research Shaped Blast
+Button/Name/ResearchShapedHull=Research Shaped Hull
+Button/Name/ResearchShrikeTurret=Research Shrike Turret
+Button/Name/ResearchSupplyDepotCalldown=Research Calldown Supply Depot
+Button/Name/ResearchTitaniumHousing=Research Titanium Housing
+Button/Name/ResearchTriLithiumPowerCells=Research Tri-Lithium Power Cells
+Button/Tooltip/ArmSilowithNukeHero=Arms the silo with a Tactical Nuke.<n/><n/>Nuke takes 5 seconds to land and deals 750 (+200 vs. structures) damage in a large radius.<n/><n/>Only Nova and Tosh are capable of guiding this nuke.
+Button/Tooltip/AutoTurret=Automated defensive turret. <n/><n/><c val="#ColorAttackInfo">Can attack ground and air units.</c>
+Button/Tooltip/AutomatedRefinery=Improved Refinery that sends refined vespene gas straight to the Command Center via short-range warp fields. Eliminates the need for SCVs in vespene gas production.
+Button/Tooltip/Banshee=Tactical-strike aircraft.<n/><n/><c val="#ColorAttackInfo">Can attack ground units.</c>
+Button/Tooltip/Barracks=Infantry-production facility. <n/><n/><c val="ffff8a">Enables:</c><n/>- Marines<n/>- Bunkers from SCVs<n/>- Orbital Commands from Command Centers
+Button/Tooltip/BarracksFlying=Barracks must land to start unit production.
+Button/Tooltip/Battlecruiser=Powerful warship.<n/><n/><c val="#ColorAttackInfo">Can attack ground and air units.</c>
+Button/Tooltip/CommandCenter=Primary structure. Used to train SCVs and receive gathered resources. Can use the Lift Off ability.<n/><n/><c val="ffff8a">Enables:</c><n/>- SCVs
+Button/Tooltip/CommandCenterFlying=Primary structure. Used to train SCVs and receive gathered resources. Can upgrade into an Orbital Command or Planetary Fortress.
+Button/Tooltip/DarkProtoss=Changes all of your units to their Dark Protoss versions. <c val="FF0000">WARNINGS: THIS IS IRREVERSIBLE!! ONCE DONE YOUR PROTOSS UNITS WILL BE THEIR DARK VERSIONS FOR THE REST OF THE GAME!!!!</c>
+Button/Tooltip/EngineeringBay=Contains upgrades for Terran infantry units. Enables the construction of Terran defensive structures. 
+Button/Tooltip/Factory=Vehicle-production facility. <n/><n/><c val="ffff8a">Enables:</c><n/>- Hellions
+Button/Tooltip/FactoryFlying=Factory must land to start unit production.
+Button/Tooltip/FleetBeacon=<c val="ffff8a">Enables:</c><n/>- Carriers at the Stargate
+Button/Tooltip/FusionCore=Contains Battlecruiser upgrades. <n/><n/><c val="ffff8a">Enables:</c><n/>- Battlecruisers at the Starport<n/>- Hercules at the Starport
+Button/Tooltip/Ghost=Sniper. Can use Snipe, EMP Round, and be upgraded to use Cloak. Can call down Tactical Nukes built at the Ghost Academy.<n/><n/><c val="#ColorAttackInfo">Can attack ground and air units.</c>
+Button/Tooltip/GhostAcademy=Can build Nukes that Ghosts can use.<n/><n/><c val="ffff8a">Enables:</c><n/>- Ghosts at the Barracks
+Button/Tooltip/Gravatic Thrusters=Increases the speed and acceleration of Scouts.
+Button/Tooltip/Hellion=Fast scout. Has a flame attack that damages all enemy units in its line of fire.<n/><n/><c val="#ColorAttackInfo">Can attack ground units.</c>
+Button/Tooltip/Hydralisk=Ranged attacker.<n/><n/><c val="ffff8a">Can attack ground and air units.</c>
+Button/Tooltip/InfestedMissileTurret=Must be destroyed if Infested.
+Button/Tooltip/Larva=Morphs into Zerg units.
+Button/Tooltip/Lurker=Fire-support ambusher. Must burrow to attack. <n/><n/><c val="ffff8a">Can attack ground units.</c>
+Button/Tooltip/MULE=Prototype harvesting unit. Gathers minerals more quickly than regular SCVs. MULEs last 90 seconds before their systems fail.
+Button/Tooltip/Marauder=Heavy assault infantry.<n/><n/><c val="#ColorAttackInfo">Can attack ground units.</c>
+Button/Tooltip/Marine=General-purpose infantry.<n/><n/><c val="#ColorAttackInfo">Can attack ground and air units.</c>
+Button/Tooltip/Medivac=Air transport. Heals nearby biological units.
+Button/Tooltip/MercCompound=Trains Mercenary units.
+Button/Tooltip/MissileTurret=Primary anti-air defensive structure. <n/><n/><c val="#ColorAttackInfo">Can attack air units.</c><n/><c val="FFE303">Detector</c>
+Button/Tooltip/Nexus=Primary structure. Can receive gathered resources.<n/><n/><c val="ffff8a">Enables:</c><n/>- Probes
+Button/Tooltip/OrbitalCommandFlying=Primary structure. Must land to receive resources, produce units, or use abilities.
+Button/Tooltip/OrbitalCommandUnit=Primary structure. Used to train SCVs and receive gathered resources. Can use the Scanner Sweep ability. Can use the abilities Calldown: MULE and Calldown: Extra Supplies.
+Button/Tooltip/PlanetaryFortress=Primary structure. Used to train SCVs and receive gathered resources. Has exceptional combat capabilities that are extremely potent against swarms of small units.<n/><n/><c val="ffff8a">Can attack ground units.</c>
+Button/Tooltip/PointDefenseDrone=Uses a laser to shoot down enemy missiles.  <n/>Cannot target special attacks. <n/>Times out after <d ref="Behavior,PointDefenseDroneTimedLife,Duration"/> seconds.<n/><n/><c val="f078ff">Each shot consumes <d ref="Weapon,PointDefenseLaser,Cost.Vital[2]"/> energy.</c>
+Button/Tooltip/Raven=Aerial support unit. Can use Auto-Turret, Point Defense Drone and Seeker Missile.<n/><n/><c val="FFE303">Detector</c>
+Button/Tooltip/Reactor=Allows 2 units to be created simultaneously.
+Button/Tooltip/Reaper=Raider. Capable of jumping up and down cliffs. Throws explosive mines.<n/><n/><c val="#ColorAttackInfo">Can attack ground units.</c>
+Button/Tooltip/Refinery=Built over a Vespene Geyser to allow harvesting of vespene gas.
+Button/Tooltip/ResearchAresClassTargetingSystem=Increases Goliath ground attack range by 1 and air attack range by 2.
+Button/Tooltip/ResearchBearclawNozzles=Increases the radius of the Firebat's attack.
+Button/Tooltip/ResearchCellularReactors=Increases maximum and starting energy of all energy users by 100 and increases energy regeneration.
+Button/Tooltip/ResearchCirusSuit=Allows ghosts to be cloaked without expending energy.
+Button/Tooltip/ResearchCommandCenterReactor=Allows the Command Center to build 2 SCVs at once.
+Button/Tooltip/ResearchDualFusionWelders=Decreases the time it takes for SCVs to repair things.
+Button/Tooltip/ResearchFireSuppressionSystem=Small drones automatically repair terran structures up to 50%.
+Button/Tooltip/ResearchHellstormMisslePods=Allows Missle Turrets to launch a barrage of missles at targets in addition to their normal attack.
+Button/Tooltip/ResearchImmortalityProtocol=Allows destroyed Thors to repair themselves in battle.
+Button/Tooltip/ResearchJuggernautPlating=Increases firebat armor by 2.
+Button/Tooltip/ResearchKineticBarriers=Increases armor of all vehicles by 1.
+Button/Tooltip/ResearchMultiLockWeaponsSystem=Allows Goliaths to target both ground and air units at the same time.
+Button/Tooltip/ResearchNyxCloakingModule=Allows Spectres to remain cloaked without expending energy.
+Button/Tooltip/ResearchOccularImplants=Increases ghost's sight.
+Button/Tooltip/ResearchOribitalDropPods=Allows Barracks units to be dropped anywhere on the battlefield from drop pods. This upgrade is permanent and can't be reversed.
+Button/Tooltip/ResearchPsionicLash=Unlocks a powerful psionic attack for spectres.
+Button/Tooltip/ResearchRegenerativeBioSteel=Vehicles and aircraft will slowly regenerate life on their own.
+Button/Tooltip/ResearchReplenishableMagazine=Allows vultures to replenish their spider mines.
+Button/Tooltip/ResearchShapedBlast=Reduces the Siege Tank's spalsh damage on friendlies by 75%.
+Button/Tooltip/ResearchShapedHull=Increases the Diamondback's health by 50.
+Button/Tooltip/ResearchShrikeTurret=Upgrades bunkers to have a Shrike Turret attached to them.
+Button/Tooltip/ResearchSupplyDepotCalldown=Allows Supply Depots to be called from orbit.
+Button/Tooltip/ResearchTitaniumHousing=Increases Missle Turret health by 75.
+Button/Tooltip/ResearchTriLithiumPowerCells=Increases range of Diamondbacks by 1.
+Button/Tooltip/SCV=Basic worker unit. Can gather resources, build Terran structures, and repair.<n/><n/><c val="#ColorAttackInfo">Can attack ground units.</c>
+Button/Tooltip/SensorTower=Reveals the locations of enemy units at long range. The Sensor Tower's detection area is visible to the enemy.
+Button/Tooltip/SiegeTank=Heavy tank. Can be upgraded to switch into Siege Mode to provide long-range artillery support.<n/><n/><c val="FFFF8A">Can attack ground units.</c>
+Button/Tooltip/SiegeTankSieged=Heavy tank. Can switch into Tank Mode to provide mobile tank support.<n/><n/><c val="#ColorAttackInfo">Can attack ground units.</c>
+Button/Tooltip/Stargate=Warps in Protoss air units.<n/><n/><c val="ffff8a">Enables:</c><n/>- Phoenixes<n/>- Void Rays
+Button/Tooltip/Starport=Air-unit production facility. <n/><n/><c val="ffff8a">Enables:</c><n/>- Vikings<n/>- Medivacs
+Button/Tooltip/StarportFlying=Starport must land to start unit production.
+Button/Tooltip/SupplyDepot=Provides supply.<n/>Supply allows you to create more units.<n/>Supply Depots can be lowered to allow units to walk over them.
+Button/Tooltip/SupplyDepotDrop=Improved Supply Depot. Can be instantly deployed from orbit. Eliminates the time required for an SCV to assemble a standard Supply Depot.
+Button/Tooltip/SupplyDepotLowered=Provides supply.<n/>Supply allows you to create more units.<n/>Supply Depots can be lowered to allow units to walk over them.
+Button/Tooltip/TaurenSpaceMarine=For the Horde.
+Button/Tooltip/TechLab=Enables additional unit construction options.
+Button/Tooltip/TechReactor=Enables additional unit construction options and allows 2 units to be created simultaneously.
+Button/Tooltip/Thor=Heavy assault mech.<n/><n/><c val="#ColorAttackInfo">Can attack ground and air units.</c>
+Button/Tooltip/ThorWreckage=Heavy assault mech. Can use 250mm Strike Cannons.<n/><n/><c val="#ColorAttackInfo">Can attack ground and air units.</c>
+Button/Tooltip/VikingAssault=Durable support unit. Can switch into Fighter Mode to attack air units.<n/><n/><c val="#ColorAttackInfo">Can attack ground units.</c>
+Button/Tooltip/VikingFighter=Durable support flyer. Loaded with strong anti-capital air missiles. Can switch into Assault Mode to attack ground units.<n/><n/><c val="#ColorAttackInfo">Can attack air units.</c>
+Button/Tooltip/WarPig=General-purpose infantry.<n/><n/><c val="#ColorAttackInfo">Can attack ground and air units.</c>
+DocInfo/Author=Unknown Author
+DocInfo/DescLong=Completely devoid of any description whatsoever.
+DocInfo/DescShort=Nondescript
+DocInfo/Name=Cortex Toolkit
+RequirementNode/Tooltip/CountUpgradeTerranInfantryArmorsVanadiumPlatingLevel1CompleteOnly3446134918=Terran Infantry Armor Level 1
+RequirementNode/Tooltip/CountUpgradeTerranInfantryArmorsVanadiumPlatingLevel2CompleteOnly3722837715=Terran Infantry Armor Level 2
+RequirementNode/Tooltip/CountUpgradeTerranInfantryWeaponsUltraCapacitorsLevel1CompleteOnly1429793488=Terran Infantry Weapons Level 1
+RequirementNode/Tooltip/CountUpgradeTerranInfantryWeaponsUltraCapacitorsLevel2CompleteOnly1429793488=Terran Infantry Weapons Level 1
+RequirementNode/Tooltip/CountUpgradeTerranShipArmorsVanadiumPlatingLevel1CompleteOnly3052852033=Terran Ship Plating Level 1
+RequirementNode/Tooltip/CountUpgradeTerranShipArmorsVanadiumPlatingLevel2CompleteOnly1864353859=Terran Ship Plating Level 2
+RequirementNode/Tooltip/CountUpgradeTerranShipWeaponsUltraCapacitorsLevel1CompleteOnly285961020=Terran Ship Weapons Level 1
+RequirementNode/Tooltip/CountUpgradeTerranShipWeaponsUltraCapacitorsLevel2CompleteOnly1004646809=Terran Ship Weapons Level 2
+RequirementNode/Tooltip/CountUpgradeTerranVehicleArmorsVanadiumPlatingLevel1CompleteOnly1121594928=Terran Vehicle Plating Level 1
+RequirementNode/Tooltip/CountUpgradeTerranVehicleArmorsVanadiumPlatingLevel2CompleteOnly2517918925=Terran Vehicle Plating Level 2
+RequirementNode/Tooltip/CountUpgradeTerranVehicleWeaponsUltraCapacitorsLevel1CompleteOnly1834932227=Terran Vehicle Weapons Level 1
+RequirementNode/Tooltip/CountUpgradeTerranVehicleWeaponsUltraCapacitorsLevel2CompleteOnly894233239=Terran Vehicle Weapons Level 2
+Unit/Name/AutoTurret=Auto-Turret
+Unit/Name/AutomatedRefinery=Automated Refinery
+Unit/Name/Banshee=Banshee
+Unit/Name/BarracksTechReactor=Tech Reactor
+Unit/Name/Battlecruiser=Battlecruiser
+Unit/Name/CommandCenter=Command Center
+Unit/Name/EngineeringBay=Engineering Bay
+Unit/Name/FactoryTechReactor=Tech Reactor
+Unit/Name/FleetBeacon=Fleet Beacon
+Unit/Name/FusionCore=Fusion Core
+Unit/Name/Ghost=Ghost
+Unit/Name/GhostAcademy=Ghost Academy
+Unit/Name/Hellion=Hellion
+Unit/Name/InfestedMissileTurret=Infested Missile Turret
+Unit/Name/Larva=Larva
+Unit/Name/MULE=MULE
+Unit/Name/Marauder=Marauder
+Unit/Name/Marine=Marine
+Unit/Name/Medivac=Medivac
+Unit/Name/MercCompound=Merc Compound
+Unit/Name/MissileTurret=Missile Turret
+Unit/Name/Nexus=Nexus
+Unit/Name/OrbitalCommand=Orbital Command
+Unit/Name/OrbitalCommandFlying=Orbital Command
+Unit/Name/PlanetaryFortress=Planetary Fortress
+Unit/Name/PointDefenseDrone=Point Defense Drone
+Unit/Name/Raven=Raven
+Unit/Name/Reaper=Reaper
+Unit/Name/Refinery=Refinery
+Unit/Name/SCV=SCV
+Unit/Name/SensorTower=Sensor Tower
+Unit/Name/SiegeTank=Siege Tank
+Unit/Name/SiegeTankSieged=Siege Tank
+Unit/Name/Spawner=Spawner
+Unit/Name/Stargate=Stargate
+Unit/Name/StarportTechReactor=Tech Reactor
+Unit/Name/SupplyDepot=Supply Depot
+Unit/Name/SupplyDepotDrop=Supply Depot Calldown Beacon
+Unit/Name/SupplyDepotLowered=Supply Depot
+Unit/Name/TaurenSpaceMarine=Tauren Space Marine
+Unit/Name/TechLab=Tech Reactor
+Unit/Name/TechReactor=Tech Reactor
+Unit/Name/Thor=Thor
+Unit/Name/ThorWreckage=Thor Wreckage
+Unit/Name/VikingAssault=Viking
+Unit/Name/VikingFighter=Viking
+Unit/Name/WarPig=War Pig
+Upgrade/Name/ProtossAirArmorsLevel1=Protoss Air Armor Level 1
+Upgrade/Name/ProtossAirArmorsLevel2=Protoss Air Armor Level 2
+Upgrade/Name/ProtossAirArmorsLevel3=Protoss Air Armor Level 3
+Upgrade/Name/ProtossAirWeaponsLevel1=Protoss Air Weapons Level 1
+Upgrade/Name/ProtossAirWeaponsLevel2=Protoss Air Weapons Level 2
+Upgrade/Name/ProtossAirWeaponsLevel3=Protoss Air Weapons Level 3
+Upgrade/Name/ProtossGroundArmorsLevel1=Protoss Ground Armor Level 1
+Upgrade/Name/ProtossGroundArmorsLevel2=Protoss Ground Armor Level 2
+Upgrade/Name/ProtossGroundArmorsLevel3=Protoss Ground Armor Level 3
+Upgrade/Name/ProtossGroundWeaponsLevel1=Protoss Ground Weapons Level 1
+Upgrade/Name/ProtossGroundWeaponsLevel2=Protoss Ground Weapons Level 2
+Upgrade/Name/ProtossGroundWeaponsLevel3=Protoss Ground Weapons Level 3
+Upgrade/Name/ProtossShields=Protoss Shields
+Upgrade/Name/ProtossShieldsLevel1=Protoss Shields Level 1
+Upgrade/Name/ProtossShieldsLevel2=Protoss Shields Level 2
+Upgrade/Name/ProtossShieldsLevel3=Protoss Shields Level 3
+Upgrade/Name/ZergFlyerArmorsLevel1=Zerg Flyer Carapace Level 1
+Upgrade/Name/ZergFlyerArmorsLevel2=Zerg Flyer Carapace Level 2
+Upgrade/Name/ZergFlyerArmorsLevel3=Zerg Flyer Carapace Level 3
+Upgrade/Name/ZergFlyerWeaponsLevel1=Zerg Flyer Attacks Level 1
+Upgrade/Name/ZergFlyerWeaponsLevel2=Zerg Flyer Attacks Level 2
+Upgrade/Name/ZergFlyerWeaponsLevel3=Zerg Flyer Attacks Level 3
+Upgrade/Name/ZergGroundArmorsLevel1=Zerg Ground Carapace Level 1
+Upgrade/Name/ZergGroundArmorsLevel2=Zerg Ground Carapace Level 2
+Upgrade/Name/ZergGroundArmorsLevel3=Zerg Ground Carapace Level 3
+Upgrade/Name/ZergMeleeWeaponsLevel1=Zerg Melee Attacks Level 1
+Upgrade/Name/ZergMeleeWeaponsLevel2=Zerg Melee Attacks Level 2
+Upgrade/Name/ZergMeleeWeaponsLevel3=Zerg Melee Attacks Level 3
+Upgrade/Name/ZergMissileWeaponsLevel1=Zerg Missile Attacks Level 1
+Upgrade/Name/ZergMissileWeaponsLevel2=Zerg Missile Attacks Level 2
+Upgrade/Name/ZergMissileWeaponsLevel3=Zerg Missile Attacks Level 3

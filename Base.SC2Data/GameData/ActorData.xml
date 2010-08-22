@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Catalog>
+    <CActorUnit id="Spawner" parent="GenericUnitStandard" unitName="Spawner">
+        <On Terms="Behavior.WarpInEffect15.On" Send="ModelSwap ObserverWarpIn"/>
+        <On Terms="Behavior.WarpInEffect15.On" Send="$Birth"/>
+        <On Terms="Behavior.WarpInEffect15.Off" Send="ModelSwap Observer"/>
+        <On Terms="Behavior.WarpInEffect15.Off" Send="AnimBaselineStart"/>
+        <Model value="Observer"/>
+        <AnimBlendTime value="1.200000"/>
+        <BuildModel value="Observer"/>
+        <DeathArray index="Normal" ModelLink="ObserverDeath" SoundLink="Observer_Explode"/>
+        <PlacementModel value="Observer"/>
+        <PortraitModel value="ObserverPortrait"/>
+        <BarOffset value="40"/>
+        <BarWidth value="42"/>
+        <HeroIcon value="Assets\Textures\btn-unit-protoss-observer.dds"/>
+        <LifeArmorIcon value="Assets\Textures\btn-upgrade-protoss-airarmorlevel0.dds"/>
+        <SoundArray index="Birth" value="Observer_Birth"/>
+        <SoundArray index="Ready" value="Observer_Ready"/>
+        <SoundArray index="Help" value="Observer_Help"/>
+        <SoundArray index="What" value="Observer_What"/>
+        <SoundArray index="Yes" value="Observer_Yes"/>
+        <SoundArray index="Attack" value="Observer_Attack"/>
+        <SoundArray index="Pissed" value="Observer_Pissed"/>
+        <SoundArray index="Movement" value="Observer_Movement"/>
+        <SoundArray index="Turning" value="Observer_Turning"/>
+        <SoundArray index="Board" value="Observer_Board"/>
+        <SoundArray index="Click" value="Observer_Click"/>
+        <SoundArray index="ClickError" value="Observer_ClickError"/>
+        <SoundArray index="Highlight" value="Observer_Highlight"/>
+        <UnitIcon value="Assets\Textures\btn-unit-protoss-observer.dds"/>
+    </CActorUnit>
+</Catalog>

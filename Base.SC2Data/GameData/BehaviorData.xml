@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Catalog>
+    <CBehaviorBuff id="DecreaseDamage1">
+        <Cost>
+            <Charge Link="Behavior/IncreaseDamage1"/>
+            <Cooldown Link="Behavior/IncreaseDamage1"/>
+        </Cost>
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <BuffFlags index="Countdown" value="0"/>
+        <MaxStackCount value="4096"/>
+        <Modification>
+            <DamageDealtUnscaled index="Spell" value="-1"/>
+            <DamageDealtUnscaled index="Melee" value="-1"/>
+            <DamageDealtUnscaled index="Ranged" value="-1"/>
+            <DamageDealtUnscaled index="Splash" value="-1"/>
+            <DeathResponse>
+                <Cost>
+                    <Charge Link="Behavior/IncreaseDamage1"/>
+                    <Cooldown Link="Behavior/IncreaseDamage1"/>
+                </Cost>
+            </DeathResponse>
+        </Modification>
+        <DamageResponse>
+            <Cost>
+                <Charge Link="Behavior/IncreaseDamage1"/>
+                <Cooldown Link="Behavior/IncreaseDamage1"/>
+            </Cost>
+        </DamageResponse>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="DecreaseDamage10">
+        <Cost>
+            <Charge Link="Behavior/IncreaseDamage1"/>
+            <Cooldown Link="Behavior/IncreaseDamage1"/>
+        </Cost>
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <BuffFlags index="Countdown" value="0"/>
+        <MaxStackCount value="4096"/>
+        <Modification>
+            <DamageDealtUnscaled index="Spell" value="-10"/>
+            <DamageDealtUnscaled index="Melee" value="-10"/>
+            <DamageDealtUnscaled index="Ranged" value="-10"/>
+            <DamageDealtUnscaled index="Splash" value="-10"/>
+            <DeathResponse>
+                <Cost>
+                    <Charge Link="Behavior/IncreaseDamage1"/>
+                    <Cooldown Link="Behavior/IncreaseDamage1"/>
+                </Cost>
+            </DeathResponse>
+        </Modification>
+        <DamageResponse>
+            <Cost>
+                <Charge Link="Behavior/IncreaseDamage1"/>
+                <Cooldown Link="Behavior/IncreaseDamage1"/>
+            </Cost>
+        </DamageResponse>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="DecreaseDamage100">
+        <Cost>
+            <Charge Link="Behavior/IncreaseDamage1"/>
+            <Cooldown Link="Behavior/IncreaseDamage1"/>
+        </Cost>
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <BuffFlags index="Countdown" value="0"/>
+        <MaxStackCount value="4096"/>
+        <Modification>
+            <DamageDealtUnscaled index="Spell" value="-100"/>
+            <DamageDealtUnscaled index="Melee" value="-100"/>
+            <DamageDealtUnscaled index="Ranged" value="-100"/>
+            <DamageDealtUnscaled index="Splash" value="-100"/>
+            <DeathResponse>
+                <Cost>
+                    <Charge Link="Behavior/IncreaseDamage1"/>
+                    <Cooldown Link="Behavior/IncreaseDamage1"/>
+                </Cost>
+            </DeathResponse>
+        </Modification>
+        <DamageResponse>
+            <Cost>
+                <Charge Link="Behavior/IncreaseDamage1"/>
+                <Cooldown Link="Behavior/IncreaseDamage1"/>
+            </Cost>
+        </DamageResponse>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="DecreaseDamage1000">
+        <Cost>
+            <Charge Link="Behavior/IncreaseDamage1"/>
+            <Cooldown Link="Behavior/IncreaseDamage1"/>
+        </Cost>
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <BuffFlags index="Countdown" value="0"/>
+        <MaxStackCount value="4096"/>
+        <Modification>
+            <DamageDealtUnscaled index="Spell" value="-1000"/>
+            <DamageDealtUnscaled index="Melee" value="-1000"/>
+            <DamageDealtUnscaled index="Ranged" value="-1000"/>
+            <DamageDealtUnscaled index="Splash" value="-1000"/>
+            <DeathResponse>
+                <Cost>
+                    <Charge Link="Behavior/IncreaseDamage1"/>
+                    <Cooldown Link="Behavior/IncreaseDamage1"/>
+                </Cost>
+            </DeathResponse>
+        </Modification>
+        <DamageResponse>
+            <Cost>
+                <Charge Link="Behavior/IncreaseDamage1"/>
+                <Cooldown Link="Behavior/IncreaseDamage1"/>
+            </Cost>
+        </DamageResponse>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="FastBuild">
+        <Modification>
+            <RateMultiplierArray index="Progress" value="20"/>
+            <RateMultiplierArray index="Queueable" value="20"/>
+            <RateMultiplierArray index="Morph" value="20"/>
+            <RateMultiplierArray index="Spawn" value="20"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorVeterancy id="GiveExperience">
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <SharedXPRadius index="Kills" value="10"/>
+        <SharedXPFraction index="Kills" value="1"/>
+    </CBehaviorVeterancy>
+    <CBehaviorBuff id="IncreaseDamage1">
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <BuffFlags index="Countdown" value="0"/>
+        <MaxStackCount value="4096"/>
+        <Modification>
+            <DamageDealtUnscaled index="Spell" value="1"/>
+            <DamageDealtUnscaled index="Melee" value="1"/>
+            <DamageDealtUnscaled index="Ranged" value="1"/>
+            <DamageDealtUnscaled index="Splash" value="1"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="IncreaseDamage10">
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <BuffFlags index="Countdown" value="0"/>
+        <MaxStackCount value="4096"/>
+        <Modification>
+            <DamageDealtUnscaled index="Spell" value="10"/>
+            <DamageDealtUnscaled index="Melee" value="10"/>
+            <DamageDealtUnscaled index="Ranged" value="10"/>
+            <DamageDealtUnscaled index="Splash" value="10"/>
+            <DeathResponse>
+                <Cost>
+                    <Charge Link="Behavior/IncreaseDamage12"/>
+                    <Cooldown Link="Behavior/IncreaseDamage12"/>
+                </Cost>
+            </DeathResponse>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="IncreaseDamage100">
+        <Cost>
+            <Charge Link="Behavior/IncreaseDamage10"/>
+            <Cooldown Link="Behavior/IncreaseDamage10"/>
+        </Cost>
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <BuffFlags index="Countdown" value="0"/>
+        <MaxStackCount value="4096"/>
+        <Modification>
+            <DamageDealtUnscaled index="Spell" value="100"/>
+            <DamageDealtUnscaled index="Melee" value="100"/>
+            <DamageDealtUnscaled index="Ranged" value="100"/>
+            <DamageDealtUnscaled index="Splash" value="100"/>
+            <DeathResponse>
+                <Cost>
+                    <Charge Link="Behavior/IncreaseDamage12"/>
+                    <Cooldown Link="Behavior/IncreaseDamage12"/>
+                </Cost>
+            </DeathResponse>
+        </Modification>
+        <DamageResponse>
+            <Cost>
+                <Charge Link="Behavior/IncreaseDamage10"/>
+                <Cooldown Link="Behavior/IncreaseDamage10"/>
+            </Cost>
+        </DamageResponse>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="IncreaseDamage1000">
+        <Cost>
+            <Charge Link="Behavior/IncreaseDamage10"/>
+            <Cooldown Link="Behavior/IncreaseDamage10"/>
+        </Cost>
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <BuffFlags index="Countdown" value="0"/>
+        <MaxStackCount value="4096"/>
+        <Modification>
+            <DamageDealtUnscaled index="Spell" value="1000"/>
+            <DamageDealtUnscaled index="Melee" value="1000"/>
+            <DamageDealtUnscaled index="Ranged" value="1000"/>
+            <DamageDealtUnscaled index="Splash" value="1000"/>
+            <DeathResponse>
+                <Cost>
+                    <Charge Link="Behavior/IncreaseDamage12"/>
+                    <Cooldown Link="Behavior/IncreaseDamage12"/>
+                </Cost>
+            </DeathResponse>
+        </Modification>
+        <DamageResponse>
+            <Cost>
+                <Charge Link="Behavior/IncreaseDamage10"/>
+                <Cooldown Link="Behavior/IncreaseDamage10"/>
+            </Cost>
+        </DamageResponse>
+    </CBehaviorBuff>
+    <CBehaviorJump id="Jumper">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+    </CBehaviorJump>
+    <CBehaviorVeterancy id="Levels">
+        <SharedXPRadius index="Kills" value="40"/>
+        <SharedXPFraction index="Kills" value="1"/>
+        <VeterancyLevelArray/>
+        <VeterancyLevelArray MinVeterancyXP="100">
+            <Modification LifeArmorMultiplier="1.1">
+                <DamageDealtFraction index="Spell" value="0.1"/>
+                <DamageDealtFraction index="Melee" value="0.1"/>
+                <DamageDealtFraction index="Ranged" value="0.1"/>
+                <DamageDealtFraction index="Splash" value="0.1"/>
+                <VitalMaxFractionArray index="Life" value="0.1"/>
+                <VitalMaxFractionArray index="Shields" value="0.1"/>
+                <VitalMaxFractionArray index="Energy" value="0.1"/>
+                <VitalRegenArray index="Life" value="0.1015"/>
+                <VitalRegenArray index="Shields" value="0.1015"/>
+                <VitalRegenArray index="Energy" value="0.1015"/>
+                <DeathResponse>
+                    <Cost>
+                        <VitalFraction index="Life" value="1.05"/>
+                        <VitalFraction index="Shields" value="0.05"/>
+                        <VitalFraction index="Energy" value="0.05"/>
+                        <Charge Link="" Location="Abil"/>
+                        <Cooldown Link="" Location="Abil"/>
+                    </Cost>
+                    <Type index="Remove" value="1"/>
+                </DeathResponse>
+            </Modification>
+        </VeterancyLevelArray>
+        <VeterancyLevelArray MinVeterancyXP="200">
+            <Modification LifeArmorMultiplier="1.1">
+                <DamageDealtFraction index="Spell" value="0.1"/>
+                <DamageDealtFraction index="Melee" value="0.1"/>
+                <DamageDealtFraction index="Ranged" value="0.1"/>
+                <DamageDealtFraction index="Splash" value="0.1"/>
+                <VitalMaxFractionArray index="Life" value="0.1"/>
+                <VitalMaxFractionArray index="Shields" value="0.1"/>
+                <VitalMaxFractionArray index="Energy" value="0.1"/>
+                <VitalRegenArray index="Life" value="0.1015"/>
+                <VitalRegenArray index="Shields" value="0.1015"/>
+                <VitalRegenArray index="Energy" value="0.1015"/>
+                <DeathResponse>
+                    <Cost>
+                        <VitalFraction index="Life" value="0.05"/>
+                        <VitalFraction index="Shields" value="0.05"/>
+                        <VitalFraction index="Energy" value="0.05"/>
+                        <Charge Link="" Location="Abil"/>
+                        <Cooldown Link="" Location="Abil"/>
+                    </Cost>
+                    <Type index="Remove" value="1"/>
+                </DeathResponse>
+            </Modification>
+        </VeterancyLevelArray>
+        <VeterancyLevelArray MinVeterancyXP="400">
+            <Modification LifeArmorMultiplier="1.1">
+                <DamageDealtFraction index="Spell" value="0.1"/>
+                <DamageDealtFraction index="Melee" value="0.1"/>
+                <DamageDealtFraction index="Ranged" value="0.1"/>
+                <DamageDealtFraction index="Splash" value="0.1"/>
+                <VitalMaxFractionArray index="Life" value="0.1"/>
+                <VitalMaxFractionArray index="Shields" value="0.1"/>
+                <VitalMaxFractionArray index="Energy" value="0.1"/>
+                <VitalRegenArray index="Life" value="0.1015"/>
+                <VitalRegenArray index="Shields" value="0.1015"/>
+                <VitalRegenArray index="Energy" value="0.1015"/>
+                <DeathResponse>
+                    <Cost>
+                        <VitalFraction index="Life" value="0.05"/>
+                        <VitalFraction index="Shields" value="0.05"/>
+                        <VitalFraction index="Energy" value="0.05"/>
+                        <Charge Link="" Location="Abil"/>
+                        <Cooldown Link="" Location="Abil"/>
+                    </Cost>
+                    <Type index="Remove" value="1"/>
+                </DeathResponse>
+            </Modification>
+        </VeterancyLevelArray>
+        <VeterancyLevelArray MinVeterancyXP="800">
+            <Modification LifeArmorMultiplier="1.1">
+                <DamageDealtFraction index="Spell" value="0.1"/>
+                <DamageDealtFraction index="Melee" value="0.1"/>
+                <DamageDealtFraction index="Ranged" value="0.1"/>
+                <DamageDealtFraction index="Splash" value="0.1"/>
+                <VitalMaxFractionArray index="Life" value="0.1"/>
+                <VitalMaxFractionArray index="Shields" value="0.1"/>
+                <VitalMaxFractionArray index="Energy" value="0.1"/>
+                <VitalRegenArray index="Life" value="0.1015"/>
+                <VitalRegenArray index="Shields" value="0.1015"/>
+                <VitalRegenArray index="Energy" value="0.1015"/>
+                <DeathResponse>
+                    <Cost>
+                        <VitalFraction index="Life" value="0.05"/>
+                        <VitalFraction index="Shields" value="0.05"/>
+                        <VitalFraction index="Energy" value="0.05"/>
+                        <Charge Link="" Location="Abil"/>
+                        <Cooldown Link="" Location="Abil"/>
+                    </Cost>
+                    <Type index="Remove" value="1"/>
+                </DeathResponse>
+            </Modification>
+        </VeterancyLevelArray>
+        <VeterancyLevelArray MinVeterancyXP="1600">
+            <Modification LifeArmorMultiplier="1.1">
+                <DamageDealtFraction index="Spell" value="0.1"/>
+                <DamageDealtFraction index="Melee" value="0.1"/>
+                <DamageDealtFraction index="Ranged" value="0.1"/>
+                <DamageDealtFraction index="Splash" value="0.1"/>
+                <VitalMaxFractionArray index="Life" value="0.1"/>
+                <VitalMaxFractionArray index="Shields" value="0.1"/>
+                <VitalMaxFractionArray index="Energy" value="0.1"/>
+                <VitalRegenArray index="Life" value="0.1015"/>
+                <VitalRegenArray index="Shields" value="0.1015"/>
+                <VitalRegenArray index="Energy" value="0.1015"/>
+                <DeathResponse>
+                    <Cost>
+                        <VitalFraction index="Life" value="0.05"/>
+                        <VitalFraction index="Shields" value="0.05"/>
+                        <VitalFraction index="Energy" value="0.05"/>
+                        <Charge Link="" Location="Abil"/>
+                        <Cooldown Link="" Location="Abil"/>
+                    </Cost>
+                    <Type index="Remove" value="1"/>
+                </DeathResponse>
+            </Modification>
+        </VeterancyLevelArray>
+        <VeterancyLevelArray MinVeterancyXP="3200">
+            <Modification LifeArmorMultiplier="1.1">
+                <DamageDealtFraction index="Spell" value="0.1"/>
+                <DamageDealtFraction index="Melee" value="0.1"/>
+                <DamageDealtFraction index="Ranged" value="0.1"/>
+                <DamageDealtFraction index="Splash" value="0.1"/>
+                <VitalMaxFractionArray index="Life" value="0.1"/>
+                <VitalMaxFractionArray index="Shields" value="0.1"/>
+                <VitalMaxFractionArray index="Energy" value="0.1"/>
+                <VitalRegenArray index="Life" value="0.1015"/>
+                <VitalRegenArray index="Shields" value="0.1015"/>
+                <VitalRegenArray index="Energy" value="0.1015"/>
+                <DeathResponse>
+                    <Cost>
+                        <VitalFraction index="Life" value="0.05"/>
+                        <VitalFraction index="Shields" value="0.05"/>
+                        <VitalFraction index="Energy" value="0.05"/>
+                        <Charge Link="" Location="Abil"/>
+                        <Cooldown Link="" Location="Abil"/>
+                    </Cost>
+                    <Type index="Remove" value="1"/>
+                </DeathResponse>
+            </Modification>
+        </VeterancyLevelArray>
+        <VeterancyLevelArray MinVeterancyXP="6400">
+            <Modification LifeArmorMultiplier="1.1">
+                <DamageDealtFraction index="Spell" value="0.1"/>
+                <DamageDealtFraction index="Melee" value="0.1"/>
+                <DamageDealtFraction index="Ranged" value="0.1"/>
+                <DamageDealtFraction index="Splash" value="0.1"/>
+                <VitalMaxFractionArray index="Life" value="0.1"/>
+                <VitalMaxFractionArray index="Shields" value="0.1"/>
+                <VitalMaxFractionArray index="Energy" value="0.1"/>
+                <VitalRegenArray index="Life" value="0.1015"/>
+                <VitalRegenArray index="Shields" value="0.1015"/>
+                <VitalRegenArray index="Energy" value="0.1015"/>
+                <DeathResponse>
+                    <Cost>
+                        <VitalFraction index="Life" value="0.05"/>
+                        <VitalFraction index="Shields" value="0.05"/>
+                        <VitalFraction index="Energy" value="0.05"/>
+                        <Charge Link="" Location="Abil"/>
+                        <Cooldown Link="" Location="Abil"/>
+                    </Cost>
+                    <Type index="Remove" value="1"/>
+                </DeathResponse>
+            </Modification>
+        </VeterancyLevelArray>
+        <VeterancyLevelArray MinVeterancyXP="12800">
+            <Modification LifeArmorMultiplier="1.1">
+                <DamageDealtFraction index="Spell" value="0.1"/>
+                <DamageDealtFraction index="Melee" value="0.1"/>
+                <DamageDealtFraction index="Ranged" value="0.1"/>
+                <DamageDealtFraction index="Splash" value="0.1"/>
+                <VitalMaxFractionArray index="Life" value="0.1"/>
+                <VitalMaxFractionArray index="Shields" value="0.1"/>
+                <VitalMaxFractionArray index="Energy" value="0.1"/>
+                <VitalRegenArray index="Life" value="0.1015"/>
+                <VitalRegenArray index="Shields" value="0.1015"/>
+                <VitalRegenArray index="Energy" value="0.1015"/>
+                <DeathResponse>
+                    <Cost>
+                        <VitalFraction index="Life" value="0.05"/>
+                        <VitalFraction index="Shields" value="0.05"/>
+                        <VitalFraction index="Energy" value="0.05"/>
+                        <Charge Link="" Location="Abil"/>
+                        <Cooldown Link="" Location="Abil"/>
+                    </Cost>
+                    <Type index="Remove" value="1"/>
+                </DeathResponse>
+            </Modification>
+        </VeterancyLevelArray>
+        <VeterancyLevelArray MinVeterancyXP="25600">
+            <Modification LifeArmorMultiplier="1.1">
+                <DamageDealtFraction index="Spell" value="0.1"/>
+                <DamageDealtFraction index="Melee" value="0.1"/>
+                <DamageDealtFraction index="Ranged" value="0.1"/>
+                <DamageDealtFraction index="Splash" value="0.1"/>
+                <VitalMaxFractionArray index="Life" value="0.1"/>
+                <VitalMaxFractionArray index="Shields" value="0.1"/>
+                <VitalMaxFractionArray index="Energy" value="0.1"/>
+                <VitalRegenArray index="Life" value="0.1015"/>
+                <VitalRegenArray index="Shields" value="0.1015"/>
+                <VitalRegenArray index="Energy" value="0.1015"/>
+                <DeathResponse>
+                    <Cost>
+                        <VitalFraction index="Life" value="0.05"/>
+                        <VitalFraction index="Shields" value="0.05"/>
+                        <VitalFraction index="Energy" value="0.05"/>
+                        <Charge Link="" Location="Abil"/>
+                        <Cooldown Link="" Location="Abil"/>
+                    </Cost>
+                    <Type index="Remove" value="1"/>
+                </DeathResponse>
+            </Modification>
+        </VeterancyLevelArray>
+    </CBehaviorVeterancy>
+    <CBehaviorBuff id="NoCollision">
+        <Modification>
+            <StateFlags index="SuppressCollision" value="1"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="RoleplayingNecessity">
+        <Cost>
+            <Charge Link="Behavior/DeathOffCreep"/>
+            <Cooldown Link="Behavior/DeathOffCreep"/>
+        </Cost>
+        <InfoIcon value="Assets/Textures/btn-unit-protoss-observer.dds"/>
+        <BehaviorCategories index="Permanent" value="1"/>
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <DisableValidatorArray value="CasterDead"/>
+        <BuffFlags index="Countdown" value="0"/>
+        <BuffFlags index="RemoveDamageResponseExhausted" value="0"/>
+        <FinalEffect value="CreateSpawner"/>
+        <Modification>
+            <DeathResponse>
+                <Cost>
+                    <Charge Link="Behavior/DeathOffCreep"/>
+                    <Cooldown Link="Behavior/DeathOffCreep"/>
+                </Cost>
+            </DeathResponse>
+        </Modification>
+        <DamageResponse>
+            <Cost>
+                <Charge Link="Behavior/DeathOffCreep"/>
+                <Cooldown Link="Behavior/DeathOffCreep"/>
+            </Cost>
+        </DamageResponse>
+    </CBehaviorBuff>
+</Catalog>
